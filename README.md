@@ -1,6 +1,6 @@
 # Maikal Courses
 
-A responsive, light-theme learning library with a 3D bookshelf, varied book dimensions, hover/focus cover turns, cursor-responsive background layers, and scroll parallax. Motion adapts to touch and reduced-motion preferences. Cobalt, coral, and saffron replace the former green theme.
+A responsive, light-theme learning library with a 3D bookshelf, varied book dimensions, staggered falling-book arrival and slow hover/focus cover turns, cursor-responsive background layers, and scroll parallax. Motion adapts to touch and reduced-motion preferences. Cobalt, coral, and saffron replace the former green theme.
 
 ## Courses and coverage
 
@@ -10,6 +10,8 @@ A responsive, light-theme learning library with a 3D bookshelf, varied book dime
 
 System Design foundation checks and scenarios are deliberately shared by related articles to reinforce transfer. The final quiz deduplicates repeated foundation questions. Interview answers are self-practice with a model approach and rubric, not automated grading. Original archived statements are separated from companion corrections; links to relevant standards/documentation accompany OAuth, JWT, HTTP, passwords, Redis, Kafka, and Kubernetes corrections.
 
+**React:** Beginning ReactJS Foundations (2022): all 20 numbered chapters, Introduction, Index and EULA; 480 original pages (physical PDF pages 29-508). Every chapter has complete source text, original diagrams, guided notes, checkpoints and an interactive state-queue lab. Version-sensitive setup examples are clearly identified and linked to current official React guidance.
+
 **Computer Networks:** Tanenbaum/Wetherall, 5th edition: all 9 chapters and Index; 938 original page images.
 
 **DBMS:** Database System Concepts, 6th edition: all 30 chapters, supplied Appendix A, Bibliography and Index; 1,349 original page images.
@@ -18,9 +20,9 @@ System Design foundation checks and scenarios are deliberately shared by related
 
 **DevOps:** Engineering DevOps: Introduction, all 28 chapters, appendices A–Q, References and About the Author; 404 original page images.
 
-Each of the six books ends with an **Interview** chapter. Its searchable, chapter-filtered question bank contains 1,999 Q&As across the library, with model answers and reveal/hide controls. The new courses retain complete per-page readings and original diagrams alongside guided notes, SVG diagrams, interactive labs and checkpoints. Companion glossaries distinguish authored terms from original textbook keyword lists. DBMS appendices B–E and OS appendices A/B are referenced as online-only in the books but are absent from the supplied PDFs; the site explicitly identifies those omissions.
+Each of the seven books ends with an **Interview** chapter. Its searchable, chapter-filtered question bank contains 2,137 Q&As across the library, with model answers and reveal/hide controls. The new courses retain complete per-page readings and original diagrams alongside guided notes, SVG diagrams, interactive labs and checkpoints. Companion glossaries distinguish authored terms from original textbook keyword lists. DBMS appendices B–E and OS appendices A/B are referenced as online-only in the books but are absent from the supplied PDFs; the site explicitly identifies those omissions.
 
-The six books rest as closely packed, flat spines. Hover or keyboard focus first moves neighbors aside, then pulls the selected book forward and turns its cover. On touch, tap once to select and again to enter. Reduced-motion preferences are respected. Versioned static asset URLs avoid stale bookshelf styles.
+The seven books rest as closely packed, flat spines. Hover or keyboard focus first moves neighbors aside, then pulls the selected book forward and turns its cover. Books fall from above, bounce, and settle in sequence on arrival. Neighbors make room over 0.7 seconds before a 1.45-second pull-and-turn. Books also turn back before their space closes. On touch, tap once to select and again to enter. Reduced-motion preferences are respected. Versioned static asset URLs avoid stale bookshelf styles.
 
 Coverage manifests: `courses/*-coverage.json`. `npm test` independently checks sequential page coverage, source-image existence, omitted-contents articles, definitions, and course registration.
 
@@ -90,3 +92,19 @@ Site URL: https://kedarisettisatwik.github.io/maikalCourses/
 OOP source: *Object-Oriented Programming*, Lovely Professional University, edited by Dr. Mithilesh Kumar Dubey, DCAP107/DCAP404, ISBN 978-93-87034-82-2. System Design source: the supplied *BIG ARCHIVE: SYSTEM DESIGN 2023* PDF, whose individual articles credit their respective authors and engineering sources. Both supplied PDFs are linked from their courses.
 
 Original readings and scans preserve the supplied material, including historical terminology and errors. Guided explanations, corrections, exercises, and diagrams are companion additions. OOP examples use C++17 and modern headers; snippets may require surrounding includes and main. Archive company-stack, price, statistic, model-capability, and product claims are historical context, not verified current facts. Interview preparation benefits from explanation and design practice beyond simply reading or completing this library.
+
+## Independent completeness audit
+
+`courses/source-audit.json` records seven supplied-PDF SHA-256 hashes, every source range, and normalized exact-transcript hashes. The audit independently re-extracts every included page and verifies contiguous ranges, all original image files, numbered chapter bookmarks, OOPS unit headings, and the System Design article-heading inventory. Each course overview exposes a PDF coverage checklist. `npm test` verifies that current source transcripts and original PDFs still match the audited hashes.
+
+OOPS has an additional unabridged transcript including its original contents and objectives; its existing study sections and 81 keyword definitions remain available. System Design now has a dedicated Full textbook view retaining original line breaks in addition to guided article lessons.
+
+To repeat the source audit with Python PDFium/pdfplumber/pypdf installed:
+
+```sh
+node scripts/export-source-audit.cjs
+python scripts/audit-source-pdfs.py
+npm test
+```
+
+JavaScript input is pending clarification: the supplied `javaScript/JavaScript .pdf` identifies itself as *JSP: The Complete Reference*, covering JavaServer Pages and servlets. It is not registered as a JavaScript course. A correct JavaScript source or a decision to add the supplied book as JSP is needed.

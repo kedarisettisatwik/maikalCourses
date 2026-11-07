@@ -1,0 +1,2808 @@
+{
+  "method": "Independent PDF extraction compared with complete website transcripts; exact normalized text equality, original PDF SHA-256 equality, contiguous source ranges, every page image present. Front matter remains available in the original PDF.",
+  "courses": [
+    {
+      "id": "oops",
+      "pdfPages": 330,
+      "sourceEntries": 14,
+      "start": 8,
+      "end": 328,
+      "pageImages": 321,
+      "pdfSHA256": "5023b3b450de778ef5d883df53247885f1e596537d11208e5a5278694c9f7b79",
+      "textMatch": true,
+      "chapters": [
+        {
+          "id": 1,
+          "title": "Review of Object-oriented Programming",
+          "start": 8,
+          "end": 24,
+          "textMatch": true,
+          "textSHA256": "2e6ce4dfdfead7b9a107d6032d55c4a820c0f44149f8866dbf13f061cde48dc7"
+        },
+        {
+          "id": 2,
+          "title": "Beginning of OOP Language",
+          "start": 25,
+          "end": 62,
+          "textMatch": true,
+          "textSHA256": "b431135dd1cf96ce910be621fd010a44976be357948510dfb07f470de6276587"
+        },
+        {
+          "id": 3,
+          "title": "Review of Functions",
+          "start": 63,
+          "end": 74,
+          "textMatch": true,
+          "textSHA256": "e947bab489a3d7d201262edd98ffd65fb9f71a0321a9de6ffe7a39fb49265370"
+        },
+        {
+          "id": 4,
+          "title": "Classes and Objects",
+          "start": 75,
+          "end": 98,
+          "textMatch": true,
+          "textSHA256": "e59a761480981692cb4249107a1bbeab33f8b37c8d371fca247ad2f5feb54920"
+        },
+        {
+          "id": 5,
+          "title": "Static Members",
+          "start": 99,
+          "end": 121,
+          "textMatch": true,
+          "textSHA256": "7bfd5d72476f64640f951e01914461bdc84df6d2cb77fd30bc988e1ead20c65a"
+        },
+        {
+          "id": 6,
+          "title": "Constructors and Destructors",
+          "start": 122,
+          "end": 141,
+          "textMatch": true,
+          "textSHA256": "9d9d0df57ae81e4db1ceb51d8b066cfcbabcf7e2f1f0dc6d8201ac783be20cb9"
+        },
+        {
+          "id": 7,
+          "title": "Operator Overloading",
+          "start": 142,
+          "end": 162,
+          "textMatch": true,
+          "textSHA256": "f03ccf96221f1aab726865871a8d5106e0dfd58ace1b17bcc84ee7e31db81162"
+        },
+        {
+          "id": 8,
+          "title": "Type Conversion",
+          "start": 163,
+          "end": 174,
+          "textMatch": true,
+          "textSHA256": "af05bde9de4943807c3407b948dad43c0d4303880b5f456c4694463ab602361d"
+        },
+        {
+          "id": 9,
+          "title": "Inheritance",
+          "start": 175,
+          "end": 216,
+          "textMatch": true,
+          "textSHA256": "d04d27e419a6cecac513387de99591846b844ea50b2c2a6bc021a6a873da3a36"
+        },
+        {
+          "id": 10,
+          "title": "Virtual Functions and Polymorphism",
+          "start": 217,
+          "end": 237,
+          "textMatch": true,
+          "textSHA256": "a2712bd6c53faa6fffc99261a06c35e7e382d2f44114b9f25f551624a08c1484"
+        },
+        {
+          "id": 11,
+          "title": "Pointers and Dynamic Memory Management",
+          "start": 238,
+          "end": 258,
+          "textMatch": true,
+          "textSHA256": "336336ad7632ffb7bc9b51d48ad72a337b13aa024fa5def7d3117c12fef69cd7"
+        },
+        {
+          "id": 12,
+          "title": "Console I/O",
+          "start": 259,
+          "end": 277,
+          "textMatch": true,
+          "textSHA256": "02fa629430578000e7b104bddf63be101b37c22084ff2dd9491dd347dfad5110"
+        },
+        {
+          "id": 13,
+          "title": "Working with Files",
+          "start": 278,
+          "end": 308,
+          "textMatch": true,
+          "textSHA256": "a4ea9634d738b4b049cff13007448b064b95e592c7b6323f190e2340f665cfdd"
+        },
+        {
+          "id": 14,
+          "title": "Advanced Concept in C++",
+          "start": 309,
+          "end": 328,
+          "textMatch": true,
+          "textSHA256": "ff278426edebd3990a1a4cefd1bc7bfb630b301ff67a3071c9f604d788d4be3d"
+        }
+      ],
+      "chapterHeadingsVerified": 14
+    },
+    {
+      "id": "system-design",
+      "pdfPages": 344,
+      "sourceEntries": 189,
+      "start": 8,
+      "end": 344,
+      "pageImages": 337,
+      "pdfSHA256": "e95674d96ca149ce8002ee3d03d076d90454cea4c8a57b5d0a88576d6aff09c1",
+      "textMatch": true,
+      "chapters": [
+        {
+          "id": 1,
+          "title": "Explaining 9 types of API testing",
+          "start": 8,
+          "end": 9,
+          "textMatch": true,
+          "textSHA256": "24af1cbc2717427269bde10fad8795acf980e6f317953c6148356c5d504d086d"
+        },
+        {
+          "id": 2,
+          "title": "Top 5 Kafka use cases",
+          "start": 10,
+          "end": 10,
+          "textMatch": true,
+          "textSHA256": "b8db61783ad19209b8ece93031bafac0c3185ce488d8abcda3a72d87d23a43c7"
+        },
+        {
+          "id": 3,
+          "title": "How is data sent over the internet? What does that have to do withthe OSI model? How does TCP/IP fit into this?",
+          "start": 11,
+          "end": 11,
+          "textMatch": true,
+          "textSHA256": "a2afbc1145a124c4d3c1ff1be183897ecd7d28050216e4e270df533cb5fbd0e1"
+        },
+        {
+          "id": 4,
+          "title": "Top 5 common ways to improve API performance",
+          "start": 12,
+          "end": 13,
+          "textMatch": true,
+          "textSHA256": "3e80bdaa336c461323e1ef8a8bc6dca5886e4b0d53270f879017bdc673e3ac96"
+        },
+        {
+          "id": 5,
+          "title": "CI/CD Simplified Visual Guide",
+          "start": 14,
+          "end": 15,
+          "textMatch": true,
+          "textSHA256": "6f0d49e14fd11216789b027cebb23c7966ea5f9384d7f106f1f478cfab9ef569"
+        },
+        {
+          "id": 6,
+          "title": "There are over 1,000 engineering blogs. Here are my top 9 favorites:",
+          "start": 16,
+          "end": 16,
+          "textMatch": true,
+          "textSHA256": "6d56c881a6a00ece5b262399c427ebddeb1bb877f6c38c2850f0d4a64bac9d7f"
+        },
+        {
+          "id": 7,
+          "title": "REST API Authentication Methods",
+          "start": 17,
+          "end": 18,
+          "textMatch": true,
+          "textSHA256": "d7db7211f5775df656705349f3acf7be70c4c6970034685d5cc056f511f8dc05"
+        },
+        {
+          "id": 8,
+          "title": "Linux Boot Process Illustrated",
+          "start": 19,
+          "end": 20,
+          "textMatch": true,
+          "textSHA256": "cbc143fa144d59a5aa50f7d6e23771a4eb6cf29aeb988b1718eecbd9a58f67d8"
+        },
+        {
+          "id": 9,
+          "title": "How do SQL Joins Work?",
+          "start": 21,
+          "end": 22,
+          "textMatch": true,
+          "textSHA256": "ec892f8fc869af038494e7d3efe1bd38b4fea18e80b3b11c44b326d1aca64c71"
+        },
+        {
+          "id": 10,
+          "title": "Netflix's Tech Stack",
+          "start": 23,
+          "end": 24,
+          "textMatch": true,
+          "textSHA256": "6176a012da31ddd091d5a80e0a66bbb57021561372bed89eeae82bf95a330680"
+        },
+        {
+          "id": 11,
+          "title": "Top Architectural Styles",
+          "start": 25,
+          "end": 26,
+          "textMatch": true,
+          "textSHA256": "d516b197cc986f3891756f5d32bf13f5a50d73422283fbf9be6379fc958fbd65"
+        },
+        {
+          "id": 12,
+          "title": "What does ACID mean?",
+          "start": 27,
+          "end": 28,
+          "textMatch": true,
+          "textSHA256": "3dbdb67c315a2bf0f5601a3b91a74e8dfd83332e83f04b511b216f55d5275f9c"
+        },
+        {
+          "id": 13,
+          "title": "Oauth 2.0 Explained With Simple Terms",
+          "start": 29,
+          "end": 30,
+          "textMatch": true,
+          "textSHA256": "518977e226ba34d32cb973c6ab66720f18c97136aa989e94968e874edc98a87a"
+        },
+        {
+          "id": 14,
+          "title": "The Evolving Landscape of API Protocols in 2023",
+          "start": 31,
+          "end": 31,
+          "textMatch": true,
+          "textSHA256": "82a652dec77a0c0a676aec980ac81e73097a39ea99c0a36ed77f797c90b6aa5b"
+        },
+        {
+          "id": 15,
+          "title": "Linux boot Process Explained",
+          "start": 32,
+          "end": 33,
+          "textMatch": true,
+          "textSHA256": "3a09d78260986f101a231df533648deab2904834fae9eada083040ed4440b3a4"
+        },
+        {
+          "id": 16,
+          "title": "Explaining 8 Popular Network Protocols in 1 Diagram.",
+          "start": 34,
+          "end": 35,
+          "textMatch": true,
+          "textSHA256": "a5ff0172ff5fba0551c70ea3de308abedc34a4ddf15049a54c336be0c0e9737b"
+        },
+        {
+          "id": 17,
+          "title": "Data Pipelines Overview",
+          "start": 36,
+          "end": 37,
+          "textMatch": true,
+          "textSHA256": "06c6ae4191837a63d7576b37068d089ede7da5d475f833be8d517487451ee79e"
+        },
+        {
+          "id": 18,
+          "title": "CAP, BASE, SOLID, KISS, What do these acronyms mean?",
+          "start": 38,
+          "end": 39,
+          "textMatch": true,
+          "textSHA256": "d02d1a7642fc3c97a32c676b033c256a3fb238712e4fe28789ef089be5b0ffd7"
+        },
+        {
+          "id": 19,
+          "title": "GET, POST, PUT... Common HTTP “verbs” in one figure",
+          "start": 40,
+          "end": 41,
+          "textMatch": true,
+          "textSHA256": "1baa2448c1c5ab997dff971552a317175be96da644702d7997b0d2d3df77e52f"
+        },
+        {
+          "id": 20,
+          "title": "How Do C++, Java, Python Work?",
+          "start": 42,
+          "end": 43,
+          "textMatch": true,
+          "textSHA256": "bfbb30e6861fe66ac99629458c80ef6d9f9a0e3b6440b899363eb765e7845117"
+        },
+        {
+          "id": 21,
+          "title": "Top 12 Tips for API Security",
+          "start": 44,
+          "end": 44,
+          "textMatch": true,
+          "textSHA256": "05732a08be375fbca664173e1ac82d6a6771ff1dcccaf7bd82dd36549abff2e4"
+        },
+        {
+          "id": 22,
+          "title": "Our recommended materials to crack your next tech interview",
+          "start": 45,
+          "end": 46,
+          "textMatch": true,
+          "textSHA256": "00c45a3c134421f18ca98b1d97d92224b039d76ed30bec15c9c44ff3d35ceecc"
+        },
+        {
+          "id": 23,
+          "title": "How To Release A Mobile App",
+          "start": 47,
+          "end": 48,
+          "textMatch": true,
+          "textSHA256": "60d2101ad701ee2a168f96e50c49adb747d6fdfd18776a7221487e99f2ca5925"
+        },
+        {
+          "id": 24,
+          "title": "A handy cheat sheet for the most popular cloud services (2023edition)",
+          "start": 49,
+          "end": 50,
+          "textMatch": true,
+          "textSHA256": "363ed180ef893e4096b755b70e9d9aeebf762ed9e24f3c696221f8f6e159b418"
+        },
+        {
+          "id": 25,
+          "title": "Best ways to test system functionality",
+          "start": 51,
+          "end": 52,
+          "textMatch": true,
+          "textSHA256": "c3c72a0ce0a8483546c3a081078637f2c5f557bbb07d0206163f57903c853b5b"
+        },
+        {
+          "id": 26,
+          "title": "Explaining JSON Web Token (JWT) to a 10 year old Kid",
+          "start": 53,
+          "end": 54,
+          "textMatch": true,
+          "textSHA256": "1d474555feac51542becaf8c5ae9a246d7c842a0635b207f9c0a279f2aaee2e3"
+        },
+        {
+          "id": 27,
+          "title": "How do companies ship code to production?",
+          "start": 55,
+          "end": 56,
+          "textMatch": true,
+          "textSHA256": "1ef2c21c7414bfd15f172021d8b742a9f4f5c2613a9885ccfcd7232165a0f0e1"
+        },
+        {
+          "id": 28,
+          "title": "How does Docker Work? Is Docker still relevant?",
+          "start": 57,
+          "end": 58,
+          "textMatch": true,
+          "textSHA256": "3a97b3a85f37e621308002264a53346beb7ed0597b910b5cc18d5d3d2dce02fc"
+        },
+        {
+          "id": 29,
+          "title": "Explaining 8 Popular Network Protocols in 1 Diagram",
+          "start": 59,
+          "end": 60,
+          "textMatch": true,
+          "textSHA256": "d7ac8268639d8f7b45e13ae87568b42f7a90e2359b173aa1853832079cec8278"
+        },
+        {
+          "id": 30,
+          "title": "System Design Blueprint: The Ultimate Guide",
+          "start": 61,
+          "end": 62,
+          "textMatch": true,
+          "textSHA256": "3b3d96b406a6abc011e6d186f66bc7ed9d8251051207ffb8fb4d4ac1de2c82ad"
+        },
+        {
+          "id": 31,
+          "title": "Key Concepts to Understand Database Sharding",
+          "start": 63,
+          "end": 64,
+          "textMatch": true,
+          "textSHA256": "8a4359fb4ca835324707ca41f91fd4cc16046b463e3580ce532287d951d57cf4"
+        },
+        {
+          "id": 32,
+          "title": "A nice cheat sheet of different monitoring infrastructure in cloudservices",
+          "start": 65,
+          "end": 66,
+          "textMatch": true,
+          "textSHA256": "03fc6c4935d2fdb13d0f744db9ff5f12b29d326ed270b54e94e4b75e11a3c1eb"
+        },
+        {
+          "id": 33,
+          "title": "Top 5 Software Architectural Patterns",
+          "start": 67,
+          "end": 68,
+          "textMatch": true,
+          "textSHA256": "b95c9469fb8b89df1a4d13cf35e2b9d0510ebbd07c5c3dea062759ca8435ee9d"
+        },
+        {
+          "id": 34,
+          "title": "OAuth 2.0 Flows",
+          "start": 69,
+          "end": 70,
+          "textMatch": true,
+          "textSHA256": "8059513e9c8a8c3cb8cf38eba9f2d7fb0ea038dadf5bc55fedaf119200c0611a"
+        },
+        {
+          "id": 35,
+          "title": "How did AWS grow from just a few services in 2006 to over 200fully-featured services?",
+          "start": 71,
+          "end": 72,
+          "textMatch": true,
+          "textSHA256": "547f0a7f5c1a48d88bff0e5d7bf6bfe52c751cd05b1de3e227c0675f60056cd0"
+        },
+        {
+          "id": 36,
+          "title": "What is GraphQL? Is it a replacement for the REST API?",
+          "start": 73,
+          "end": 74,
+          "textMatch": true,
+          "textSHA256": "1bfe8b9edbaa813dd34831190aa3a4908b23ed5cb17a786d1f3aa40448f33cfb"
+        },
+        {
+          "id": 37,
+          "title": "HTTPS, SSL Handshake, and Data Encryption Explained to Kids",
+          "start": 75,
+          "end": 76,
+          "textMatch": true,
+          "textSHA256": "1c4327ea2b36d161cd65db61c5436498c6db60a292291a615c1f50c70048f9da"
+        },
+        {
+          "id": 38,
+          "title": "A nice cheat sheet of different databases in cloud services",
+          "start": 77,
+          "end": 77,
+          "textMatch": true,
+          "textSHA256": "68003f6af07b1a8fdbd0ab481a72ec181c1df2feedf2461c6a93e729e93c9875"
+        },
+        {
+          "id": 39,
+          "title": "CI/CD Pipeline Explained in Simple Terms",
+          "start": 78,
+          "end": 79,
+          "textMatch": true,
+          "textSHA256": "650fc0338c39d77db8bece87800e99644571e3264a52a9b4d8bba3e6ba1296b9"
+        },
+        {
+          "id": 40,
+          "title": "What does API gateway do?",
+          "start": 80,
+          "end": 81,
+          "textMatch": true,
+          "textSHA256": "dfb609afb442e50da631e4620df1586558a829f46989d12684c452a7877a3ee9"
+        },
+        {
+          "id": 41,
+          "title": "The Code Review Pyramid",
+          "start": 82,
+          "end": 82,
+          "textMatch": true,
+          "textSHA256": "fe6939db898153c70159e4b4efb546ee91d06eb6dffd0b214cd9257c49f609e6"
+        },
+        {
+          "id": 42,
+          "title": "A picture is worth a thousand words: 9 best practices for developingmicroservices",
+          "start": 83,
+          "end": 84,
+          "textMatch": true,
+          "textSHA256": "1c6ccc247319c7aa932db6aaed5121f6eaf8357372f3106f6c0451a4cf7dae71"
+        },
+        {
+          "id": 43,
+          "title": "What are the greenest programming languages?",
+          "start": 85,
+          "end": 86,
+          "textMatch": true,
+          "textSHA256": "841cc82626976b12c167c3a3a3acfbd1a2ce6d06e26291d0125e4644f5151f8e"
+        },
+        {
+          "id": 44,
+          "title": "An amazing illustration of how to build a resilient three-tierarchitecture on AWS",
+          "start": 87,
+          "end": 87,
+          "textMatch": true,
+          "textSHA256": "b0132ec6bb6ae581cc1e132028c7611180571b3f6f4e1ee3f1031766a0027af7"
+        },
+        {
+          "id": 45,
+          "title": "URL, URI, URN - Do you know the differences?",
+          "start": 88,
+          "end": 89,
+          "textMatch": true,
+          "textSHA256": "35b543f2fa0a0036ff48d66f8d6015a682c8b032ad17a63d782e9faa3c79690e"
+        },
+        {
+          "id": 46,
+          "title": "What branching strategies does your team use?",
+          "start": 90,
+          "end": 90,
+          "textMatch": true,
+          "textSHA256": "11d5b1f6872e1d7d64334a9f21b76fe52e0b318b5b979ef67eac9a59a9ff2eaa"
+        },
+        {
+          "id": 47,
+          "title": "Linux file system explained",
+          "start": 91,
+          "end": 92,
+          "textMatch": true,
+          "textSHA256": "9520ac0f88dd6fb4cbfa2b67140213f2fe3a7b87f2e822234d260a1e4f348987"
+        },
+        {
+          "id": 48,
+          "title": "Do you believe that Google, Meta, Uber, and Airbnb put almost all oftheir code in one repository?",
+          "start": 93,
+          "end": 94,
+          "textMatch": true,
+          "textSHA256": "2ece81755774e32e876a9bdd0721374c93e33480639e03eb38cbb30d29e26eed"
+        },
+        {
+          "id": 49,
+          "title": "What are the data structures used in daily life?",
+          "start": 95,
+          "end": 96,
+          "textMatch": true,
+          "textSHA256": "e0bd802493c2842b1de56357f8cf1d20c8c8ffaecd18023a2bc18e234fabb773"
+        },
+        {
+          "id": 50,
+          "title": "Why did Amazon Prime Video monitoring move from serverless tomonolithic? How can it save 90% cost?",
+          "start": 97,
+          "end": 98,
+          "textMatch": true,
+          "textSHA256": "07dbdfdf7183a9329f247a3a666abb2f1f63f18f04b774153f8a9c400028b632"
+        },
+        {
+          "id": 51,
+          "title": "18 Most-used Linux Commands You Should Know",
+          "start": 99,
+          "end": 100,
+          "textMatch": true,
+          "textSHA256": "e4f4d320b49b6148144a40c28e099171f2ffb5184f31cf589b8acad302e2ef45"
+        },
+        {
+          "id": 52,
+          "title": "Would it be nice if the code we wrote automatically turned intoarchitecture diagrams?",
+          "start": 101,
+          "end": 102,
+          "textMatch": true,
+          "textSHA256": "c9f65d2da5188a34acf18d57a040373601a406e1739d846783ccaf6e762af0f5"
+        },
+        {
+          "id": 53,
+          "title": "Netflix Tech Stack - Part 1 (CI/CD Pipeline)",
+          "start": 103,
+          "end": 104,
+          "textMatch": true,
+          "textSHA256": "e89b2c3ecfbe06ab70133a0c52c4024068ca98a3b0b366565432e5d6597c1411"
+        },
+        {
+          "id": 54,
+          "title": "18 Key Design Patterns Every Developer Should Know",
+          "start": 105,
+          "end": 106,
+          "textMatch": true,
+          "textSHA256": "4aada7d093c83902f9a34b0ddc20192cf5be4be55093087f6d62d7e049ffd399"
+        },
+        {
+          "id": 55,
+          "title": "How many API architecture styles do you know?",
+          "start": 107,
+          "end": 108,
+          "textMatch": true,
+          "textSHA256": "a18febdd24b347c85a32108faa66399464e123eec47ca862566832b005e47e20"
+        },
+        {
+          "id": 56,
+          "title": "Visualizing a SQL query",
+          "start": 109,
+          "end": 110,
+          "textMatch": true,
+          "textSHA256": "bca4a1428dfcf04832542b6a8642987bdf441a2fecee4d2836d5a87bf50a0738"
+        },
+        {
+          "id": 57,
+          "title": "What distinguishes MVC, MVP, MVVM, MVVM-C, and VIPERarchitecture patterns from each other?",
+          "start": 111,
+          "end": 112,
+          "textMatch": true,
+          "textSHA256": "bbc668e1623cfa610a47b356dc858319f93cfd2591bfc2e1563ea2c3ead60e02"
+        },
+        {
+          "id": 58,
+          "title": "Almost every software engineer has used Git before, but only ahandful know how it works :)",
+          "start": 113,
+          "end": 114,
+          "textMatch": true,
+          "textSHA256": "33d4e065eae8e2fbfcedb6bce3e4f2ef2d36794b503a64495fb7599b4d54230f"
+        },
+        {
+          "id": 59,
+          "title": "I read something unbelievable today: Levels. fyi scaled to millions ofusers using Google Sheets as a backend!",
+          "start": 115,
+          "end": 116,
+          "textMatch": true,
+          "textSHA256": "9461f0e008ffbf51527c55c271accb7c4359be9534d12e053256c8af7add2847"
+        },
+        {
+          "id": 60,
+          "title": "Best ways to test system functionality",
+          "start": 117,
+          "end": 118,
+          "textMatch": true,
+          "textSHA256": "cb2f399c20f7d19781fbba248389661d1f881ca1a1e927186b6c2afe588c986c"
+        },
+        {
+          "id": 61,
+          "title": "Logging, tracing and metrics are 3 pillars of system observability",
+          "start": 119,
+          "end": 120,
+          "textMatch": true,
+          "textSHA256": "f80fa003c33020def75ccbabac220042b0506b8af9182b623dce3a7b1c129882"
+        },
+        {
+          "id": 62,
+          "title": "Internet Traffic Routing Policies",
+          "start": 121,
+          "end": 122,
+          "textMatch": true,
+          "textSHA256": "c8270c5b1d7d84b02ad65691668a3eade6e08f8dfb96da1b3cb89dd1b4ed1ca0"
+        },
+        {
+          "id": 63,
+          "title": "Subjects that should be mandatory in schools",
+          "start": 123,
+          "end": 123,
+          "textMatch": true,
+          "textSHA256": "13a79a16d909761b70f86796e8ba7fda33a1b918f8f92d9481d60b9ec0f68894"
+        },
+        {
+          "id": 64,
+          "title": "Do you know all the components of a URL?",
+          "start": 124,
+          "end": 124,
+          "textMatch": true,
+          "textSHA256": "5729ab53f5f801ee064049831220605320fe66dfeb8f0c6bd56fdd2848e0fbe5"
+        },
+        {
+          "id": 65,
+          "title": "What are the differences between cookies and sessions?",
+          "start": 125,
+          "end": 126,
+          "textMatch": true,
+          "textSHA256": "1e2e83e10391dadbb00a3a038ac1d66b09e19a40b59a4cefb650df4563803a91"
+        },
+        {
+          "id": 66,
+          "title": "How do DevOps, NoOps change the software development lifecycle(SDLC)?",
+          "start": 127,
+          "end": 128,
+          "textMatch": true,
+          "textSHA256": "768530eef5680cfda67e7f4e145cc93b21cc37d6a530a36033395ba62c47d70d"
+        },
+        {
+          "id": 67,
+          "title": "Popular interview question: What is the difference between Processand Thread?",
+          "start": 129,
+          "end": 130,
+          "textMatch": true,
+          "textSHA256": "1958477759cba6df69333d1b1da88eb7f0e2ece855a62473dca1c48550fb73be"
+        },
+        {
+          "id": 68,
+          "title": "Top 6 Load Balancing Algorithms",
+          "start": 131,
+          "end": 132,
+          "textMatch": true,
+          "textSHA256": "72eeec26ce8eb73f0aa52c4e854400ad0f68e2a754f640fb5ffa3e91ff5bf82c"
+        },
+        {
+          "id": 69,
+          "title": "Symmetric encryption vs asymmetric encryption",
+          "start": 133,
+          "end": 134,
+          "textMatch": true,
+          "textSHA256": "2ab24599a00425f2e645a5a77636b11937176d1213ae95a3f00f51cc6e9b655e"
+        },
+        {
+          "id": 70,
+          "title": "How does Redis persist data?",
+          "start": 135,
+          "end": 136,
+          "textMatch": true,
+          "textSHA256": "31cb57b2454206bec077e786fc00d5b73d73d8fae3d7db01ed07325e34a2e58b"
+        },
+        {
+          "id": 71,
+          "title": "IBM MQ -> RabbitMQ -> Kafka ->Pulsar, How do message queuearchitectures evolve?",
+          "start": 137,
+          "end": 138,
+          "textMatch": true,
+          "textSHA256": "f04ac68571cc9c3494de8ab774c55e122feb7a5d392d8910fd9090037d58daec"
+        },
+        {
+          "id": 72,
+          "title": "Top 4 Kubernetes Service Types in one diagram",
+          "start": 139,
+          "end": 140,
+          "textMatch": true,
+          "textSHA256": "3b463cc86f78358e87b48a340dc2fcfa73d71191d221af4a8456e5bd25aa09e3"
+        },
+        {
+          "id": 73,
+          "title": "Explaining 5 unique ID generators in distributed systems",
+          "start": 141,
+          "end": 142,
+          "textMatch": true,
+          "textSHA256": "61b0cf4ede58c9bfcca8a1afc481848a52cf2d2cc53ed5b41fd0646125f6dd94"
+        },
+        {
+          "id": 74,
+          "title": "How Do C++, Java, and Python Function?",
+          "start": 143,
+          "end": 144,
+          "textMatch": true,
+          "textSHA256": "3c8b770ce0ac8973baccc7cc3526309b0c28257ee5a5724b56bd853f392fce35"
+        },
+        {
+          "id": 75,
+          "title": "How will you design the Stack Overflow website?",
+          "start": 145,
+          "end": 146,
+          "textMatch": true,
+          "textSHA256": "60763fc70693c6ccceec90771b5cfb3d9925a02828804fa485172c3aaef8c850"
+        },
+        {
+          "id": 76,
+          "title": "Explain the Top 6 Use Cases of Object Stores",
+          "start": 147,
+          "end": 148,
+          "textMatch": true,
+          "textSHA256": "0b274fe8acde7df441ff2e185f1d4a1261ace5428916f42d9cb8adbae8e29f1f"
+        },
+        {
+          "id": 77,
+          "title": "API Vs SDK!",
+          "start": 149,
+          "end": 150,
+          "textMatch": true,
+          "textSHA256": "006c7bdebc2e448164828c91f94bec9278da3399335b794239efe86afbced5b4"
+        },
+        {
+          "id": 78,
+          "title": "A picture is worth a thousand words: 9 best practices for developingmicroservices",
+          "start": 151,
+          "end": 151,
+          "textMatch": true,
+          "textSHA256": "ba0b449903f6bae84b12df32e2f432fa89a8c3b367694e82480d3df8899cb64d"
+        },
+        {
+          "id": 79,
+          "title": "Proxy Vs reverse proxy",
+          "start": 152,
+          "end": 152,
+          "textMatch": true,
+          "textSHA256": "4577424d51b4e897c960cfb916600e7b9afc0779a757ac8cfbe52b11bb88841f"
+        },
+        {
+          "id": 80,
+          "title": "Git Vs Github",
+          "start": 153,
+          "end": 153,
+          "textMatch": true,
+          "textSHA256": "81a9aeed6bc30848c2a3bb12dec64273701a6cf2e83a41280fa888d18e5460e7"
+        },
+        {
+          "id": 81,
+          "title": "Which latency numbers should you know",
+          "start": 154,
+          "end": 155,
+          "textMatch": true,
+          "textSHA256": "11b58f8fdae28afd1f5ccba170393e0cd6690a7fe0f8b092a6e29baeca9f0086"
+        },
+        {
+          "id": 82,
+          "title": "Eight Data Structures That Power Your Databases. Which one shouldwe pick?",
+          "start": 156,
+          "end": 157,
+          "textMatch": true,
+          "textSHA256": "2570f123a46215da5c00aba92a5348716c61c144f9eb2b3939d8ebb306d44be3"
+        },
+        {
+          "id": 83,
+          "title": "How Git Commands Work",
+          "start": 158,
+          "end": 159,
+          "textMatch": true,
+          "textSHA256": "690e87c2917c1a60eae3d4c1f9c0c4726e5eaf20f4e507ccdcb899ba9760fdcb"
+        },
+        {
+          "id": 84,
+          "title": "How to store passwords safely in the database and how to validate apassword?",
+          "start": 160,
+          "end": 161,
+          "textMatch": true,
+          "textSHA256": "39000a22339954a4f397e2f08fc77b005518fa96fcc3dd6f73fd20ee89a879af"
+        },
+        {
+          "id": 85,
+          "title": "What is a database? What are some common types of databases?",
+          "start": 162,
+          "end": 163,
+          "textMatch": true,
+          "textSHA256": "5270fc4bc6b903ecc11cfb8ff310c4f520807400d45ce2420fdd6b83d3676013"
+        },
+        {
+          "id": 86,
+          "title": "How does Docker Work? Is Docker still relevant?",
+          "start": 164,
+          "end": 165,
+          "textMatch": true,
+          "textSHA256": "752485b07e4836cd1aacc6c184e53d22a6a3c661db59f91df0ebc5407a8c4400"
+        },
+        {
+          "id": 87,
+          "title": "Docker vs. Kubernetes. Which one should we use?",
+          "start": 166,
+          "end": 167,
+          "textMatch": true,
+          "textSHA256": "65623f80fa1f80a5ec37e3d51bd9c80b5d71e6a57871a8a30ee53b4757ac92fa"
+        },
+        {
+          "id": 88,
+          "title": "Writing Code that Runs on All Platforms",
+          "start": 168,
+          "end": 169,
+          "textMatch": true,
+          "textSHA256": "728d19f0d9956492b0b11db3171aa212ef3a9e65a57ed766b3d1400dd2c62ff5"
+        },
+        {
+          "id": 89,
+          "title": "HTTP Status Code You Should Know",
+          "start": 170,
+          "end": 171,
+          "textMatch": true,
+          "textSHA256": "65fd54c1325cc327288f0d753ed730480dc2828a9246e22326d89c28511fcf99"
+        },
+        {
+          "id": 90,
+          "title": "Docker 101: Streamlining App Deployment",
+          "start": 172,
+          "end": 173,
+          "textMatch": true,
+          "textSHA256": "45b15d60e4189f2c7ee9fbb5aebba491a1fbc7152f4120b53085557a165c6d75"
+        },
+        {
+          "id": 91,
+          "title": "Git Merge vs. Rebase vs. Squash Commit",
+          "start": 174,
+          "end": 175,
+          "textMatch": true,
+          "textSHA256": "7df72db41503ea49917bb846b9ed2408be5343aa0f93002586ea201c31f6dd28"
+        },
+        {
+          "id": 92,
+          "title": "Cloud Network Components Cheat Sheet",
+          "start": 176,
+          "end": 177,
+          "textMatch": true,
+          "textSHA256": "07e95e9b4d470f03dd5ca599bd9aa8ee97487abcf33a0cfa4307d62a586a2127"
+        },
+        {
+          "id": 93,
+          "title": "SOAP vs REST vs GraphQL vs RPC",
+          "start": 178,
+          "end": 178,
+          "textMatch": true,
+          "textSHA256": "7b3035b23ced3a65d7746ae1d052c57157ddc31493df4f3599985fa19867f27b"
+        },
+        {
+          "id": 94,
+          "title": "10 Key Data Structures We Use Every Day",
+          "start": 179,
+          "end": 180,
+          "textMatch": true,
+          "textSHA256": "293f8217fe64b407c46f35cfe362aa9b75b1f2435b68eecbac4c165b8ed65bbb"
+        },
+        {
+          "id": 95,
+          "title": "What does a typical microservice architecture look like? 👇",
+          "start": 181,
+          "end": 182,
+          "textMatch": true,
+          "textSHA256": "04c19750274f538b3a6a4f1756b976caf955ca4620fa8dfad0d116203f295069"
+        },
+        {
+          "id": 96,
+          "title": "My recommended materials for cracking your next technical interview",
+          "start": 183,
+          "end": 184,
+          "textMatch": true,
+          "textSHA256": "f4ad1718d1b4ccacd0616aa20a44a0581d84c388d715846744a18247f0c2895d"
+        },
+        {
+          "id": 97,
+          "title": "Uber Tech Stack",
+          "start": 185,
+          "end": 186,
+          "textMatch": true,
+          "textSHA256": "c08ab57f0894d7f2a0408875d9a7081f42c1be93b08966b568cf032ff37838fe"
+        },
+        {
+          "id": 98,
+          "title": "Top 5 Caching Strategies",
+          "start": 187,
+          "end": 188,
+          "textMatch": true,
+          "textSHA256": "3cc269473de7f1d86652400965aea60725cb4258e724d2ff950df63680e20749"
+        },
+        {
+          "id": 99,
+          "title": "How many message queues do you know?",
+          "start": 189,
+          "end": 189,
+          "textMatch": true,
+          "textSHA256": "248f486e461788e52bf5fa4aa1edffffc827654340ab6c88f8411e9d06eabadf"
+        },
+        {
+          "id": 100,
+          "title": "Why is Kafka fast?",
+          "start": 190,
+          "end": 191,
+          "textMatch": true,
+          "textSHA256": "29c5ba77d25605a4dddc972a1a74620930ce79c76140228912eb92be5d6b4022"
+        },
+        {
+          "id": 101,
+          "title": "How slack decides to send a notification",
+          "start": 192,
+          "end": 192,
+          "textMatch": true,
+          "textSHA256": "1efd7e9bc95d4d740c0ae44a4db49ee1cfafdb3ef7f451315b0234677f03be29"
+        },
+        {
+          "id": 102,
+          "title": "Kubernetes Tools Ecosystem",
+          "start": 193,
+          "end": 194,
+          "textMatch": true,
+          "textSHA256": "64419c0e91019a827eef1b56fc4d582a55b40640788cd2a9b2def866dcb360fd"
+        },
+        {
+          "id": 103,
+          "title": "Cloud Native Landscape",
+          "start": 195,
+          "end": 195,
+          "textMatch": true,
+          "textSHA256": "37e846d02594a8017f5d3e9a9741123dfbf036b2e47410accf1a1e7cacea2340"
+        },
+        {
+          "id": 104,
+          "title": "How does VISA work when we swipe a credit card at a merchant’sshop?",
+          "start": 196,
+          "end": 197,
+          "textMatch": true,
+          "textSHA256": "8460e6fc4ec0948496d78e6491cd57608f37fc030beadf6c6167b8008abc743d"
+        },
+        {
+          "id": 105,
+          "title": "A simple visual guide to help people understand the keyconsiderations when designing or using caching systems",
+          "start": 198,
+          "end": 198,
+          "textMatch": true,
+          "textSHA256": "c719675a2bb565dcf2042a9770ade462944bb78c1e84f01578ac96f03f82930f"
+        },
+        {
+          "id": 106,
+          "title": "What tech stack is commonly used for microservices?",
+          "start": 199,
+          "end": 200,
+          "textMatch": true,
+          "textSHA256": "bda0aa376d2663fd07b161fb8d7ccc1c7bd699393e754d2292c51269289315f2"
+        },
+        {
+          "id": 107,
+          "title": "How do we transform a system to be Cloud Native?",
+          "start": 201,
+          "end": 202,
+          "textMatch": true,
+          "textSHA256": "18af9fd030b55bbf6d9adab1960cfbd9cf4611b51695aca73cda321b6d0e9c15"
+        },
+        {
+          "id": 108,
+          "title": "Explaining Sessions, Tokens, JWT, SSO, and OAuth in One Diagram",
+          "start": 203,
+          "end": 203,
+          "textMatch": true,
+          "textSHA256": "665c021cde5c1c112eae5c7a1a5bfd53ef3cbb2975301ffc25b8469e96ac3f0e"
+        },
+        {
+          "id": 109,
+          "title": "Most Used Linux Commands Map",
+          "start": 204,
+          "end": 204,
+          "textMatch": true,
+          "textSHA256": "1742e5d1662fde1e65ec49577c3e59e89e0ebdb555f061c04b19452343790277"
+        },
+        {
+          "id": 110,
+          "title": "What is Event Sourcing? How is it different from normal CRUD design?",
+          "start": 205,
+          "end": 206,
+          "textMatch": true,
+          "textSHA256": "744e4c23417d4d6891427570f9abccf82b152c6c4b18f26173468a5ed2b63fbd"
+        },
+        {
+          "id": 111,
+          "title": "What is k8s (Kubernetes)?",
+          "start": 207,
+          "end": 208,
+          "textMatch": true,
+          "textSHA256": "3e267b10ed5c1af08e55547127948ea87b18a480903345c711e994f45e9bf8c9"
+        },
+        {
+          "id": 112,
+          "title": "How does Git Work?",
+          "start": 209,
+          "end": 210,
+          "textMatch": true,
+          "textSHA256": "60f36873a637e8c24d0b1ca25ab469ab3014be774393e3773a67b6acf6e36d36"
+        },
+        {
+          "id": 113,
+          "title": "How does Google Authenticator (or other types of 2-factorauthenticators) work?",
+          "start": 211,
+          "end": 213,
+          "textMatch": true,
+          "textSHA256": "8ed783a4c9b4671d6673b80645953183e0c7c62acadffaed02627e2fb682e20f"
+        },
+        {
+          "id": 114,
+          "title": "IaaS, PaaS, Cloud Native … How do we get here?",
+          "start": 214,
+          "end": 214,
+          "textMatch": true,
+          "textSHA256": "635d3c345f10a2c4826035b74206a2df05bf7518889ebf2d534b96d8d571e2a4"
+        },
+        {
+          "id": 115,
+          "title": "How does ChatGPT work?",
+          "start": 215,
+          "end": 216,
+          "textMatch": true,
+          "textSHA256": "c3223f46d0226256982c88e04151eaf81eec93d7b28b7eaa0d80a626ef57af0e"
+        },
+        {
+          "id": 116,
+          "title": "Top Hidden Costs of Cloud Providers",
+          "start": 217,
+          "end": 218,
+          "textMatch": true,
+          "textSHA256": "612344b840d0dd6240a7ea26711f8891e808996b95afeb03f597ec5ff259fe05"
+        },
+        {
+          "id": 117,
+          "title": "Algorithms You Should Know Before You Take System DesignInterviews",
+          "start": 219,
+          "end": 220,
+          "textMatch": true,
+          "textSHA256": "578a04c5b436b60e7d87c8751a68cc1b16d26b9825a47d742cbf04c46be9247a"
+        },
+        {
+          "id": 118,
+          "title": "Understanding Database Types",
+          "start": 221,
+          "end": 221,
+          "textMatch": true,
+          "textSHA256": "5aff546a373962d2ba50027a29927bbb4f065c28c38cbf2fca8edec8a513c864"
+        },
+        {
+          "id": 119,
+          "title": "How does gRPC work?",
+          "start": 222,
+          "end": 223,
+          "textMatch": true,
+          "textSHA256": "95ffc2b643b020e6eef44df7dfc54761cc4ebb0a283ed4edf17ad615d7ada460"
+        },
+        {
+          "id": 120,
+          "title": "How does a Password Manager such as 1Password or Lastpass work?How does it keep our passwords safe?",
+          "start": 224,
+          "end": 225,
+          "textMatch": true,
+          "textSHA256": "9ad8291d57ac16436a9964c0afbdc260776bae2cf4d7a9afd04a57ca37c55f69"
+        },
+        {
+          "id": 121,
+          "title": "Types of Software Engineers and Their Typically Required Skills",
+          "start": 226,
+          "end": 227,
+          "textMatch": true,
+          "textSHA256": "f26e412817f59097ffe850042be826df4784dc8e5e2301f54a14b47bffd2a221"
+        },
+        {
+          "id": 122,
+          "title": "How does REST API work?",
+          "start": 228,
+          "end": 228,
+          "textMatch": true,
+          "textSHA256": "69ef4377c053bfebaed9f9ce4876ccb9320f72e264b76f06a586bd3a479e50df"
+        },
+        {
+          "id": 123,
+          "title": "Session, cookie, JWT, token, SSO, and OAuth 2.0 - what are they?",
+          "start": 229,
+          "end": 231,
+          "textMatch": true,
+          "textSHA256": "daee455877e9108c55ec88f2a16655908994710a94dd1046970e4bf1e41d0222"
+        },
+        {
+          "id": 124,
+          "title": "Linux commands illustrated on one page!",
+          "start": 232,
+          "end": 232,
+          "textMatch": true,
+          "textSHA256": "9621e0bf94e95be1a6eed49ed07d7963b605ecbcd6cec29f9a17c2347b061f1c"
+        },
+        {
+          "id": 125,
+          "title": "The Payments Ecosystem",
+          "start": 233,
+          "end": 234,
+          "textMatch": true,
+          "textSHA256": "6613bf99e6e9a7732fd8927b2d24dfa2d9703cd42e76916b72910d93071fa9b2"
+        },
+        {
+          "id": 126,
+          "title": "Algorithms You Should Know Before You Take System DesignInterviews (updated list)",
+          "start": 235,
+          "end": 235,
+          "textMatch": true,
+          "textSHA256": "e52c6026800684465c4541f387459210def418202d532d8441c2d5c0ea6eacad"
+        },
+        {
+          "id": 127,
+          "title": "How is data transmitted between applications?",
+          "start": 236,
+          "end": 237,
+          "textMatch": true,
+          "textSHA256": "c32aa11f43b223d13eb0ef12f1f4ed50c2619876f3f3a4c12c57f97414be0191"
+        },
+        {
+          "id": 128,
+          "title": "What are the common load-balancing algorithms?",
+          "start": 238,
+          "end": 239,
+          "textMatch": true,
+          "textSHA256": "f166f720f0fbf554e36ef9da04a2e5c48bf3ba8a85e35f28a0b6551f1c68694f"
+        },
+        {
+          "id": 129,
+          "title": "Cloud Native Anti Patterns",
+          "start": 240,
+          "end": 241,
+          "textMatch": true,
+          "textSHA256": "8b64df1eeaa99b0736ace9be7c1dfac7376ad0b04759ad2203a8c6b5b2f0f8fa"
+        },
+        {
+          "id": 130,
+          "title": "Uber Tech Stack - CI/CD",
+          "start": 242,
+          "end": 243,
+          "textMatch": true,
+          "textSHA256": "4a51d5718e1fc719104848692e20fa694d39e00e60e7ae85a01063519e060ab5"
+        },
+        {
+          "id": 131,
+          "title": "How Discord Stores Trillions Of Messages",
+          "start": 244,
+          "end": 245,
+          "textMatch": true,
+          "textSHA256": "28b67ee922bc0b0bb3163f86b92704fc44fc4a10bbab7c43b334cc1d0be910a3"
+        },
+        {
+          "id": 132,
+          "title": "How to diagnose a mysterious process that’s taking too much CPU,memory, IO, etc?",
+          "start": 246,
+          "end": 246,
+          "textMatch": true,
+          "textSHA256": "cc291065cd8e08c6f3b9e2afcd73f3710b2bf072e9c66ab9e40723f0809afefa"
+        },
+        {
+          "id": 133,
+          "title": "How does Chrome work?",
+          "start": 247,
+          "end": 248,
+          "textMatch": true,
+          "textSHA256": "5a145d3413ebf77d1af746992fec84b4df39c2fa9048f423aaa53e794b219a2a"
+        },
+        {
+          "id": 134,
+          "title": "Differences in Event SOurcing System Design",
+          "start": 249,
+          "end": 250,
+          "textMatch": true,
+          "textSHA256": "1d56b514b3bc5424c6e1718f40fcca3bd491333d1f095b6618569dcaebed04c0"
+        },
+        {
+          "id": 135,
+          "title": "Firewall explained to Kids … and Adults",
+          "start": 251,
+          "end": 252,
+          "textMatch": true,
+          "textSHA256": "f4ecce10944dcd9bced1dcf419ab6d8b938ae7ed0b1b4c54140d9b7a0e6fff37"
+        },
+        {
+          "id": 136,
+          "title": "Paradigm Shift: How Developer to Tester Ratio Changed From 1:1 to100:1",
+          "start": 253,
+          "end": 254,
+          "textMatch": true,
+          "textSHA256": "ebbacb4025e97675a59079f048bf0faa9ec273cdd72100ba8dd8afaa15c86918"
+        },
+        {
+          "id": 137,
+          "title": "Why is PostgreSQL voted as the most loved database by developers?",
+          "start": 255,
+          "end": 256,
+          "textMatch": true,
+          "textSHA256": "a9758b419ab76ed0e4db11a572c1218efeac542320980bbfe4cc0f9b254e9177"
+        },
+        {
+          "id": 138,
+          "title": "8 Key OOP Concepts Every Developer Should Know",
+          "start": 257,
+          "end": 258,
+          "textMatch": true,
+          "textSHA256": "ff7748b6d5cb1e8b830b8f973f42a3bf3a07d538bc5d8ebb4118e6173184732d"
+        },
+        {
+          "id": 139,
+          "title": "Top 6 most commonly used Server Types",
+          "start": 259,
+          "end": 260,
+          "textMatch": true,
+          "textSHA256": "97a3bee27eedbc327ea7090b3ed529a99cfd605bfb285d4eb83871de5dcc7453"
+        },
+        {
+          "id": 140,
+          "title": "DevOps vs. SRE vs. Platform Engineering. Do you know thedifferences?",
+          "start": 261,
+          "end": 262,
+          "textMatch": true,
+          "textSHA256": "0ce1fa7e2a41855e36c16aba7c8b37955b54ca0fc3251b51da26490df6cb00e3"
+        },
+        {
+          "id": 141,
+          "title": "5 important components of Linux",
+          "start": 263,
+          "end": 264,
+          "textMatch": true,
+          "textSHA256": "c87d0b6c4abc30c4aecf9738eef7fc3a30261b1511fb79f23bd6facf55d979d5"
+        },
+        {
+          "id": 142,
+          "title": "How to scale a website to support millions of users?",
+          "start": 265,
+          "end": 266,
+          "textMatch": true,
+          "textSHA256": "c5bd338c375e43e814d2a5a4dcb56fe343940cd332415473091bd345486e8f4e"
+        },
+        {
+          "id": 143,
+          "title": "What is FedNow (instant payment)",
+          "start": 267,
+          "end": 269,
+          "textMatch": true,
+          "textSHA256": "6ecb4d33f2855cfdc61e74b096f74bf0e105ae17d7dfca65713641a5e656581a"
+        },
+        {
+          "id": 144,
+          "title": "5 ways of Inter-Process Communication",
+          "start": 270,
+          "end": 271,
+          "textMatch": true,
+          "textSHA256": "fc5e0e39a5119e712f618c2ec1cea9e7705c438207c3c6339e3b441776c358a3"
+        },
+        {
+          "id": 145,
+          "title": "What is a webhook?",
+          "start": 272,
+          "end": 273,
+          "textMatch": true,
+          "textSHA256": "8decdc9bef383f962d083e02c19654c61d8790e75c8acc59c493d4ed96024746"
+        },
+        {
+          "id": 146,
+          "title": "What tools does your team use to ship code to production and ensurecode quality?",
+          "start": 274,
+          "end": 275,
+          "textMatch": true,
+          "textSHA256": "d0fda944d0be848171da6baf08f0471b8d07bb16186d3ec6742ad1795c5ffc09"
+        },
+        {
+          "id": 147,
+          "title": "Stack Overflow's Architecture: A Very Interesting Case Study",
+          "start": 276,
+          "end": 276,
+          "textMatch": true,
+          "textSHA256": "e3b9aa435c005c36b8299f730288a6db8a2b4004566c7f330fda597950aee686"
+        },
+        {
+          "id": 148,
+          "title": "Are you familiar with the Java Collection Framework?",
+          "start": 277,
+          "end": 278,
+          "textMatch": true,
+          "textSHA256": "7018bd9aa7e7ea637a2f0da9d6b6a8bd5fcd5ee1d36602a0c0ed5362c4d88879"
+        },
+        {
+          "id": 149,
+          "title": "Twitter 1.0 Tech Stack",
+          "start": 279,
+          "end": 280,
+          "textMatch": true,
+          "textSHA256": "0f4225c98f2df5938e8b45f2a451cef27f9e96794aa71602b02ed08a32012ef0"
+        },
+        {
+          "id": 150,
+          "title": "Linux file permission illustrated",
+          "start": 281,
+          "end": 281,
+          "textMatch": true,
+          "textSHA256": "4fc122e2d90b8421551209cf8d8007047f6f37e01e6441ae4bfc6e2d39d50b7c"
+        },
+        {
+          "id": 151,
+          "title": "What are the differences between a data warehouse and a data lake?",
+          "start": 282,
+          "end": 283,
+          "textMatch": true,
+          "textSHA256": "bd006b8304c538a5744ce0894724398eded0559a3122cff0f6923a462326fc39"
+        },
+        {
+          "id": 152,
+          "title": "10 principles for building resilient payment systems (by Shopify).",
+          "start": 284,
+          "end": 285,
+          "textMatch": true,
+          "textSHA256": "d56cfc06d119ed2dc473a2393f470487988e7c7d3e5d10c7c41b64fdf01dc2fa"
+        },
+        {
+          "id": 153,
+          "title": "Kubernetes Periodic Table",
+          "start": 286,
+          "end": 286,
+          "textMatch": true,
+          "textSHA256": "3d43cd87bf0452fc0fc2b79c6e8eee02b1dacf266ee4faac6425fe6340e30ce7"
+        },
+        {
+          "id": 154,
+          "title": "Evolution of the Netflix API Architecture",
+          "start": 287,
+          "end": 288,
+          "textMatch": true,
+          "textSHA256": "ff8f5e9c93920476e789a0dd1586ff19be10df944ee197b9449f5577385c3f58"
+        },
+        {
+          "id": 155,
+          "title": "Where do we cache data?",
+          "start": 289,
+          "end": 290,
+          "textMatch": true,
+          "textSHA256": "5bd55bbef1ebaf6a34c5746eb755a819710bc7bad92d564640438b68c64bf4a3"
+        },
+        {
+          "id": 156,
+          "title": "Top 7 Most-Used Distributed System Patterns ↓",
+          "start": 291,
+          "end": 291,
+          "textMatch": true,
+          "textSHA256": "85d14660eff63da906a7b997fc2925adc8458de5ab7164d67d6fb991fb5f4729"
+        },
+        {
+          "id": 157,
+          "title": "How much storage could one purchase with the price of a Tesla ModelS? ↓",
+          "start": 292,
+          "end": 292,
+          "textMatch": true,
+          "textSHA256": "e8359c735d2035e3d6ae407abacd33aed8ee09bcf0368abd8b6d805042427f99"
+        },
+        {
+          "id": 158,
+          "title": "How to choose between RPC and RESTful?",
+          "start": 293,
+          "end": 293,
+          "textMatch": true,
+          "textSHA256": "b67430dae0d7de63ebd6ce98973625c342d3b997c0b8ef4b7a1d399d42ad47be"
+        },
+        {
+          "id": 159,
+          "title": "Netflix Tech Stack - Databases",
+          "start": 294,
+          "end": 295,
+          "textMatch": true,
+          "textSHA256": "b26fcaa40f6785aa267c407551ef5d4b9a2607d1bce533f0871c2632b976f870"
+        },
+        {
+          "id": 160,
+          "title": "The 10 Algorithms That Dominate Our World",
+          "start": 296,
+          "end": 297,
+          "textMatch": true,
+          "textSHA256": "1d474841df37c1f2696ec9da14ef106ea1f5f194a37df421e57e3e0e9fe67df2"
+        },
+        {
+          "id": 161,
+          "title": "What is the difference between “pull” and “push” payments?",
+          "start": 298,
+          "end": 299,
+          "textMatch": true,
+          "textSHA256": "397145bf960861629fb3452ce8f08fc944bbf5f0babf209cfab755448bf9001a"
+        },
+        {
+          "id": 162,
+          "title": "ChatGPT - timeline",
+          "start": 300,
+          "end": 301,
+          "textMatch": true,
+          "textSHA256": "7f2235a2371f42646555b64a4710503a72b81290ad3611d14a384612da420374"
+        },
+        {
+          "id": 163,
+          "title": "Why did Amazon Prime Video monitoring move from serverless tomonolithic? How can it save 90% cost?",
+          "start": 302,
+          "end": 302,
+          "textMatch": true,
+          "textSHA256": "28c324a3169790855cdf5a1368d2122b933889a7ee1875e216d27668f045d6ad"
+        },
+        {
+          "id": 164,
+          "title": "What is the journey of a Slack message?",
+          "start": 303,
+          "end": 304,
+          "textMatch": true,
+          "textSHA256": "c5f0744a5865b2b8e937b67da7da2664f18ba9db842397a0e5dfecffa66f93af"
+        },
+        {
+          "id": 165,
+          "title": "How does GraphQL work in the real world?",
+          "start": 305,
+          "end": 306,
+          "textMatch": true,
+          "textSHA256": "052f4de81733e65d4aa373c4cdaa64d26924c5afe3469026ba05ed23308e3d0a"
+        },
+        {
+          "id": 166,
+          "title": "Important Things About HTTP Headers You May Not Know!",
+          "start": 307,
+          "end": 307,
+          "textMatch": true,
+          "textSHA256": "b934516e0cadf6735fdd46590a5c3ae9ce82af38cb2e7cefaeebb6b32d89758e"
+        },
+        {
+          "id": 167,
+          "title": "Think you know everything about McDonald's? What about itsevent-driven architecture 😬 ?",
+          "start": 308,
+          "end": 309,
+          "textMatch": true,
+          "textSHA256": "b890bd7e5465fe601b7f19670eba1f9c5e66ee926e742155b9bd82435a448fd3"
+        },
+        {
+          "id": 168,
+          "title": "How ChatGPT works technically",
+          "start": 310,
+          "end": 310,
+          "textMatch": true,
+          "textSHA256": "5f8b944f598019f8dfe59d25b1eaa6b1019b00deb8c437bba9ba3ee76fda3de5"
+        },
+        {
+          "id": 169,
+          "title": "Choosing the right database is probably the most important technicaldecision a company will make.",
+          "start": 311,
+          "end": 311,
+          "textMatch": true,
+          "textSHA256": "f49ff55ea7add0bed0cba02bc8e523fde35ba4ccae5f97fb346b2e6bc46ebd9e"
+        },
+        {
+          "id": 170,
+          "title": "How do you become a full-stack developer?",
+          "start": 312,
+          "end": 313,
+          "textMatch": true,
+          "textSHA256": "df4b2fc0aa7e39b350ccbbf4d5d02374f2745ad40264d9106491ee6b8bc3e2c7"
+        },
+        {
+          "id": 171,
+          "title": "What’s New in GPT-4",
+          "start": 314,
+          "end": 314,
+          "textMatch": true,
+          "textSHA256": "3eb896761786557505be4b5caae3eda57ecf2ca5386cff6861ea05d0aa524cc0"
+        },
+        {
+          "id": 172,
+          "title": "Backend Burger",
+          "start": 315,
+          "end": 315,
+          "textMatch": true,
+          "textSHA256": "060ef05646cbf55dfd31e817ef7f770190f8ebb25fec329f0a20d4d36b3deae8"
+        },
+        {
+          "id": 173,
+          "title": "How do we design effective and safe APIs?",
+          "start": 316,
+          "end": 316,
+          "textMatch": true,
+          "textSHA256": "0ed3ea621201aeaae3f2613c5e765fb4e34e01fe9a74896fe17725a644097b5e"
+        },
+        {
+          "id": 174,
+          "title": "Which SQL statements are most commonly used?",
+          "start": 317,
+          "end": 317,
+          "textMatch": true,
+          "textSHA256": "146a7922285118c72b0c9ce3a3cb4a7beb0edc3905571740548fef7aadb71970"
+        },
+        {
+          "id": 175,
+          "title": "Two common data processing models: Batch v.s. Stream Processing.What are the differences?",
+          "start": 318,
+          "end": 319,
+          "textMatch": true,
+          "textSHA256": "19728d0973be319862b44168e9a870f635dcaf3fa75ef07d9253f7961ad1a51d"
+        },
+        {
+          "id": 176,
+          "title": "Top 10 Architecture Characteristics / Non-Functional Requirementswith Cheatsheet",
+          "start": 320,
+          "end": 320,
+          "textMatch": true,
+          "textSHA256": "7739ffdf2acd64126e4cdb4acd1ac93969bd9c50a148b3f028045c1b75c208cc"
+        },
+        {
+          "id": 177,
+          "title": "Are serverless databases the future? How do serverless databasesdiffer from traditional cloud databases?",
+          "start": 321,
+          "end": 322,
+          "textMatch": true,
+          "textSHA256": "7fcdc70d136f27efb7110ebe9118bbf61125371f18043fe9095fad1651dee3cb"
+        },
+        {
+          "id": 178,
+          "title": "Why do we need message brokers 👇 ?",
+          "start": 323,
+          "end": 324,
+          "textMatch": true,
+          "textSHA256": "1a8106c6a36e4a04405a86a4db5cff11a5560374a7dc26f930546a64d12ad315"
+        },
+        {
+          "id": 179,
+          "title": "How does Twitter recommend “For You” Timeline in 1.5 seconds?",
+          "start": 325,
+          "end": 326,
+          "textMatch": true,
+          "textSHA256": "b877ec4db2e0c77c223c33831fd16a1c36cc6247f3d6a5e7c519dd812a4e79e5"
+        },
+        {
+          "id": 180,
+          "title": "Popular interview question: what happens when you type “sshhostname”?",
+          "start": 327,
+          "end": 328,
+          "textMatch": true,
+          "textSHA256": "e63fffd8257b041cb2dd5e1d259f2d410879f54b913e36f4030d69402569c814"
+        },
+        {
+          "id": 181,
+          "title": "Discover Amazon's innovative build system - Brazil.",
+          "start": 329,
+          "end": 330,
+          "textMatch": true,
+          "textSHA256": "0311fef2f49793a79baa6195b7a62cbf48de4b067bece92cdc151a2d3acec834"
+        },
+        {
+          "id": 182,
+          "title": "Possible Experiment Platform Architecture",
+          "start": 331,
+          "end": 332,
+          "textMatch": true,
+          "textSHA256": "5eefd694c8b5177bf2bba8926a6f5bf6153c6b2d9a329c8c7553b4c39f578b2d"
+        },
+        {
+          "id": 183,
+          "title": "YouTube handles 500+ hours of video content uploads every minuteon average. How does it manage this?",
+          "start": 333,
+          "end": 334,
+          "textMatch": true,
+          "textSHA256": "ae4e04bc9b2e2066f0cf812df8d938bedc9db962e6b1543c8d2414c601da821f"
+        },
+        {
+          "id": 184,
+          "title": "A beginner’s guide to CDN (Content Delivery Network)",
+          "start": 335,
+          "end": 336,
+          "textMatch": true,
+          "textSHA256": "569d64b74e6cbc5f9989de982c84f0a2d887caec6c78b2c131c52cbbb1eaede6"
+        },
+        {
+          "id": 185,
+          "title": "What are the API architectural styles?",
+          "start": 337,
+          "end": 338,
+          "textMatch": true,
+          "textSHA256": "ce628193568da1b333d6ddc0c12d23bfbfe5175b922623a5df64fb226dd823b2"
+        },
+        {
+          "id": 186,
+          "title": "Cloud-native vs. Cloud computing",
+          "start": 339,
+          "end": 340,
+          "textMatch": true,
+          "textSHA256": "15d35820b89f3dd182520b24c20b3b16920b222447112fe495a4008e9ddf42ac"
+        },
+        {
+          "id": 187,
+          "title": "C, C++, Java, Javascript, Typescript, Golang, Rust …",
+          "start": 341,
+          "end": 342,
+          "textMatch": true,
+          "textSHA256": "c3b8c126d39964848423de3ff40120ef7c39a85f127383eacfe623211b346b5e"
+        },
+        {
+          "id": 188,
+          "title": "The Linux Storage Stack Diagram shows the layout of the the Linuxstorage stack",
+          "start": 343,
+          "end": 343,
+          "textMatch": true,
+          "textSHA256": "c9bb2a8240c5bfd89862a736a34cb7cecd504fd3786545db5cad9af76064b0b0"
+        },
+        {
+          "id": 189,
+          "title": "Breaking down what's going on with the Silicon Valley Bank (SVB)collapse",
+          "start": 344,
+          "end": 344,
+          "textMatch": true,
+          "textSHA256": "a81a7b1d6e02cbeb82ac5ddfdfafa12645a44c6e775313d846d0f5a41ee0481f"
+        }
+      ],
+      "chapterHeadingsVerified": 189
+    },
+    {
+      "id": "computer-networks",
+      "pdfPages": 962,
+      "sourceEntries": 10,
+      "start": 25,
+      "end": 962,
+      "pageImages": 938,
+      "pdfSHA256": "5b4b3d33bc501106a1530e08c784eead8ed1ed151ad93fb63822b77ece33ca5f",
+      "textMatch": true,
+      "chapters": [
+        {
+          "id": 1,
+          "title": "Introduction",
+          "start": 25,
+          "end": 112,
+          "textMatch": true,
+          "textSHA256": "3f0717adcd03e5200b51894144412f1968ce877bba759a0b555b130e41037060"
+        },
+        {
+          "id": 2,
+          "title": "The Physical Layer",
+          "start": 113,
+          "end": 216,
+          "textMatch": true,
+          "textSHA256": "ded0ba2b0903c0471ed9449e4564ca70b2c30d7a11775adb2fa7e493c686f406"
+        },
+        {
+          "id": 3,
+          "title": "The Data Link Layer",
+          "start": 217,
+          "end": 280,
+          "textMatch": true,
+          "textSHA256": "eddb33598f8b78d0ad0e823bda092898e3a69b7d8f2bbb7ad1b81cde3c3bf1e0"
+        },
+        {
+          "id": 4,
+          "title": "The Medium Access Control Sublayer",
+          "start": 281,
+          "end": 378,
+          "textMatch": true,
+          "textSHA256": "0f15670b00c6450c12b55804f2579cb5018f7d517257985053e0607fecab90fe"
+        },
+        {
+          "id": 5,
+          "title": "The Network Layer",
+          "start": 379,
+          "end": 518,
+          "textMatch": true,
+          "textSHA256": "06402d0f841546feb900f25780299d455f76219176dde8bb5a56db622694e6de"
+        },
+        {
+          "id": 6,
+          "title": "The Transport Layer",
+          "start": 519,
+          "end": 634,
+          "textMatch": true,
+          "textSHA256": "418a5884cf812ace5c7f24249262520f7e56160a823347e0b5fa606a4ad2fd07"
+        },
+        {
+          "id": 7,
+          "title": "The Application Layer",
+          "start": 635,
+          "end": 786,
+          "textMatch": true,
+          "textSHA256": "c1e76c8dbf0438ba1950f9b3a60f08fbf7576364a2d7fa5f40594925d6cb3db2"
+        },
+        {
+          "id": 8,
+          "title": "Network Security",
+          "start": 787,
+          "end": 900,
+          "textMatch": true,
+          "textSHA256": "39a8f517e51a57aad7fac71857e44e6ed8354558ac3869cbddb526ff08bcac68"
+        },
+        {
+          "id": 9,
+          "title": "Reading List And Bibliography",
+          "start": 901,
+          "end": 928,
+          "textMatch": true,
+          "textSHA256": "4fa2ca170e5b1247130481dbe23281f7f18130346145d3477cea9721c3f3131a"
+        },
+        {
+          "id": 10,
+          "title": "Index",
+          "start": 929,
+          "end": 962,
+          "textMatch": true,
+          "textSHA256": "ff4939211562a3ea02f4d9a15914b0a26870a099131ee58a2f5c70ce439974a3"
+        }
+      ],
+      "chapterHeadingsVerified": 9
+    },
+    {
+      "id": "dbms",
+      "pdfPages": 1376,
+      "sourceEntries": 33,
+      "start": 28,
+      "end": 1376,
+      "pageImages": 1349,
+      "pdfSHA256": "4caafc657ce455e63e6f3a7b2992f81c49a668ca2ec7d83d1163b85d9c8da910",
+      "textMatch": true,
+      "chapters": [
+        {
+          "id": 1,
+          "title": "Introduction",
+          "start": 28,
+          "end": 65,
+          "textMatch": true,
+          "textSHA256": "a8735f4bf6ab79ce963ab445cc191678ec15eb15616b8a27fac1f32c60b3fae1"
+        },
+        {
+          "id": 2,
+          "title": "Introduction to the Relational Model",
+          "start": 66,
+          "end": 83,
+          "textMatch": true,
+          "textSHA256": "421a256d48c386bdbf4d3f9b6dda8ed872ae4d4cf973bf559dbbd5f46e4c651c"
+        },
+        {
+          "id": 3,
+          "title": "Introduction to SQL",
+          "start": 84,
+          "end": 139,
+          "textMatch": true,
+          "textSHA256": "dcd20d38e24f0564dc5b2cfe3988ccc899147bbe61ef002215405dc2dec44ffe"
+        },
+        {
+          "id": 4,
+          "title": "Intermediate SQL",
+          "start": 140,
+          "end": 183,
+          "textMatch": true,
+          "textSHA256": "85100aab985c816168efb73997a10318fd83e2c4d40c89541afdfb159f9dfd55"
+        },
+        {
+          "id": 5,
+          "title": "Advanced SQL",
+          "start": 184,
+          "end": 243,
+          "textMatch": true,
+          "textSHA256": "f5e64e4f6b65889e656741f9176ef9c8cfae886e27a622faf1c33898f88ad0f0"
+        },
+        {
+          "id": 6,
+          "title": "Formal Relational Query Languages",
+          "start": 244,
+          "end": 285,
+          "textMatch": true,
+          "textSHA256": "dd8287c255b4a5c169e1eda4d8d8ee4486fc954cdb2d3a0ba5c5aa471722b955"
+        },
+        {
+          "id": 7,
+          "title": "Database Design and the E-R Model",
+          "start": 286,
+          "end": 349,
+          "textMatch": true,
+          "textSHA256": "bbe1d1980bfe9350fde375c709c741757a680a8c96f9c64d95e08844abf986b2"
+        },
+        {
+          "id": 8,
+          "title": "Relational Database Design",
+          "start": 350,
+          "end": 401,
+          "textMatch": true,
+          "textSHA256": "a6781a738647d214d99c009ff251710836b8fc0a26dcd6bcbe63b602f37c6564"
+        },
+        {
+          "id": 9,
+          "title": "Application Design and Development",
+          "start": 402,
+          "end": 455,
+          "textMatch": true,
+          "textSHA256": "abec614e585f671535689b4a1138d6071fc9adba3f96ff21222ab88c662f6e33"
+        },
+        {
+          "id": 10,
+          "title": "Storage and File Structure",
+          "start": 456,
+          "end": 501,
+          "textMatch": true,
+          "textSHA256": "570acf7285f44d3b8f35916ec0c985c30b6d376c6d5735ceeb05d728ee9ab705"
+        },
+        {
+          "id": 11,
+          "title": "Indexing and Hashing",
+          "start": 502,
+          "end": 563,
+          "textMatch": true,
+          "textSHA256": "a35b7e8f4aba1d63af827f6a9eeeb8759235b7341deb7f946d97267c35940431"
+        },
+        {
+          "id": 12,
+          "title": "Query Processing",
+          "start": 564,
+          "end": 605,
+          "textMatch": true,
+          "textSHA256": "e9ca7c3462435a85a653c88c0ef084d426f674af625b377916e189cf0add89ea"
+        },
+        {
+          "id": 13,
+          "title": "Query Optimization",
+          "start": 606,
+          "end": 653,
+          "textMatch": true,
+          "textSHA256": "7ed70fda83e023870a4b8bf60b34991640a7c0dee52551143b4dadfd890ee32e"
+        },
+        {
+          "id": 14,
+          "title": "Transactions",
+          "start": 654,
+          "end": 687,
+          "textMatch": true,
+          "textSHA256": "223959b803dd86b0eb5ee208df3034162123d9577c5683ddca9b29e04ea2f7d3"
+        },
+        {
+          "id": 15,
+          "title": "Concurrency Control",
+          "start": 688,
+          "end": 747,
+          "textMatch": true,
+          "textSHA256": "8223895afd8e383ba6b02af5f002683f643893e005e667fc3f339bcb569bea07"
+        },
+        {
+          "id": 16,
+          "title": "Recovery System",
+          "start": 748,
+          "end": 795,
+          "textMatch": true,
+          "textSHA256": "9c4a56aaff8ef2f401eb6d470549a227c87a1d26994ee519160ddaa1555026b3"
+        },
+        {
+          "id": 17,
+          "title": "Database-System Architectures",
+          "start": 796,
+          "end": 823,
+          "textMatch": true,
+          "textSHA256": "af9061eb3ba1575d85fcdbf2cf37a789b9e74d0bccb010aee91b547ec2c03a43"
+        },
+        {
+          "id": 18,
+          "title": "Parallel Databases",
+          "start": 824,
+          "end": 851,
+          "textMatch": true,
+          "textSHA256": "b3747cecdb7da9721aceeabdace09402406f76b893c328b229aa38c43f0fe8fa"
+        },
+        {
+          "id": 19,
+          "title": "Distributed Databases",
+          "start": 852,
+          "end": 913,
+          "textMatch": true,
+          "textSHA256": "d143cc77c200d62ba5367f33dbb7b31affe3fa24a9ea06417022dae5dd6be08e"
+        },
+        {
+          "id": 20,
+          "title": "Data Warehousing and Mining",
+          "start": 914,
+          "end": 941,
+          "textMatch": true,
+          "textSHA256": "7419e04d58fbe2b78359658652003f0c21fa9a1519167e3a4678520b9c043b4b"
+        },
+        {
+          "id": 21,
+          "title": "Information Retrieval",
+          "start": 942,
+          "end": 971,
+          "textMatch": true,
+          "textSHA256": "ff3d061da17771012b4a8f27a214a2a1f9a0f4069831b901e90548d0b5348575"
+        },
+        {
+          "id": 22,
+          "title": "Object-Based Databases",
+          "start": 972,
+          "end": 1007,
+          "textMatch": true,
+          "textSHA256": "82034966ff973dc8a94a61db72ba4ee66996449265ebbc5b17f31f2a96daf7d2"
+        },
+        {
+          "id": 23,
+          "title": "XML",
+          "start": 1008,
+          "end": 1055,
+          "textMatch": true,
+          "textSHA256": "d3a9293d10ced2b3fc562405e55d253efec915e0a0380cdd5873cd7ae78a2394"
+        },
+        {
+          "id": 24,
+          "title": "Advanced Application Development",
+          "start": 1056,
+          "end": 1087,
+          "textMatch": true,
+          "textSHA256": "d39d29f5a6c1625e19675bbd8a2b0065642151b01cc2d8cde8b1cd9abd1ebf92"
+        },
+        {
+          "id": 25,
+          "title": "Spatial and Temporal Data and Mobility",
+          "start": 1088,
+          "end": 1117,
+          "textMatch": true,
+          "textSHA256": "b60d6a45e60cbe0d1e5e295b4c4c9d487a61020c927b3187b6ff74a98c88b798"
+        },
+        {
+          "id": 26,
+          "title": "Advanced Transaction Processing",
+          "start": 1118,
+          "end": 1149,
+          "textMatch": true,
+          "textSHA256": "efc3d6278a9f1815e45882c8739cc7239fe38e1da2f321b82940b277b1d36a03"
+        },
+        {
+          "id": 27,
+          "title": "PostgreSQL",
+          "start": 1150,
+          "end": 1183,
+          "textMatch": true,
+          "textSHA256": "6a403454c02bb7ecb930680d07c482d682e74f091b7e5bd904e9fec4b461b2ba"
+        },
+        {
+          "id": 28,
+          "title": "Oracle",
+          "start": 1184,
+          "end": 1219,
+          "textMatch": true,
+          "textSHA256": "7d5240358b32ae4ada8b805b91bd5600fabac7dfc9df40fe133f2979a6b7e8c0"
+        },
+        {
+          "id": 29,
+          "title": "IBM DB2 Universal Database",
+          "start": 1220,
+          "end": 1249,
+          "textMatch": true,
+          "textSHA256": "550b99b2f80bf6df44f5a34ba833b92c6b223ebdc1c17b9e26c2cb9e847bfb1d"
+        },
+        {
+          "id": 30,
+          "title": "Microsoft SQL Server",
+          "start": 1250,
+          "end": 1297,
+          "textMatch": true,
+          "textSHA256": "5dab39c4635b7daf9f374daa20110829b47fc8f976c6ff2090a0b9279bce015f"
+        },
+        {
+          "id": 31,
+          "title": "Appendix A: Detailed University Schema",
+          "start": 1298,
+          "end": 1309,
+          "textMatch": true,
+          "textSHA256": "a5e73abafc90960e8ab2c6e20987be314788412aebe29af1ff872c3b55452efb"
+        },
+        {
+          "id": 32,
+          "title": "Bibliography",
+          "start": 1310,
+          "end": 1341,
+          "textMatch": true,
+          "textSHA256": "43f8ec0bf983b9ce8474c8a4ecf223080d62e563aa34a86a3fd84181df3dc8fa"
+        },
+        {
+          "id": 33,
+          "title": "Index",
+          "start": 1342,
+          "end": 1376,
+          "textMatch": true,
+          "textSHA256": "308dcaeff0c47d11b9507f542f5eec5010f6afd6474eccb06a9a28fdd26888c4"
+        }
+      ],
+      "chapterHeadingsVerified": 30
+    },
+    {
+      "id": "operating-systems",
+      "pdfPages": 944,
+      "sourceEntries": 22,
+      "start": 27,
+      "end": 944,
+      "pageImages": 918,
+      "pdfSHA256": "6601ce21d08a5f6d557a2828f01c75287e7671919f0699faf2ebe6a86be525e7",
+      "textMatch": true,
+      "chapters": [
+        {
+          "id": 1,
+          "title": "Introduction",
+          "start": 27,
+          "end": 78,
+          "textMatch": true,
+          "textSHA256": "fd8aff5bd224bf8b548f0307f59753234f16f756c83fda97ba8d463e43219c05"
+        },
+        {
+          "id": 2,
+          "title": "Operating-System Structures",
+          "start": 79,
+          "end": 128,
+          "textMatch": true,
+          "textSHA256": "88ad77fa6b69602bc0b119f801a30ddcd950b3fe924ab365912628331b517892"
+        },
+        {
+          "id": 3,
+          "title": "Processes",
+          "start": 129,
+          "end": 186,
+          "textMatch": true,
+          "textSHA256": "bb9f274c89f414c8f4067138873d9367780147ab77d8277f078c6eb0ebbb57c6"
+        },
+        {
+          "id": 4,
+          "title": "Threads",
+          "start": 187,
+          "end": 226,
+          "textMatch": true,
+          "textSHA256": "89812f22e0181f17a18037c4327f4614a5a7f7c5898efbb926ca06025d82596b"
+        },
+        {
+          "id": 5,
+          "title": "Process Synchronization",
+          "start": 227,
+          "end": 284,
+          "textMatch": true,
+          "textSHA256": "bea8306d545e23a5c881d07a6806ccf60bb2054c142e6d207da37768b5e54dea"
+        },
+        {
+          "id": 6,
+          "title": "CPU Scheduling",
+          "start": 285,
+          "end": 338,
+          "textMatch": true,
+          "textSHA256": "57c60ecd0ef995c0a063d544e9d168fa5d48c9226e6e566b38f9888a9e14f7f6"
+        },
+        {
+          "id": 7,
+          "title": "Deadlocks",
+          "start": 339,
+          "end": 374,
+          "textMatch": true,
+          "textSHA256": "470e852ada342469fab410ea0adab82d9c6e1fcf99e4afcebeae722e1c91901a"
+        },
+        {
+          "id": 8,
+          "title": "Main Memory",
+          "start": 375,
+          "end": 420,
+          "textMatch": true,
+          "textSHA256": "553842923af8a9d2f0e6f2d8b25fac6c49ffce14416077341c96129c8f733bae"
+        },
+        {
+          "id": 9,
+          "title": "Virtual Memory",
+          "start": 421,
+          "end": 490,
+          "textMatch": true,
+          "textSHA256": "72f47dc4f4fb5d7427cee25abbde2c2be7a0bceab37f50bfd6511ed7c2fffa4a"
+        },
+        {
+          "id": 10,
+          "title": "Mass-Storage Structure",
+          "start": 491,
+          "end": 526,
+          "textMatch": true,
+          "textSHA256": "df52e018065c80c68541e17ad49ba6c812ae08e4ee86ecf0f5c2db028bd83b9d"
+        },
+        {
+          "id": 11,
+          "title": "File-System Interface",
+          "start": 527,
+          "end": 566,
+          "textMatch": true,
+          "textSHA256": "3844e64058cff115d11fd635bad718ce1e560bb247dc9d55b28d8afff5c49306"
+        },
+        {
+          "id": 12,
+          "title": "File-System Implementation",
+          "start": 567,
+          "end": 610,
+          "textMatch": true,
+          "textSHA256": "be4fe9de86ef8a12affc3aface0c27156ff6ad0290dbf919145dc421fd8ebbe1"
+        },
+        {
+          "id": 13,
+          "title": "I/O Systems",
+          "start": 611,
+          "end": 648,
+          "textMatch": true,
+          "textSHA256": "a2468cdc6a32efe180dbc86c5c9f0e574481fc5b74ac4fb904dacf00b36588d1"
+        },
+        {
+          "id": 14,
+          "title": "Protection",
+          "start": 649,
+          "end": 680,
+          "textMatch": true,
+          "textSHA256": "c9a2006f78209de18079d49df4ba00725485df5dd4b1f0f3123ac1964dc433a2"
+        },
+        {
+          "id": 15,
+          "title": "Security",
+          "start": 681,
+          "end": 734,
+          "textMatch": true,
+          "textSHA256": "16578671b5637786a305e94f08c6284a2ff0600534841909367226b51151441b"
+        },
+        {
+          "id": 16,
+          "title": "Virtual Machines",
+          "start": 735,
+          "end": 764,
+          "textMatch": true,
+          "textSHA256": "78a0139a1009c1dbc493f26fe9e1efd724eb775d2a80592a955446135edfd834"
+        },
+        {
+          "id": 17,
+          "title": "Distributed Systems",
+          "start": 765,
+          "end": 804,
+          "textMatch": true,
+          "textSHA256": "67d293dcff33190b475c9e8dd2bb04cead7b79dd5521bb261bbab460bb40fc12"
+        },
+        {
+          "id": 18,
+          "title": "The Linux System",
+          "start": 805,
+          "end": 852,
+          "textMatch": true,
+          "textSHA256": "a91fb2941a65d760ed15e02cd7d618eea4b87d57b00aef6363b0c5193fb4cdf6"
+        },
+        {
+          "id": 19,
+          "title": "Windows 7",
+          "start": 853,
+          "end": 910,
+          "textMatch": true,
+          "textSHA256": "65fb6afc00ec20b3ca678066d7d950924be3481fece995363d1e743c9d15f524"
+        },
+        {
+          "id": 20,
+          "title": "Influential Operating Systems",
+          "start": 911,
+          "end": 932,
+          "textMatch": true,
+          "textSHA256": "aac06964cd44f98e4b4104e6fb834cc844672ab9227d70e80a5d9d24bed52403"
+        },
+        {
+          "id": 21,
+          "title": "Credits",
+          "start": 933,
+          "end": 934,
+          "textMatch": true,
+          "textSHA256": "bde4856060062da534ad5e2475abd43f6eeaced8e2e4a065997edba1ef9c87ca"
+        },
+        {
+          "id": 22,
+          "title": "Index",
+          "start": 935,
+          "end": 944,
+          "textMatch": true,
+          "textSHA256": "f8988be6b104e6595e53f61f72f33f46c399bb4e5a5f78724494b8437a76d219"
+        }
+      ],
+      "chapterHeadingsVerified": 20
+    },
+    {
+      "id": "devops",
+      "pdfPages": 435,
+      "sourceEntries": 48,
+      "start": 32,
+      "end": 435,
+      "pageImages": 404,
+      "pdfSHA256": "cbf404f8e80b00a039337977c132e60423750ac9e9782bc2f941532685dc288d",
+      "textMatch": true,
+      "chapters": [
+        {
+          "id": 1,
+          "title": "Introduction",
+          "start": 32,
+          "end": 39,
+          "textMatch": true,
+          "textSHA256": "00581b9310c64da3208af403b9dcf359fa5592018d67fa3951659830bcb587b4"
+        },
+        {
+          "id": 2,
+          "title": "What is Engineering DevOps?",
+          "start": 40,
+          "end": 53,
+          "textMatch": true,
+          "textSHA256": "0e2a8a350098f72d2dfe1f67c4ce656ce7c0e974d0441dd5cdbe24fb086d0a51"
+        },
+        {
+          "id": 3,
+          "title": "Nine Pillars of Engineering DevOps",
+          "start": 54,
+          "end": 67,
+          "textMatch": true,
+          "textSHA256": "0158200ffc563d1d714f1eeffc6f38bd3b8648c9ac69b533032848f08466e301"
+        },
+        {
+          "id": 4,
+          "title": "Why is Engineering DevOps Important?",
+          "start": 68,
+          "end": 84,
+          "textMatch": true,
+          "textSHA256": "26a52d0272177282dafcd4e97c951cd743cc770ffab22204f29686007d36ca91"
+        },
+        {
+          "id": 5,
+          "title": "How Should People, Process and Technology be Engineered for DevOps?",
+          "start": 85,
+          "end": 113,
+          "textMatch": true,
+          "textSHA256": "e18e73065ab2cf328bec29d970f15f83cd1d808da745268b3a3aa75cfd26ba39"
+        },
+        {
+          "id": 6,
+          "title": "Value Stream Management (VSM)",
+          "start": 114,
+          "end": 119,
+          "textMatch": true,
+          "textSHA256": "779989855db286f60c261fd724f64b36b326106bade6fb0f64ae70a9ef1f254f"
+        },
+        {
+          "id": 7,
+          "title": "Application Release Automation (ARA)",
+          "start": 120,
+          "end": 125,
+          "textMatch": true,
+          "textSHA256": "ee0271452cb354d0f86e98163165e8a607ee674c5f689e89b4f0f2547f75efd3"
+        },
+        {
+          "id": 8,
+          "title": "Version Management",
+          "start": 126,
+          "end": 131,
+          "textMatch": true,
+          "textSHA256": "ba26fae01fa92661c003e141dedf38134cc966058bd296c9c385e0a677783e5c"
+        },
+        {
+          "id": 9,
+          "title": "Continuous Security (a.k.a. DevSecOps)",
+          "start": 132,
+          "end": 141,
+          "textMatch": true,
+          "textSHA256": "bfad929ef6b2769675edaec2b096e79556f30b7c706452358e868bf7d7a7cd52"
+        },
+        {
+          "id": 10,
+          "title": "Service Catalogs Facilitate DevOps Engineering",
+          "start": 142,
+          "end": 150,
+          "textMatch": true,
+          "textSHA256": "7d0025bede1528d3150ba21ba532bec5bc4f265c567e2cd087b8b4cb8f853ffc"
+        },
+        {
+          "id": 11,
+          "title": "DevOps Governance Engineering",
+          "start": 151,
+          "end": 158,
+          "textMatch": true,
+          "textSHA256": "7587876c8f52f10d65affca2b1cb7945ff4da06cd0f1a82bc6961923960e4511"
+        },
+        {
+          "id": 12,
+          "title": "Site Reliability Engineering (SRE)",
+          "start": 159,
+          "end": 164,
+          "textMatch": true,
+          "textSHA256": "e585719716fbf7f6bb55a102ba2d21a4d754276377220ccdd7068f0e60607528"
+        },
+        {
+          "id": 13,
+          "title": "DevOps Disaster Mitigation and Recovery",
+          "start": 165,
+          "end": 169,
+          "textMatch": true,
+          "textSHA256": "49b74034345477f0ffc1b100504ddfbdf781558bbfbe4d9dc2c6acd468887d9f"
+        },
+        {
+          "id": 14,
+          "title": "DevOps Application Engineering",
+          "start": 170,
+          "end": 189,
+          "textMatch": true,
+          "textSHA256": "e49727972fc4183df6a6f145bb0c9e2f0e9735cc6e1c7002946da3d4725e121d"
+        },
+        {
+          "id": 15,
+          "title": "CI/CD Pipeline Engineering",
+          "start": 190,
+          "end": 209,
+          "textMatch": true,
+          "textSHA256": "c11d2f35dab3f5adec46d612dde57b41ca1f5fac0ca7163446ca12599a66e2c9"
+        },
+        {
+          "id": 16,
+          "title": "DevOps Elastic Infrastructures",
+          "start": 210,
+          "end": 248,
+          "textMatch": true,
+          "textSHA256": "f103b6ef9a959271c2aacf27d856a4303f14da0479802478ff34049aecae0e59"
+        },
+        {
+          "id": 17,
+          "title": "Continuous Test Engineering",
+          "start": 249,
+          "end": 256,
+          "textMatch": true,
+          "textSHA256": "f97cf5618cddd8960a454c04f818aef4131df458d0d82e4efa7d0ddd980c75fd"
+        },
+        {
+          "id": 18,
+          "title": "Continuous Monitoring Engineering",
+          "start": 257,
+          "end": 264,
+          "textMatch": true,
+          "textSHA256": "941260daae3bc07554a1f49336b15fa7c4f3d50bac9902e118a5af680f035b56"
+        },
+        {
+          "id": 19,
+          "title": "Continuous Delivery and Deployment Engineering",
+          "start": 265,
+          "end": 282,
+          "textMatch": true,
+          "textSHA256": "cda17c7c2014a5480505e7d5ede44457c99f9be504efec671bfcaefe9fb6fea1"
+        },
+        {
+          "id": 20,
+          "title": "DevOps Seven-Step Transformation Engineering Blueprint",
+          "start": 283,
+          "end": 286,
+          "textMatch": true,
+          "textSHA256": "e6d61ad9e6e213fbdf05405243ae63822550a2d528f9a1a8e237b8fd8ed870a4"
+        },
+        {
+          "id": 21,
+          "title": "Step One: Visioning",
+          "start": 287,
+          "end": 290,
+          "textMatch": true,
+          "textSHA256": "814bb32c63d6e80db5ba774ffaab07354b51ba728b38f6b41a28dad3d5547b55"
+        },
+        {
+          "id": 22,
+          "title": "Step Two: Alignment",
+          "start": 291,
+          "end": 297,
+          "textMatch": true,
+          "textSHA256": "6c6135f8b0ba6f2742c4bf2d9ac97d8a70775f12630873cc5a3c59d835863fef"
+        },
+        {
+          "id": 23,
+          "title": "Step Three: Assessment",
+          "start": 298,
+          "end": 303,
+          "textMatch": true,
+          "textSHA256": "61ab354ce7deef5c295f3e99c551ea4f5fef2fc66fcded3255e3ee9364fe678c"
+        },
+        {
+          "id": 24,
+          "title": "Step Four: Solution",
+          "start": 304,
+          "end": 315,
+          "textMatch": true,
+          "textSHA256": "db00ca7e9527298fb5d509ec7a936e24ad147b576939b01ef3413884adbd0eb2"
+        },
+        {
+          "id": 25,
+          "title": "Step Five: Realize",
+          "start": 316,
+          "end": 329,
+          "textMatch": true,
+          "textSHA256": "a98d87dc0d2349abd2f87d72d8c12fa360991790406ccd2d9247057f4752b402"
+        },
+        {
+          "id": 26,
+          "title": "Step Six: Operationalize",
+          "start": 330,
+          "end": 334,
+          "textMatch": true,
+          "textSHA256": "caa67397ea8496c526d56c9377c542951c13000c79aa0a231eed0f97a225f208"
+        },
+        {
+          "id": 27,
+          "title": "Step Seven: Expansion",
+          "start": 335,
+          "end": 343,
+          "textMatch": true,
+          "textSHA256": "1bdde18aa55c7b40821c3d1965fea85a29147140f553ae5757a5bf49856ddf18"
+        },
+        {
+          "id": 28,
+          "title": "Future of Engineering DevOps - Beyond Continuous Improvement",
+          "start": 344,
+          "end": 350,
+          "textMatch": true,
+          "textSHA256": "4917ecf447aa687bbb2766fd1ed4277b9d756b102d962e800fa726f030ef70be"
+        },
+        {
+          "id": 29,
+          "title": "Continuous Learning",
+          "start": 351,
+          "end": 362,
+          "textMatch": true,
+          "textSHA256": "398e1047da5634dc3a5438d85f9daca44c181cfdeb301bb773b1e6506464d81a"
+        },
+        {
+          "id": 30,
+          "title": "Appendix A - Definition of DevOps Engineering Terms",
+          "start": 363,
+          "end": 372,
+          "textMatch": true,
+          "textSHA256": "c67bac6eca9bfd218cae133742edd159c5b991ce879fae5de4764af64347390a"
+        },
+        {
+          "id": 31,
+          "title": "Appendix B - DevOps Transformation Application Scorecard",
+          "start": 373,
+          "end": 374,
+          "textMatch": true,
+          "textSHA256": "d90966533cb4e82521bcaf26e6cd50cdaec4a17b998b983a13ae5b4d28493690"
+        },
+        {
+          "id": 32,
+          "title": "Appendix C - DevOps Transformation Vision Meeting",
+          "start": 375,
+          "end": 378,
+          "textMatch": true,
+          "textSHA256": "9511d4e94162b3f66854e5b4020e00d254bfc3b38034beebfe5465f021facc2a"
+        },
+        {
+          "id": 33,
+          "title": "Appendix D - DevOps Transformation Goals Scorecard",
+          "start": 379,
+          "end": 380,
+          "textMatch": true,
+          "textSHA256": "9dddc8cd61d98a4400890b526e794e223c515c26dfb91679d954ec6c8cd8402c"
+        },
+        {
+          "id": 34,
+          "title": "Appendix E - DevOps Transformation Alignment Meeting",
+          "start": 381,
+          "end": 386,
+          "textMatch": true,
+          "textSHA256": "2a2552380aa9093438d95ef17e36d55a6f95c085c4724386b749821cce52f2ef"
+        },
+        {
+          "id": 35,
+          "title": "Appendix F - DevOps Transformation Practices Topics Scorecard",
+          "start": 387,
+          "end": 388,
+          "textMatch": true,
+          "textSHA256": "9a54115f6401409d8b971b513fcff4ce488ebbb7992d9a30fd661c8afddffa34"
+        },
+        {
+          "id": 36,
+          "title": "Appendix G - DevOps Assessment Discovery Survey",
+          "start": 389,
+          "end": 395,
+          "textMatch": true,
+          "textSHA256": "a4bcadd974a3565e33a0ffd76bdd3a3b73ebd69246963ff9320f52dbc41f809d"
+        },
+        {
+          "id": 37,
+          "title": "Appendix H - DevOps Transformation Practices Maturity Assessment Workshop",
+          "start": 396,
+          "end": 400,
+          "textMatch": true,
+          "textSHA256": "493816f2a966d6d0f9b4344a80daca0d7ce3a2ecec96511fae38dd79bdac8844"
+        },
+        {
+          "id": 38,
+          "title": "Appendix I - DevOps Current State Value-Stream Mapping Workshop",
+          "start": 401,
+          "end": 405,
+          "textMatch": true,
+          "textSHA256": "507882b8923dc6826b3cb6fda0a7b959fe234e43a419fd7d8fdd12bb1245f247"
+        },
+        {
+          "id": 39,
+          "title": "Appendix J - DevOps Solution Requirements Alignment Matrix",
+          "start": 406,
+          "end": 407,
+          "textMatch": true,
+          "textSHA256": "fa197c4d238e4331241b660bf9a00d02f330590499b8f507bb7629ce4c6dec2c"
+        },
+        {
+          "id": 40,
+          "title": "Appendix K - Value-Stream Map Template",
+          "start": 408,
+          "end": 408,
+          "textMatch": true,
+          "textSHA256": "a54f548e559332dfdfc4c26d3d77860ac014c3e72427a96d2b8b290baa840604"
+        },
+        {
+          "id": 41,
+          "title": "Appendix L - DevOps Tools and Comparison Charts",
+          "start": 409,
+          "end": 410,
+          "textMatch": true,
+          "textSHA256": "6f18041b852d865f7531d0d6c0125025f237ad26fe88865b814c18bdffa673f4"
+        },
+        {
+          "id": 42,
+          "title": "Appendix M - Engineering DevOps Transformation RoadMap Template",
+          "start": 411,
+          "end": 412,
+          "textMatch": true,
+          "textSHA256": "a3413408ddd9f290983eb6cd1b3905598ba37ebaebf27b8dcb7dbb1d18aa4893"
+        },
+        {
+          "id": 43,
+          "title": "Appendix N - Engineering DevOps Transformation Backlog Template",
+          "start": 413,
+          "end": 414,
+          "textMatch": true,
+          "textSHA256": "5c5c0de3e43d2efefa774dbf4b6b756d7393b98d00847c1fd2f574624d21daf0"
+        },
+        {
+          "id": 44,
+          "title": "Appendix O - Engineering DevOps Transformation ROI Calculator",
+          "start": 415,
+          "end": 416,
+          "textMatch": true,
+          "textSHA256": "6d10313d1e68e3382e6d2c832aa0bb97d69a451f01de78960af556a3191c4170"
+        },
+        {
+          "id": 45,
+          "title": "Appendix P - DevOps Transformation Solution Recommendation Meeting",
+          "start": 417,
+          "end": 424,
+          "textMatch": true,
+          "textSHA256": "6c6a31de09dd9d40f781921c12fbe9a28d40badb0584903a96afd5a0ca7d263f"
+        },
+        {
+          "id": 46,
+          "title": "Appendix Q - NetDevOps Blueprint",
+          "start": 425,
+          "end": 425,
+          "textMatch": true,
+          "textSHA256": "15aafa96255975e9110639abf43ed28f08d85445e95129dff63c18d4c9cdf5f9"
+        },
+        {
+          "id": 47,
+          "title": "References",
+          "start": 426,
+          "end": 432,
+          "textMatch": true,
+          "textSHA256": "7ff0c3a3ef11b780c64930e0bf8cd96965a11d063d983509e566a7689f9fb4a9"
+        },
+        {
+          "id": 48,
+          "title": "About the Author",
+          "start": 433,
+          "end": 435,
+          "textMatch": true,
+          "textSHA256": "10512a03e765bfc6cd8c654f63c2b609dbc64cb2262da37741e3dd854ff0a99b"
+        }
+      ],
+      "chapterHeadingsVerified": 28
+    },
+    {
+      "id": "react",
+      "pdfPages": 508,
+      "sourceEntries": 23,
+      "start": 29,
+      "end": 508,
+      "pageImages": 480,
+      "pdfSHA256": "c498297a073281ad2de26e27b2a8f9e071b3df05f4c36f9960cb5fcbbbf1575a",
+      "textMatch": true,
+      "chapters": [
+        {
+          "id": 1,
+          "title": "Introduction",
+          "start": 29,
+          "end": 54,
+          "textMatch": true,
+          "textSHA256": "e0d2ba7645c306f95bc1219b476938bebda23ff12550a3e85c67812e95139c37"
+        },
+        {
+          "id": 2,
+          "title": "Hello, World!",
+          "start": 55,
+          "end": 64,
+          "textMatch": true,
+          "textSHA256": "968daa2d0c07d8c58ca3a783be3c16184044ff55ab2bd4e5d3ea45b08e36061c"
+        },
+        {
+          "id": 3,
+          "title": "The Foundation of React",
+          "start": 65,
+          "end": 76,
+          "textMatch": true,
+          "textSHA256": "01dd9dca177213e8896b8b4f623de81c18f78f057d4449b52fc4ce43323d7555"
+        },
+        {
+          "id": 4,
+          "title": "JSX",
+          "start": 77,
+          "end": 96,
+          "textMatch": true,
+          "textSHA256": "64771f46bbd716ad1c036e6fbb90c595231f69ae3b4160773aa2095e48319a0d"
+        },
+        {
+          "id": 5,
+          "title": "All About Components",
+          "start": 97,
+          "end": 158,
+          "textMatch": true,
+          "textSHA256": "19daa05fb2b0deaa869caae313a8d8c04663825f1f001315ad2a377de3070278"
+        },
+        {
+          "id": 6,
+          "title": "React DevTools",
+          "start": 159,
+          "end": 176,
+          "textMatch": true,
+          "textSHA256": "cbaedcee55b73f9f0b1a8988270cd95b269e5545132156a549307e6c7ad7b335"
+        },
+        {
+          "id": 7,
+          "title": "React Data Flow",
+          "start": 177,
+          "end": 252,
+          "textMatch": true,
+          "textSHA256": "002c9bdfb95ea6aa7ef277c80f10d7277dab5b783b4608f954859e4c7ab07626"
+        },
+        {
+          "id": 8,
+          "title": "Events",
+          "start": 253,
+          "end": 274,
+          "textMatch": true,
+          "textSHA256": "36c5ee7d8cd67d3ba5f9210c36b1a1fdb0e4228cc84a402da40deaca680da7aa"
+        },
+        {
+          "id": 9,
+          "title": "Forms",
+          "start": 275,
+          "end": 286,
+          "textMatch": true,
+          "textSHA256": "ba1ca47deada9942a826d9040c9636c4af44fa533468a7b1abc2edee01c0f1e2"
+        },
+        {
+          "id": 10,
+          "title": "Refs",
+          "start": 287,
+          "end": 296,
+          "textMatch": true,
+          "textSHA256": "ec6c9f3b56183484d9bc7f98a936882eff5b3f43f28bda5f8be9574f1f1545b8"
+        },
+        {
+          "id": 11,
+          "title": "Styling React",
+          "start": 297,
+          "end": 310,
+          "textMatch": true,
+          "textSHA256": "6d0245e5edee9f7dceaf739cb23165030552932e70a9ff435a5a7f009040adad"
+        },
+        {
+          "id": 12,
+          "title": "Introducing Hooks",
+          "start": 311,
+          "end": 342,
+          "textMatch": true,
+          "textSHA256": "38102f4abceab7ddd7f882034108142afce6f96b6bbe6954918563263b25e427"
+        },
+        {
+          "id": 13,
+          "title": "Routing",
+          "start": 343,
+          "end": 372,
+          "textMatch": true,
+          "textSHA256": "28ee5b9d96e1b8370c2f31d93dc1a1d15752790081e2acc199948d8638d1836b"
+        },
+        {
+          "id": 14,
+          "title": "Error Boundaries",
+          "start": 373,
+          "end": 392,
+          "textMatch": true,
+          "textSHA256": "fe8b6a928f3471f61a5eb184e17c646a9ad566df04e651a8360d336cd0bb655a"
+        },
+        {
+          "id": 15,
+          "title": "Deploying React",
+          "start": 393,
+          "end": 404,
+          "textMatch": true,
+          "textSHA256": "7867c4e601e0bd449224adf2103f84777faf8e9f048b76b0ddeffd3ebbf98990"
+        },
+        {
+          "id": 16,
+          "title": "Initialize a React Project from Scratch",
+          "start": 405,
+          "end": 422,
+          "textMatch": true,
+          "textSHA256": "37f8d4396eba815a4bb98b1cbd32d7184d8623ae3f7cf8e9f4d2f3c5d202cfec"
+        },
+        {
+          "id": 17,
+          "title": "Fetching and Caching Data",
+          "start": 423,
+          "end": 440,
+          "textMatch": true,
+          "textSHA256": "c9e4aa41cccedec31b9b8caae226bb2cdd81092bdf2465aee79e3b443a93c60c"
+        },
+        {
+          "id": 18,
+          "title": "Context API",
+          "start": 441,
+          "end": 452,
+          "textMatch": true,
+          "textSHA256": "12e840afbd77d327c4242e376bf1fa1e4aed7015a3b1dd1280b3bc23f8e5b2f4"
+        },
+        {
+          "id": 19,
+          "title": "React Portals",
+          "start": 453,
+          "end": 466,
+          "textMatch": true,
+          "textSHA256": "64b0235ca2768ca64fcf67a56c24665552292e37217efce0afa804f6d2c18e71"
+        },
+        {
+          "id": 20,
+          "title": "Accessibility in React",
+          "start": 467,
+          "end": 478,
+          "textMatch": true,
+          "textSHA256": "881045fd84bd92883232012c95020d98804cd15debdf69e8495d2edc8da68e36"
+        },
+        {
+          "id": 21,
+          "title": "Going Further",
+          "start": 479,
+          "end": 490,
+          "textMatch": true,
+          "textSHA256": "0f09132b8ea0889879d855a4c6e77c56630d8781096ba77df5eec7b2df003b49"
+        },
+        {
+          "id": 22,
+          "title": "Index",
+          "start": 491,
+          "end": 507,
+          "textMatch": true,
+          "textSHA256": "309be1b051ab270409aba030c06d8d4dc88556e844ec1296477a6e0780f27d43"
+        },
+        {
+          "id": 23,
+          "title": "EULA",
+          "start": 508,
+          "end": 508,
+          "textMatch": true,
+          "textSHA256": "a8aa4da7c4192594121225d9fd156c4f463aa517a55e1e94ddd797614e8a0b9c"
+        }
+      ],
+      "chapterHeadingsVerified": 20
+    }
+  ]
+}

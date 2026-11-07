@@ -133,7 +133,7 @@ const oopChapters = [
  ],'templates',[['Template instantiation','Creating the required specialization of a template for particular arguments.'],['Breakpoint','A debugger location that pauses execution so program state can be inspected.']], 'Modern extension: examples use C++17 syntax. The concurrency discussion distinguishes overlapping work from actual simultaneous execution and adds current shared-state guidance.')
 ];
 window.COURSES = [...(window.COURSES || []), {
- id:'oops', title:'Object-oriented Programming', shortTitle:'OOP Studio', language:'C++',
+ id:'oops', title:'OOPS', shortTitle:'OOPS Studio', language:'C++',
  description:'Make the concepts click. Learn C++ through visual lessons, working examples, and small challenges.',
  pdf:'assets/oops/source.pdf', pdfOffset:7, edition:'DCAP107 / DCAP404',
  attribution:'Based on Object-Oriented Programming, Lovely Professional University, edited by Dr. Mithilesh Kumar Dubey. ISBN 978-93-87034-82-2.',

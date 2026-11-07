@@ -31,6 +31,7 @@ const chapters=articles.map(a=>{
   interview:{prompt:g.scenario,model:g.model,focus:a.focus},references:referenceMap[a.guide]||[]
  };
 });
+for(let i=0;i<chapters.length;i++){const c=chapters[i],a=articles[i];c.reading={start:a.page,end:a.end,sections:[{title:a.title,body:a.text}],contents:[{number:'',title:a.title}],pages:c.sourcePages,originalKeywords:false,terms:c.terms,glossary:c.terms.map(t=>t[0]+': '+t[1]).join('\n\n')};}
 window.COURSES=[...(window.COURSES||[]).filter(c=>c.id!=='system-design'),{
  id:'system-design',title:'System Design',shortTitle:'System Design Studio',bookTitle:'System Design',bookSubtitle:'Architecture & interview practice',
  language:'Architecture',edition:'BIG ARCHIVE / 2023',pdf:'assets/system-design/source.pdf',pdfOffset:0,pageLabel:'PDF',
@@ -38,6 +39,6 @@ window.COURSES=[...(window.COURSES||[]).filter(c=>c.id!=='system-design'),{
  heroTitle:['Design the system.','Defend the decisions.'],heroDescription:'Explore every archive article, original diagram, and the engineering decisions behind a strong interview answer.',
  attribution:'Source: the supplied BIG ARCHIVE: SYSTEM DESIGN 2023 PDF (344 physical pages). Its article order, repeated topics, and original illustrations are preserved. Individual articles credit their respective authors and engineering sources.',
  sourceDisclaimer:'Historical source readings are provided in full alongside original page scans. Interview companion notes are additions, not claims about current company architectures. Related articles share explicitly labelled foundation checks. The final quiz deduplicates these checks.',
- deduplicateFinal:true,chapters
+ definitionsLabel:'Companion definitions',deduplicateFinal:true,chapters
 }];
 })();

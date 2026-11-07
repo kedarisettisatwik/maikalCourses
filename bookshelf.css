@@ -30,15 +30,27 @@ body.library main{max-width:1350px;padding:48px 68px 35px;overflow:clip}body.lib
 .book-link:hover,.book-link:focus-visible{z-index:10}
 /* Final interaction model: flat resting spines, real flex-space reservation,
    followed by an explicit pull and turn. Hover alone cannot expose a cover. */
-.book-link{transition:width .28s cubic-bezier(.2,.7,.2,1);position:relative}
+.book-link{transition:width .7s cubic-bezier(.22,1,.36,1);position:relative}
 .book-link.is-spacing{width:calc(var(--book-width) + 22px);z-index:10}
 .book-rest-spine{position:absolute;top:0;bottom:0;left:50%;translate:-50% 0;width:var(--book-depth);background:linear-gradient(90deg,#0002,transparent 18%,#ffffff16 55%,#0001),var(--book-color);border-radius:3px;display:flex;flex-direction:column;align-items:center;padding:18px 0;color:#fff;box-shadow:3px 7px 12px #25314d20;transition:opacity .12s ease}
 .book-rest-spine:before,.book-rest-spine:after{content:'';position:absolute;left:5px;right:5px;height:1px;background:#ffffff50}.book-rest-spine:before{top:45px}.book-rest-spine:after{bottom:45px}.book-rest-spine>span{font:7px Consolas,monospace;letter-spacing:1px}.book-rest-spine strong{writing-mode:vertical-rl;rotate:180deg;font-size:18px;line-height:1.2;max-height:220px;margin:auto;font-weight:600}.book-rest-spine small{font:10px Consolas,monospace;color:#fff}
 .book-link .book-object{position:absolute;left:50%;margin-left:calc(var(--book-width)/-2);visibility:hidden!important;opacity:0;transform:rotateY(90deg);transform-origin:center center;transition:none}
-.book-link.is-picked .book-rest-spine{opacity:0}.book-link.is-picked .book-object{visibility:visible!important;opacity:1;animation:library-pick .65s cubic-bezier(.2,.7,.2,1) both}
+.book-link.is-picked .book-rest-spine{opacity:0}.book-link.is-picked .book-object{visibility:visible!important;opacity:1;animation:library-pick 1.45s cubic-bezier(.25,.65,.25,1) both}
 .book-link:not(.is-picked) :is(.book-cover,.book-back,.book-pages,.book-top){opacity:0!important}
 .book-link.is-picked :is(.book-cover,.book-back,.book-pages,.book-top){opacity:1!important}
-@keyframes library-pick{0%{transform:translateY(0) translateZ(0) rotateY(90deg)}35%{transform:translateY(-20px) translateZ(45px) rotateY(90deg)}100%{transform:translateY(-20px) translateZ(45px) rotateY(0deg)}}
+@keyframes library-pick{0%{transform:translateY(0) translateZ(0) rotateY(90deg)}25%{transform:translateY(-20px) translateZ(45px) rotateY(90deg)}100%{transform:translateY(-20px) translateZ(45px) rotateY(0deg)}}
 .book-link.is-picked .book-object{transform:translateY(-20px) translateZ(45px) rotateY(0deg)}
 @media(max-width:680px){.shelf-books{justify-content:safe center}.book-rest-spine strong{font-size:14px;max-height:185px}.book-rest-spine{padding-top:15px}.bookshelf-scene{overflow-x:auto;overflow-y:clip}.shelf-cursor{display:none}}
 @media(prefers-reduced-motion:reduce){.book-link,.book-rest-spine{transition:none}.book-link.is-picked .book-object{animation:none}}
+
+/* Cinematic arrival uses the anchor; the independently transformed object remains
+   exclusively responsible for pickup. No layout shifts during the book drop. */
+.book-link.is-arriving{animation:book-land 1.35s var(--arrival-delay) both;animation-timing-function:cubic-bezier(.22,.7,.3,1);pointer-events:none;transform-origin:50% 100%}
+@keyframes book-land{0%{transform:translate3d(0,-105vh,0) rotate(var(--arrival-tilt));opacity:0}12%{opacity:1}62%{transform:translate3d(0,0,0) rotate(calc(var(--arrival-tilt)*-.32))}75%{transform:translate3d(0,-29px,0) rotate(calc(var(--arrival-tilt)*.22))}88%{transform:translate3d(0,0,0) rotate(-1deg)}95%{transform:translate3d(0,-5px,0) rotate(.4deg)}100%{transform:translate3d(0,0,0) rotate(0)}}
+.book-link.is-returning .book-rest-spine{opacity:0}
+.book-link.is-returning .book-object{visibility:visible!important;opacity:1;animation:library-return .95s cubic-bezier(.4,0,.3,1) both}
+.book-link.is-returning :is(.book-cover,.book-back,.book-pages,.book-top){opacity:1!important}
+@keyframes library-return{0%{transform:var(--return-from,translateY(-20px) translateZ(45px) rotateY(0))}75%{transform:translateY(-20px) translateZ(45px) rotateY(90deg)}100%{transform:translateY(0) translateZ(0) rotateY(90deg)}}
+.shelf-books{isolation:isolate}.shelf-books:has(.is-arriving)~.shelf-board{animation:shelf-settle 2.1s ease-out}
+@keyframes shelf-settle{0%,50%,100%{filter:brightness(1)}60%,78%{filter:brightness(1.07)}}
+@media(prefers-reduced-motion:reduce){.book-link.is-arriving,.book-link.is-returning .book-object,.shelf-board{animation:none!important}.book-link.is-arriving{pointer-events:auto}.book-link{transition:none!important}}

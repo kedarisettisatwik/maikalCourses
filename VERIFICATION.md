@@ -10,8 +10,9 @@
 | DBMS | 28-1376 | 30 chapters + Appendix A, Bibliography, Index | 1349 |
 | Operating Systems | 27-944 | 20 chapters + Credits, Index | 918 |
 | DevOps | 32-435 | Introduction + 28 chapters + 17 appendices + References, Author | 404 |
+| React | 29-508 | Introduction + 20 chapters + Index, EULA | 480 |
 
-Front matter, covers, and the unrelated final OOP back-cover material are not treated as course chapters. All six full original PDFs remain downloadable. Repeated System Design articles remain separate and in their original positions. The article inventory was checked against page headings as well as the archive contents, which omits several articles.
+Front matter, covers, and the unrelated final OOP back-cover material are not treated as course chapters. All seven full original PDFs remain downloadable. Repeated System Design articles remain separate and in their original positions. The article inventory was checked against page headings as well as the archive contents, which omits several articles.
 
 OOP has 202 source-reading sections and 81 entries in the original keyword sections. Definitions elsewhere in the source body remain in the complete chapter readings and page scans. Guided lessons and original readings are distinct views. Scans preserve diagrams, annotations, tables, and code layout that extraction can lose.
 
@@ -19,7 +20,7 @@ Machine-readable inventories: `courses/oops-coverage.json` and `courses/system-d
 
 ## Browser verification
 
-- All 322 chapter routes (including six final Interview chapters) rendered with their lessons, quizzes, and labs.
+- All 346 chapter routes (including seven final Interview chapters) rendered with their lessons, quizzes, and labs.
 - All 81 OOP keyword entries rendered in the Definitions tabs.
 - Full readings, original image loading, and section-read persistence checked.
 - System Design interview notes and per-course progress isolation checked.
@@ -49,6 +50,17 @@ The System Design archive is historical. Companion notes flag important oversimp
 
 ## Six-book expansion
 
-Validation checks 1,264 guided lessons, 632 checkpoints, 1,999 book-wide Q&As and 4,267 original page images. Every supplied source entry is represented in its book’s final Interview chapter. Reading modules and original page images load on demand. DBMS B–E and OS A/B are not physically supplied and are explicitly flagged as unavailable.
+Validation checks 1,356 guided lessons, 678 checkpoints, 2,137 book-wide Q&As and 4,747 original page images. Every supplied source entry is represented in its book’s final Interview chapter. Reading modules and original page images load on demand. DBMS B–E and OS A/B are not physically supplied and are explicitly flagged as unavailable.
 
 Browser checks cover every chapter route, interview chapter filters and answer controls, representative original WebP loading, source/glossary tabs, isolated persisted progress, stable shelf ordering, flat resting spines, neighbor movement before cover rotation, keyboard and touch selection, mobile containment and reduced motion. The updated local homepage Lighthouse audit scored 98 performance, 100 accessibility and 100 best practices.
+
+
+## Animated arrival and React update
+
+The homepage now staggers book falls, bounce and settling without shifting document layout. Hover reserves neighboring space over 700 ms, then pulls and turns the book over 1,450 ms. Returning a book preserves its current transform before rotating back and closing the gap. Touch, keyboard, interrupted pickup, mobile containment, initial spine-only presentation, OOPS naming after course navigation, and reduced motion were checked.
+
+Every React route was exercised, including complete reading/image loading and its replacement-vs-updater state queue lab (three replacements from zero produce one; three functional updaters after that produce four). OOPS’s complete transcript and System Design’s dedicated Full textbook tab were checked. All seven course-wide Interview banks, filters and reveal controls were exercised across 346 chapter routes.
+
+Independent fresh PDF extraction matched complete source transcripts for every included range exactly after whitespace/known font normalization. Original PDF hashes and 4,747 source image paths were verified. Inventory checks confirmed OOPS 14 units, System Design 189 articles, CN 9 numbered chapters, DBMS 30, OS 20, DevOps 28, and React 20, with physically present reference sections retained. See `courses/source-audit.json` for chapter-level evidence.
+
+Latest local simulated-mobile Lighthouse: performance 98, accessibility 100, best practices 100; FCP 1.6 s, LCP 2.3 s, total blocking 20 ms, CLS 0.001. These remain local observations, not network/device guarantees.

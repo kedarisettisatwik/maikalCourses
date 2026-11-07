@@ -1,0 +1,149 @@
+{
+  "id": "react",
+  "pdfPages": 508,
+  "sourceStart": 29,
+  "sourceEnd": 508,
+  "sourceEntries": 23,
+  "numberedChapters": 20,
+  "chapters": [
+    {
+      "id": 1,
+      "title": "Introduction",
+      "page": 29,
+      "end": 54
+    },
+    {
+      "id": 2,
+      "title": "Hello, World!",
+      "page": 55,
+      "end": 64
+    },
+    {
+      "id": 3,
+      "title": "The Foundation of React",
+      "page": 65,
+      "end": 76
+    },
+    {
+      "id": 4,
+      "title": "JSX",
+      "page": 77,
+      "end": 96
+    },
+    {
+      "id": 5,
+      "title": "All About Components",
+      "page": 97,
+      "end": 158
+    },
+    {
+      "id": 6,
+      "title": "React DevTools",
+      "page": 159,
+      "end": 176
+    },
+    {
+      "id": 7,
+      "title": "React Data Flow",
+      "page": 177,
+      "end": 252
+    },
+    {
+      "id": 8,
+      "title": "Events",
+      "page": 253,
+      "end": 274
+    },
+    {
+      "id": 9,
+      "title": "Forms",
+      "page": 275,
+      "end": 286
+    },
+    {
+      "id": 10,
+      "title": "Refs",
+      "page": 287,
+      "end": 296
+    },
+    {
+      "id": 11,
+      "title": "Styling React",
+      "page": 297,
+      "end": 310
+    },
+    {
+      "id": 12,
+      "title": "Introducing Hooks",
+      "page": 311,
+      "end": 342
+    },
+    {
+      "id": 13,
+      "title": "Routing",
+      "page": 343,
+      "end": 372
+    },
+    {
+      "id": 14,
+      "title": "Error Boundaries",
+      "page": 373,
+      "end": 392
+    },
+    {
+      "id": 15,
+      "title": "Deploying React",
+      "page": 393,
+      "end": 404
+    },
+    {
+      "id": 16,
+      "title": "Initialize a React Project from Scratch",
+      "page": 405,
+      "end": 422
+    },
+    {
+      "id": 17,
+      "title": "Fetching and Caching Data",
+      "page": 423,
+      "end": 440
+    },
+    {
+      "id": 18,
+      "title": "Context API",
+      "page": 441,
+      "end": 452
+    },
+    {
+      "id": 19,
+      "title": "React Portals",
+      "page": 453,
+      "end": 466
+    },
+    {
+      "id": 20,
+      "title": "Accessibility in React",
+      "page": 467,
+      "end": 478
+    },
+    {
+      "id": 21,
+      "title": "Going Further",
+      "page": 479,
+      "end": 490
+    },
+    {
+      "id": 22,
+      "title": "Index",
+      "page": 491,
+      "end": 507
+    },
+    {
+      "id": 23,
+      "title": "EULA",
+      "page": 508,
+      "end": 508
+    }
+  ],
+  "unavailableAppendices": []
+}

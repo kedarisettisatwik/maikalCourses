@@ -1,0 +1,2 @@
+/* Complete source range 508-508. */
+(()=>{const course=window.COURSES.find(c=>c.id==="react");const chapter=course.chapters.find(c=>c.id===23);chapter.reading={"start": 508, "end": 508, "sections": [{"title": "Source PDF page 508", "body": "WILEY END USER LICENSE AGREEMENT\nGo to www.wiley.com/go/eula to access Wiley’s ebook EULA."}], "contents": [], "pages": ["assets/react/pages/page-0508.webp"], "originalKeywords": false, "glossary": ""};chapter.reading.terms=chapter.terms;chapter.reading.glossary=chapter.terms.map(t=>t[0]+": "+t[1]).join("\n\n");})();
