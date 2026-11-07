@@ -19,11 +19,11 @@ window.registerTextbook = meta => {
   const otherAnswers=rows.filter((r,j)=>j!==i&&r[4]!==answer).slice(0,3).map(r=>r[4]);
   function quiz(q,correct,other,seed){const options=[correct,...other];while(options.length<4)options.push('An unrelated concern that does not define this mechanism.');const offset=seed%4;const rotated=options.slice(offset).concat(options.slice(0,offset));return {question:q,options:rotated,answer:(4-offset)%4,explanation:correct};}
   const outline=c.sections.map(s=>s.title).join('; ');
-  return {...c,description:focus,category:meta.language,
+  return {...c,sourceOutline:c.sections,description:focus,category:meta.language,
    note:(meta.editionNote||'')+' Source edition: '+meta.edition+'. Original textbook readings and page scans are retained separately. Companion notes are study additions; historical product, protocol-security, and operating-system details require checking before present-day use.',
    readingScript:'courses/'+meta.id+'/reading-'+c.id+'.js',
    lessons:[
-    {title:'Chapter map and learning goals',body:focus+'\n\n'+(outline?'The complete source reading covers: '+outline+'.':'This reference section is retained in full in the textbook reader.')+'\n\nOpen Full textbook for every supplied explanation, example, exercise, and original diagram in this source range.',takeaway:'Use the chapter map to connect each source section to its mechanism, assumptions, and consequences.'},
+    {title:'Chapter map and learning goals',body:focus+'\n\nExplore the grouped source topics below. Use each section link to read its complete explanation, examples, definitions, and diagrams in the textbook.',takeaway:'Use the chapter map to connect each source section to its mechanism, assumptions, and consequences.'},
     {title:term+': definition and mechanism',body:definition+'\n\n'+f[1],takeaway:definition},
     {title:'Interview question and worked answer',body:'Question: '+question+'\n\nAnswer: '+answer+'\n\nFollow-up: give a concrete example, describe one changed assumption, and explain how the answer would change.',takeaway:answer},
     {title:'Connect the concepts and verify them',body:focus+'\n\nWork through one original example from the full chapter. State its initial state, permitted operations, expected result, and assumptions. Then change one input or introduce a failure and explain the resulting behavior. Use the original figures and code when layout or notation matters.\n\nA complete explanation should separate a definition from an implementation choice and should name the relevant correctness condition or trade-off.',takeaway:'Test your explanation with an example and a counterexample, not only a remembered phrase.'}

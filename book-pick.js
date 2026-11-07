@@ -1,18 +1,19 @@
-/* Reserve physical shelf space, pull forward, then turn. Initial pointer position
-   does not open a book; resting spines are flat surfaces, never angled covers. */
-(() => {
- let picked=null,revealTimer=null,latestPointer='mouse';
- const reduce=matchMedia('(prefers-reduced-motion: reduce)');
- const returns=new WeakMap();
- function putBack(link){clearTimeout(returns.get(link));const open=link.classList.contains('is-picked');if(open)link.style.setProperty('--return-from',getComputedStyle(link.querySelector('.book-object')).transform);link.classList.remove('is-picked');if(open&&!reduce.matches){link.classList.add('is-returning');returns.set(link,setTimeout(()=>{link.classList.remove('is-returning','is-spacing');},950));}else link.classList.remove('is-spacing','is-returning');}
+/* One cover surface per book. Arrival and pickup never run concurrently. */
+(()=>{
+ let picked=null,revealTimer,arrivalTimer,resizeObserver,arriving=false,latestPointer='mouse';
+ const reduce=matchMedia('(prefers-reduced-motion: reduce)'),returns=new Map();
+ function reset(link){link.classList.remove('is-picked','is-returning','is-spacing');}
+ function putBack(link){if(returns.has(link))return;if(link.classList.contains('is-picked')&&!reduce.matches){link.classList.remove('is-picked');link.classList.add('is-returning');const until=performance.now()+950;const timer=setTimeout(()=>{reset(link);returns.delete(link);},950);returns.set(link,{timer,until});}else reset(link);}
  function clear(){clearTimeout(revealTimer);const previous=picked;picked=null;if(previous)putBack(previous);}
- function pick(link){if(picked===link||link.classList.contains('is-arriving'))return;clear();clearTimeout(returns.get(link));link.classList.remove('is-returning');picked=link;link.classList.add('is-spacing');revealTimer=setTimeout(()=>{if(link.isConnected&&picked===link)link.classList.add('is-picked');},reduce.matches?0:700);}
- window.LibraryMotion={enter(){document.querySelectorAll('.book-link').forEach(link=>{if(reduce.matches)return;link.classList.add('is-arriving');link.addEventListener('animationend',event=>{if(event.animationName!=='book-land')return;link.classList.remove('is-arriving');if(link.matches(':focus-visible'))pick(link);},{once:true});});}};
- document.addEventListener('pointermove',event=>{latestPointer=event.pointerType||'mouse';if(latestPointer==='touch')return;const link=event.target.closest('.book-link');if(link)pick(link);else if(!event.target.closest('.bookshelf-scene'))clear();},{passive:true});
+ function pick(link){if(arriving||picked===link)return;clear();picked=link;const wait=Math.max(0,(returns.get(link)?.until||0)-performance.now());const start=()=>{if(picked!==link||!link.isConnected)return;link.classList.add('is-spacing');revealTimer=setTimeout(()=>{if(picked===link&&link.isConnected)link.classList.add('is-picked');},reduce.matches?0:700);};if(wait)revealTimer=setTimeout(start,wait+20);else start();}
+ function finishArrival(){clearTimeout(arrivalTimer);arriving=false;document.querySelectorAll('.is-arriving').forEach(e=>e.classList.remove('is-arriving'));document.querySelector('.bookshelf-scene')?.classList.remove('shelf-arriving');const focused=document.querySelector('.book-link:focus-visible');if(focused)pick(focused);}
+ function dispose(){resizeObserver?.disconnect();clearTimeout(revealTimer);clearTimeout(arrivalTimer);for(const [link,v]of returns){clearTimeout(v.timer);reset(link);}returns.clear();if(picked)reset(picked);picked=null;arriving=false;}
+ window.LibraryMotion={clear,dispose,enter({animate=true}={}){dispose();const links=[...document.querySelectorAll('.book-link')];const scene=document.querySelector('.bookshelf-scene'),rack=document.querySelector('.shelf-rack');if(scene&&rack){resizeObserver=new ResizeObserver(()=>scene.classList.toggle('shelf-overflow',rack.scrollWidth>scene.clientWidth));resizeObserver.observe(scene);resizeObserver.observe(rack);}if(reduce.matches||!animate)return;arriving=true;document.querySelector('.bookshelf-scene')?.classList.add('shelf-arriving');links.forEach(link=>link.classList.add('is-arriving'));arrivalTimer=setTimeout(finishArrival,1400+Math.min(links.length-1,12)*90);}};
+ document.addEventListener('pointermove',event=>{latestPointer=event.pointerType||'mouse';if(latestPointer==='touch'||arriving)return;const link=event.target.closest('.book-link');if(link)pick(link);else if(!event.target.closest('.bookshelf-scene'))clear();},{passive:true});
  document.addEventListener('pointerdown',event=>{latestPointer=event.pointerType||'mouse';},{passive:true});
- document.addEventListener('click',event=>{const link=event.target.closest('.book-link');if(!link||latestPointer!=='touch')return;if(picked!==link||!link.classList.contains('is-picked')){event.preventDefault();pick(link);const label=document.querySelector('#shelf-book-label');if(label)label.textContent='Tap the open book again to enter the course.';}});
+ document.addEventListener('click',event=>{const link=event.target.closest('.book-link');if(!link||latestPointer!=='touch')return;if(arriving){event.preventDefault();return;}if(picked!==link||!link.classList.contains('is-picked')){event.preventDefault();pick(link);document.querySelector('#shelf-book-label').textContent='Tap the open book again to open it in a new tab.';}});
  document.addEventListener('focusin',event=>{const link=event.target.closest('.book-link');if(link&&link.matches(':focus-visible'))pick(link);});
  document.addEventListener('keydown',event=>{if(event.key==='Escape')clear();});
  document.addEventListener('pointerout',event=>{if(event.pointerType!=='touch'&&!event.relatedTarget)clear();});
- window.addEventListener('hashchange',clear);
+ window.addEventListener('focus',()=>{for(const [link,v]of returns)if(v.until<=performance.now()){clearTimeout(v.timer);reset(link);returns.delete(link);}});window.addEventListener('blur',clear);window.addEventListener('hashchange',dispose);reduce.addEventListener('change',()=>{finishArrival();clear();});
 })();

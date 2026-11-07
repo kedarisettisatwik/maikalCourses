@@ -74,3 +74,13 @@ All 21 JSP chapters and three appendices were matched to the PDF bookmarks and f
 The JSP scope lab was checked for page values resetting on page change, request values surviving page changes but resetting on new requests, session isolation between clients A/B, and application values surviving both clients. The eight-book shelf was checked on desktop and mobile; all eight resting spines are visible at a 390px viewport, with horizontal shelf panning available where needed. The React and JSP overview diagrams use their subject-specific flows. Home navigation resets the viewport so the arrival is visible.
 
 Final eight-book local Lighthouse: performance 100, accessibility 100, best-practices 100. First Contentful Paint: 1.5 s, Largest Contentful Paint: 1.5 s, Total Blocking Time: 60 ms, Cumulative Layout Shift: 0.
+
+## Personal shelf, motion repair and chapter-map layout
+
+Browser checks verify HTTP/HTTPS URL validation (rejecting `javascript:`), literal rendering of HTML-like titles/descriptions, custom color contrast selection, reload persistence, personal books alongside built-ins on one shelf, deletion without affecting built-ins, and a built-in course opening in a new tab while the shelf remains open. Rapid hover sweeps and hovering during arrival leave no stale picked/returning/spacing states. Books have no independent back/top/page/spine surfaces; the main container has no focus border.
+
+The Network Security chapter map retains every source topic in nested expandable groups. The test opens a section and verifies that its Full textbook PDF-page transcript receives focus. Original source/PDF audit hashes remain unchanged. Personal shelves are local browser data, not server accounts or shared/public course submissions.
+
+Additional browser checks: 21 books remain on one shared, horizontally scrolling shelf; an actual personal PDF opens in a new tab; mobile add/delete and two-tap course opening work; source-topic search includes S/MIME after the chapter map change.
+
+Final local homepage Lighthouse: performance 97, accessibility 100, best practices 100. The label/name audit was also checked after using accessible new-tab descriptions.

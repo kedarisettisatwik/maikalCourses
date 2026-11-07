@@ -110,3 +110,11 @@ npm test
 ```
 
 The JavaScript-folder PDF was confirmed for inclusion as **JSP**, its actual subject. A separate JavaScript-language course would need its own source PDF.
+
+## Personal shelf and navigation
+
+“Add own book” saves a title, description, chosen color and HTTP/HTTPS PDF URL in `maikal:own-books:v1` browser localStorage. It stores a link, not a PDF upload or generated course. Personal books persist on this device/browser and can be deleted from the Your books section; built-in courses have no delete control. Personal data is not shared across visitors/devices. Personal books join the built-in books on the same shelf, which scrolls horizontally when needed. PDF hosting remains responsible for link availability and access.
+
+All shelf books open a new tab (`target="_blank"`, `rel="noopener noreferrer"`): built-in books open their course route; personal books open the PDF URL. Form values are bounded, URL protocols and colors are validated, and displayed titles/descriptions are escaped. Storage failures remain visible instead of pretending a save/delete succeeded.
+
+Book motion uses one cover surface with interruptible compositor transitions. Hover pickup is locked until the entire entrance settles. The focus outline on the page container is suppressed while interactive keyboard focus indicators remain. Textbook chapter maps now use nested source-topic groups with links to the exact PDF-page transcript, instead of long semicolon-separated paragraphs. Topic search includes the source headings.
