@@ -20,5 +20,6 @@
  document.addEventListener('pointerdown',event=>{latestPointer=event.pointerType||'mouse';},{passive:true});
  document.addEventListener('click',event=>{const link=event.target.closest('.book-link');if(!link||latestPointer!=='touch')return;if(arriving){event.preventDefault();return;}if(!flight||flight.link!==link||flight.phase==='returning'){event.preventDefault();pick(link);document.querySelector('#shelf-book-label').textContent='Tap the lifted book to open it in a new tab.';}});
  document.addEventListener('focusin',event=>{const link=event.target.closest('.book-link');if(link&&link.matches(':focus-visible'))pick(link);});document.addEventListener('keydown',event=>{if(event.key==='Escape')clear();});
+ document.addEventListener('pointerout',event=>{if(event.pointerType!=='touch'&&!event.relatedTarget)clear();});
  window.addEventListener('blur',clear);window.addEventListener('hashchange',dispose);window.addEventListener('resize',clear);document.addEventListener('scroll',clear,{passive:true});reduce.addEventListener('change',()=>{dispose();finishArrival();});
 })();

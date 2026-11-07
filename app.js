@@ -221,7 +221,7 @@
   }
  });
  const courseScripts=new Map();
- function loadCourseScript(src){if(courseScripts.has(src))return courseScripts.get(src);const pending=new Promise((resolve,reject)=>{const script=document.createElement('script');script.src=src+(src.includes('?')?'&':'?')+'v=lifted-solid-1';script.onload=resolve;script.onerror=()=>{courseScripts.delete(src);script.remove();reject(new Error('Course reading could not be loaded.'));};document.head.append(script);});courseScripts.set(src,pending);return pending;}
+ function loadCourseScript(src){if(courseScripts.has(src))return courseScripts.get(src);const pending=new Promise((resolve,reject)=>{const script=document.createElement('script');script.src=src+(src.includes('?')?'&':'?')+'v=lifted-solid-2';script.onload=resolve;script.onerror=()=>{courseScripts.delete(src);script.remove();reject(new Error('Course reading could not be loaded.'));};document.head.append(script);});courseScripts.set(src,pending);return pending;}
  async function render(){
   const parts=location.hash.slice(1).split('/');
   if(parts[0]==='topic-0'||parts[0]?.startsWith('topic-'))return;
