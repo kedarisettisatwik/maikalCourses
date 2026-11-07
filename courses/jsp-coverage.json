@@ -1,0 +1,179 @@
+{
+  "id": "jsp",
+  "pdfPages": 905,
+  "sourceStart": 20,
+  "sourceEnd": 905,
+  "sourceEntries": 28,
+  "numberedChapters": 21,
+  "chapters": [
+    {
+      "id": 1,
+      "title": "Preface",
+      "page": 20,
+      "end": 25
+    },
+    {
+      "id": 2,
+      "title": "Acknowledgments",
+      "page": 26,
+      "end": 29
+    },
+    {
+      "id": 3,
+      "title": "The Web Marketplace",
+      "page": 30,
+      "end": 31
+    },
+    {
+      "id": 4,
+      "title": "Evolution of the Web Application",
+      "page": 32,
+      "end": 37
+    },
+    {
+      "id": 5,
+      "title": "Overview of the Hypertext Transfer Protocol (HTTP)",
+      "page": 38,
+      "end": 49
+    },
+    {
+      "id": 6,
+      "title": "Introduction to Servlets",
+      "page": 50,
+      "end": 79
+    },
+    {
+      "id": 7,
+      "title": "JSP Overview",
+      "page": 80,
+      "end": 89
+    },
+    {
+      "id": 8,
+      "title": "JSP Syntax and Semantics",
+      "page": 90,
+      "end": 115
+    },
+    {
+      "id": 9,
+      "title": "Expressions and Scriptlets",
+      "page": 116,
+      "end": 137
+    },
+    {
+      "id": 10,
+      "title": "Declarations",
+      "page": 138,
+      "end": 159
+    },
+    {
+      "id": 11,
+      "title": "Request Dispatching",
+      "page": 160,
+      "end": 187
+    },
+    {
+      "id": 12,
+      "title": "The Page Directive",
+      "page": 188,
+      "end": 209
+    },
+    {
+      "id": 13,
+      "title": "JSP Tag Extensions",
+      "page": 210,
+      "end": 287
+    },
+    {
+      "id": 14,
+      "title": "HTML Forms",
+      "page": 288,
+      "end": 317
+    },
+    {
+      "id": 15,
+      "title": "Database Access",
+      "page": 318,
+      "end": 379
+    },
+    {
+      "id": 16,
+      "title": "Session and Thread Management",
+      "page": 380,
+      "end": 441
+    },
+    {
+      "id": 17,
+      "title": "JSP and JavaBeans",
+      "page": 442,
+      "end": 477
+    },
+    {
+      "id": 18,
+      "title": "JSP and XML",
+      "page": 478,
+      "end": 519
+    },
+    {
+      "id": 19,
+      "title": "JSP Testing and Debugging",
+      "page": 520,
+      "end": 555
+    },
+    {
+      "id": 20,
+      "title": "Deploying Web Applications",
+      "page": 556,
+      "end": 577
+    },
+    {
+      "id": 21,
+      "title": "Case Study: A Product Support Center",
+      "page": 578,
+      "end": 705
+    },
+    {
+      "id": 22,
+      "title": "Communicating with Other Clients",
+      "page": 706,
+      "end": 729
+    },
+    {
+      "id": 23,
+      "title": "Communicating with Other Servers",
+      "page": 730,
+      "end": 749
+    },
+    {
+      "id": 24,
+      "title": "Appendix A Servlet API Version 2.3",
+      "page": 750,
+      "end": 819
+    },
+    {
+      "id": 25,
+      "title": "Appendix B JSP API Version 1.2",
+      "page": 820,
+      "end": 859
+    },
+    {
+      "id": 26,
+      "title": "Appendix C HTTP Reference",
+      "page": 860,
+      "end": 871
+    },
+    {
+      "id": 27,
+      "title": "Index",
+      "page": 872,
+      "end": 903
+    },
+    {
+      "id": 28,
+      "title": "INTERNATIONAL CONTACT INFORMATION",
+      "page": 904,
+      "end": 905
+    }
+  ],
+  "unavailableAppendices": []
+}

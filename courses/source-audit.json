@@ -5,6 +5,7 @@
       "id": "oops",
       "pdfPages": 330,
       "sourceEntries": 14,
+      "chapterHeadingsVerified": 14,
       "start": 8,
       "end": 328,
       "pageImages": 321,
@@ -123,13 +124,13 @@
           "textMatch": true,
           "textSHA256": "ff278426edebd3990a1a4cefd1bc7bfb630b301ff67a3071c9f604d788d4be3d"
         }
-      ],
-      "chapterHeadingsVerified": 14
+      ]
     },
     {
       "id": "system-design",
       "pdfPages": 344,
       "sourceEntries": 189,
+      "chapterHeadingsVerified": 189,
       "start": 8,
       "end": 344,
       "pageImages": 337,
@@ -1648,13 +1649,13 @@
           "textMatch": true,
           "textSHA256": "a81a7b1d6e02cbeb82ac5ddfdfafa12645a44c6e775313d846d0f5a41ee0481f"
         }
-      ],
-      "chapterHeadingsVerified": 189
+      ]
     },
     {
       "id": "computer-networks",
       "pdfPages": 962,
       "sourceEntries": 10,
+      "chapterHeadingsVerified": 9,
       "start": 25,
       "end": 962,
       "pageImages": 938,
@@ -1741,13 +1742,13 @@
           "textMatch": true,
           "textSHA256": "ff4939211562a3ea02f4d9a15914b0a26870a099131ee58a2f5c70ce439974a3"
         }
-      ],
-      "chapterHeadingsVerified": 9
+      ]
     },
     {
       "id": "dbms",
       "pdfPages": 1376,
       "sourceEntries": 33,
+      "chapterHeadingsVerified": 30,
       "start": 28,
       "end": 1376,
       "pageImages": 1349,
@@ -2018,13 +2019,13 @@
           "textMatch": true,
           "textSHA256": "308dcaeff0c47d11b9507f542f5eec5010f6afd6474eccb06a9a28fdd26888c4"
         }
-      ],
-      "chapterHeadingsVerified": 30
+      ]
     },
     {
       "id": "operating-systems",
       "pdfPages": 944,
       "sourceEntries": 22,
+      "chapterHeadingsVerified": 20,
       "start": 27,
       "end": 944,
       "pageImages": 918,
@@ -2207,13 +2208,13 @@
           "textMatch": true,
           "textSHA256": "f8988be6b104e6595e53f61f72f33f46c399bb4e5a5f78724494b8437a76d219"
         }
-      ],
-      "chapterHeadingsVerified": 20
+      ]
     },
     {
       "id": "devops",
       "pdfPages": 435,
       "sourceEntries": 48,
+      "chapterHeadingsVerified": 28,
       "start": 32,
       "end": 435,
       "pageImages": 404,
@@ -2604,13 +2605,13 @@
           "textMatch": true,
           "textSHA256": "10512a03e765bfc6cd8c654f63c2b609dbc64cb2262da37741e3dd854ff0a99b"
         }
-      ],
-      "chapterHeadingsVerified": 28
+      ]
     },
     {
       "id": "react",
       "pdfPages": 508,
       "sourceEntries": 23,
+      "chapterHeadingsVerified": 20,
       "start": 29,
       "end": 508,
       "pageImages": 480,
@@ -2801,8 +2802,244 @@
           "textMatch": true,
           "textSHA256": "a8aa4da7c4192594121225d9fd156c4f463aa517a55e1e94ddd797614e8a0b9c"
         }
-      ],
-      "chapterHeadingsVerified": 20
+      ]
+    },
+    {
+      "id": "jsp",
+      "pdfPages": 905,
+      "sourceEntries": 28,
+      "chapterHeadingsVerified": 21,
+      "start": 20,
+      "end": 905,
+      "pageImages": 886,
+      "pdfSHA256": "88ae1925f947c7b980a1baf88cde7934d33b9c11057dff546653a3cf99f04551",
+      "textMatch": true,
+      "chapters": [
+        {
+          "id": 1,
+          "title": "Preface",
+          "start": 20,
+          "end": 25,
+          "textMatch": true,
+          "textSHA256": "591d6b240ae331c79a1e8067ccecec8113b02737c8fac7546b6eac660fffd480"
+        },
+        {
+          "id": 2,
+          "title": "Acknowledgments",
+          "start": 26,
+          "end": 29,
+          "textMatch": true,
+          "textSHA256": "9c0c65f2f65794dd03d04bfed6606bca5dda5d594b242bf9e2071b2f47d4bd70"
+        },
+        {
+          "id": 3,
+          "title": "The Web Marketplace",
+          "start": 30,
+          "end": 31,
+          "textMatch": true,
+          "textSHA256": "c9609b4f4f823b11337e6ed7b12084377f97f2df4c000aff2588f9425746ca75"
+        },
+        {
+          "id": 4,
+          "title": "Evolution of the Web Application",
+          "start": 32,
+          "end": 37,
+          "textMatch": true,
+          "textSHA256": "745096a8e8bf13340676743407f8f7b813bd7e473cb4326ffcce1efa2bde3a98"
+        },
+        {
+          "id": 5,
+          "title": "Overview of the Hypertext Transfer Protocol (HTTP)",
+          "start": 38,
+          "end": 49,
+          "textMatch": true,
+          "textSHA256": "0314066a987f3d4c2c2bcf766a576d81cfaefbcf5a320f7d5082b6533b4f1691"
+        },
+        {
+          "id": 6,
+          "title": "Introduction to Servlets",
+          "start": 50,
+          "end": 79,
+          "textMatch": true,
+          "textSHA256": "95999249e9b9cae61ca72c4ab26318ac0f31b488b1777781584dc96e5473e52d"
+        },
+        {
+          "id": 7,
+          "title": "JSP Overview",
+          "start": 80,
+          "end": 89,
+          "textMatch": true,
+          "textSHA256": "5c976dfaa3352db14ce4f836f6bb31ced7e7a7b3e5f31449612ffd622115df33"
+        },
+        {
+          "id": 8,
+          "title": "JSP Syntax and Semantics",
+          "start": 90,
+          "end": 115,
+          "textMatch": true,
+          "textSHA256": "8d3070ec64d55ad6df9660e13fea09df37b6b0acb89384a82549117b275f4805"
+        },
+        {
+          "id": 9,
+          "title": "Expressions and Scriptlets",
+          "start": 116,
+          "end": 137,
+          "textMatch": true,
+          "textSHA256": "40353d854af3983327e7989a3a7b79e9d2d046334668545b76bb0da6d8761b0e"
+        },
+        {
+          "id": 10,
+          "title": "Declarations",
+          "start": 138,
+          "end": 159,
+          "textMatch": true,
+          "textSHA256": "12f558445933cb3b4a6062beffdb8ce6b86abfd0f3945434cef30a125ea29f9b"
+        },
+        {
+          "id": 11,
+          "title": "Request Dispatching",
+          "start": 160,
+          "end": 187,
+          "textMatch": true,
+          "textSHA256": "5547eb75692d8eb653d7b40550b23f1ff87c64b4015d42df195670cf73de208b"
+        },
+        {
+          "id": 12,
+          "title": "The Page Directive",
+          "start": 188,
+          "end": 209,
+          "textMatch": true,
+          "textSHA256": "7036ce38fa539d6d3b872d60005567ed4e433a97705bf616b66627ec3b8e4500"
+        },
+        {
+          "id": 13,
+          "title": "JSP Tag Extensions",
+          "start": 210,
+          "end": 287,
+          "textMatch": true,
+          "textSHA256": "bf0ee59819f1ab65ec40eaa475436158015b5e942c15c76b50df8e959415731f"
+        },
+        {
+          "id": 14,
+          "title": "HTML Forms",
+          "start": 288,
+          "end": 317,
+          "textMatch": true,
+          "textSHA256": "d124f6845ca6bbec9c10ea7d3d13674b693d447575c22c8c11c8b026142a4721"
+        },
+        {
+          "id": 15,
+          "title": "Database Access",
+          "start": 318,
+          "end": 379,
+          "textMatch": true,
+          "textSHA256": "4bae77f89c8824dea94712e516de3e65ab038d1ba02437f7deec292a826ea74c"
+        },
+        {
+          "id": 16,
+          "title": "Session and Thread Management",
+          "start": 380,
+          "end": 441,
+          "textMatch": true,
+          "textSHA256": "ac9de11b19e47255a392f84b0849d3e49a604a970378e82c77a0900709e9ffb9"
+        },
+        {
+          "id": 17,
+          "title": "JSP and JavaBeans",
+          "start": 442,
+          "end": 477,
+          "textMatch": true,
+          "textSHA256": "fc7b1a0ddf071f0ebc525d5844b51653326718e60479646ff791e54ce0777584"
+        },
+        {
+          "id": 18,
+          "title": "JSP and XML",
+          "start": 478,
+          "end": 519,
+          "textMatch": true,
+          "textSHA256": "a2a7e237505c3253c8433f56368da3b186212a72fe6fd1dd8ae61c839437417d"
+        },
+        {
+          "id": 19,
+          "title": "JSP Testing and Debugging",
+          "start": 520,
+          "end": 555,
+          "textMatch": true,
+          "textSHA256": "40fbe445ea18099de99896ec5bd9e876fdb9b21eef97a4751b9bce061dbc4ebd"
+        },
+        {
+          "id": 20,
+          "title": "Deploying Web Applications",
+          "start": 556,
+          "end": 577,
+          "textMatch": true,
+          "textSHA256": "4c75d24cbcb5394af6ffb2d9417f9cd794aa84330fb1e2e83809b61fca9cc0fa"
+        },
+        {
+          "id": 21,
+          "title": "Case Study: A Product Support Center",
+          "start": 578,
+          "end": 705,
+          "textMatch": true,
+          "textSHA256": "0f0acfd2e2e41ef84cc7582a50ea51de2c304f133860af2ddfcec1f57ae5ea1d"
+        },
+        {
+          "id": 22,
+          "title": "Communicating with Other Clients",
+          "start": 706,
+          "end": 729,
+          "textMatch": true,
+          "textSHA256": "34c417c7dbcea73e07bfc0d0fc571bdd6ca8aa26f08f8a42f28d2cc75684578b"
+        },
+        {
+          "id": 23,
+          "title": "Communicating with Other Servers",
+          "start": 730,
+          "end": 749,
+          "textMatch": true,
+          "textSHA256": "9fd15c6e77b4dbb1995ff150de8019bdb577926aa709bbd34d8e6b08ad9c8222"
+        },
+        {
+          "id": 24,
+          "title": "Appendix A Servlet API Version 2.3",
+          "start": 750,
+          "end": 819,
+          "textMatch": true,
+          "textSHA256": "9d4f66b9a6f8bf6f798e0b43c4e2bba98b01b52edca434b4ae60a566ecf842dc"
+        },
+        {
+          "id": 25,
+          "title": "Appendix B JSP API Version 1.2",
+          "start": 820,
+          "end": 859,
+          "textMatch": true,
+          "textSHA256": "9204abf4ff6b258ad8186586c179bc1ff473b9f7198829191f5977f920876978"
+        },
+        {
+          "id": 26,
+          "title": "Appendix C HTTP Reference",
+          "start": 860,
+          "end": 871,
+          "textMatch": true,
+          "textSHA256": "885381358a46e6f6247a40f4cdd9956e4db6cf7c8a508b933a1942dcd678b67b"
+        },
+        {
+          "id": 27,
+          "title": "Index",
+          "start": 872,
+          "end": 903,
+          "textMatch": true,
+          "textSHA256": "77211f39be012a1c2ef439c9c4a6168cd2654edd5c2d28477a5766355dddad87"
+        },
+        {
+          "id": 28,
+          "title": "INTERNATIONAL CONTACT INFORMATION",
+          "start": 904,
+          "end": 905,
+          "textMatch": true,
+          "textSHA256": "c6000f15942be21dd01bc9f93ea18d861c9a7b91eb9bbec264240c406e381eb5"
+        }
+      ]
     }
   ]
 }

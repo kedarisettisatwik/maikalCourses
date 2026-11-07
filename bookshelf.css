@@ -54,3 +54,5 @@ body.library main{max-width:1350px;padding:48px 68px 35px;overflow:clip}body.lib
 .shelf-books{isolation:isolate}.shelf-books:has(.is-arriving)~.shelf-board{animation:shelf-settle 2.1s ease-out}
 @keyframes shelf-settle{0%,50%,100%{filter:brightness(1)}60%,78%{filter:brightness(1.07)}}
 @media(prefers-reduced-motion:reduce){.book-link.is-arriving,.book-link.is-returning .book-object,.shelf-board{animation:none!important}.book-link.is-arriving{pointer-events:auto}.book-link{transition:none!important}}
+
+@media(max-width:680px){.book-link{--book-depth:36px!important;min-width:40px}.book-link:nth-child(even){--book-depth:38px!important}}
