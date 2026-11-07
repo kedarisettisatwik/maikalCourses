@@ -1,0 +1,189 @@
+8|delivery|Distinguish smoke, functional, integration, regression, load, stress, security, fuzz, and validation tests by the failures they detect. Use a risk-based test portfolio.
+10|messaging|Kafka supports logs, activity streams, asynchronous integration, processing, and replay. Distinguish retained events from task dispatch and choose an ordering key.
+11|network|Trace application bytes through transport, IP, link-layer delivery, and the receiver. OSI layers locate responsibilities, not seven literal processes.
+12|api|Pagination, caching, connection reuse, asynchronous work, and smaller payloads address different bottlenecks. Measure tail latency and downstream capacity first.
+14|delivery|Follow integration, tests, artifacts, deployment, monitoring, and rollback. Continuous delivery and continuous deployment differ in production-release automation.
+16|career|Use engineering blogs to identify workload, constraint, failure, and migration evidence. Record the date instead of memorizing a company's tool list.
+17|identity|Compare Basic, opaque tokens, and OAuth delegation. Basic credentials are encoded, not encrypted. Every credential path needs appropriate secure transport.
+19|linux|Walk firmware, bootloader, kernel, initramfs, and service startup. Distinguish BIOS/UEFI responsibilities from init and service-management responsibilities.
+21|database|Inner joins return matches; outer joins preserve unmatched rows with NULL extension. Explain how a WHERE predicate can discard preserved rows.
+23|architecture|Netflix's tool list is historical. Explain workload-specific storage, streaming, runtime, and observability choices instead of copying the entire stack.
+25|architecture|Compare architecture styles through coupling, deployment, transactions, ownership, and failure. Several styles can coexist in the same system.
+27|database|Explain ACID with a bank-transfer invariant. Atomicity alone does not solve concurrent interference. ACID consistency differs from CAP consistency.
+29|identity|Identify resource owner, client, authorization server, and resource server. OAuth delegates authority; OpenID Connect provides the identity layer for login.
+31|api|Compare REST, WebSocket, GraphQL, webhooks, SOAP, and gRPC through interaction shape, direction, delivery, caching, and recovery semantics.
+32|linux|Diagnose the stage where boot stops: missing device, kernel initialization, root mounting, or service startup. Connect symptoms to the responsible layer.
+34|network|HTTP, HTTP/3, HTTPS, WebSocket, TCP, UDP, SMTP, and FTP occupy different layers. HTTP/3 uses QUIC over UDP, not TCP.
+36|storage|A pipeline collects, ingests, stores, transforms, and serves data. Define schemas, backpressure, ownership, identity, and late-event policy.
+38|database|CAP concerns partitions; BASE concerns availability and eventual-state ideas; SOLID concerns object design; KISS encourages simplicity. These are different problem spaces.
+40|api|Define GET, POST, PUT, PATCH, and DELETE by intended semantics. Idempotency does not imply identical responses; PATCH depends on its operation.
+42|languages|Separate native compilation, bytecode, interpretation, and JIT. CPython compiles to bytecode; language labels do not establish universal performance rankings.
+44|security|Combine TLS, authorization, validation, rate limits, credential handling, and auditability. A gateway cannot replace per-object permission checks.
+45|career|Prepare coding, design, object design, and behavioral answers through retrieval practice and mock explanations, not passive resource collection.
+47|delivery|Mobile releases involve platform builds, device testing, store review, staged rollout, and monitoring. Long-lived old clients require backend compatibility.
+49|cost|Map cloud products by capability rather than brand. The 2023 service catalog is historical; verify present limits and rates before decisions.
+51|delivery|Choose unit, integration, system, acceptance, performance, security, and regression tests according to risk. Control flaky inputs and environment dependencies.
+53|identity|Validate JWT issuer, audience, expiry, allowed algorithms, and signature. A normally readable signed payload is not encrypted private storage.
+55|delivery|Track requirements into changes, review, verification, artifact storage, rollout, and feedback. Rollback and data compatibility remain production responsibilities.
+57|containers|Distinguish client, daemon, registry, image, and running container. Design resource limits, networking, persistence, and process shutdown separately.
+59|network|Compare request/response, bidirectional streams, datagrams, and reliable byte streams. Chat can combine WebSocket transport with REST history APIs.
+61|architecture|Clarify requirements and scale, sketch one end-to-end path, then deepen data, reliability, security, and cost. Do not force every component into every interview.
+63|database|Vertical partitioning separates fields; horizontal sharding separates rows. Range, hash, and directory routing trade hotspots, query locality, and rebalance cost.
+65|observability|Separate collection, storage, query, dashboards, alerting, and reporting. Preserve the operational requirement when comparing provider-specific monitoring products.
+67|architecture|Choose patterns using changeability, testability, deployment, and failure goals. Explain dependency direction and state ownership, not just diagram names.
+69|identity|Correct the archive's swapped OAuth labels. Client credentials is application authority; interactive public clients generally start from authorization code with PKCE.
+71|cost|Cloud catalogs layer managed capabilities over infrastructure. Select the smallest useful capability set instead of treating product count as architecture quality.
+73|api|GraphQL supports schema-based client-selected fields but still needs resolver batching, query budgets, authorization, caching, and compatibility planning.
+75|security|Explain modern TLS authentication, key agreement, and symmetric channel protection. SSL is historical terminology and not every handshake uses RSA key transport.
+77|database|Choose managed databases by queries, transactions, consistency, latency, recovery, and operations. Management services do not choose schemas or repair hot keys.
+78|delivery|Separate integration, verification, artifact promotion, release approval, and rollout. Preserve compatibility while old and new versions coexist.
+80|api|Gateways route and enforce entry policies. Domain authorization and invariants still belong to services; avoid an unbounded central business-logic bottleneck.
+82|delivery|Prioritize behavior, design, tests, maintainability, and security in code review. Automate mechanical formatting and explain concrete risks.
+83|architecture|Define domain and state ownership before selecting containers. Independent deployment adds consistency, compatibility, and partial-failure responsibilities.
+85|languages|Energy comparisons depend on workload, implementation, hardware, and utilization. Measure the real application rather than universalizing a benchmark ranking.
+87|reliability|A resilient three-tier design needs independent failure domains, healthy routing, safe database failover, backups, and remaining capacity after a zone failure.
+88|network|Distinguish URI identification, URL location, and URN naming. Parse scheme, authority, path, query, and fragment rather than assuming every identifier is a webpage.
+90|git|Compare trunk-based work, short-lived features, release branches, and Gitflow against cadence. Long-lived divergence increases integration risk.
+91|linux|Learn root, /etc, /var, /usr, /home, /proc, /sys, and /dev. Virtual kernel interfaces are not ordinary persistent files.
+93|git|Monorepos affect builds, ownership, dependencies, and atomic changes. One repository can contain many deployments; multiple repositories do not guarantee decoupling.
+95|patterns|Match stacks, queues, heaps, trees, graphs, tries, and spatial indexes to operations. Explain complexity, memory behavior, persistence, and synchronization.
+97|cost|The Prime Video monitoring case concerns one workload's transfer and orchestration costs. Transfer the measurement method, not a universal anti-serverless rule.
+99|linux|Understand navigation, inspection, search, permissions, processes, and networking. Explain command scope before use, particularly for destructive operations.
+101|architecture|Architecture-as-code makes diagrams reviewable but cannot prove deployed state matches intent. Keep models updated and distinguish documentation from discovery.
+103|delivery|Read Netflix's pipeline as a historical workflow. Canary analysis needs representative signals, failure criteria, and a rollback policy beyond a tool name.
+105|patterns|Explain the problem, collaborator roles, and consequences of creational, structural, and behavioral patterns. Avoid unnecessary abstractions.
+107|api|Select API styles through clients, communication direction, contracts, caching, streaming, and failure recovery. Payload format alone is insufficient.
+109|database|SQL passes parsing, validation, optimization, planning, and execution. Logical clause order differs from physical execution; inspect plans and row estimates.
+111|ui|Trace input through presentation, state, logic, and model in MVC, MVP, MVVM, coordinator, or VIPER designs. Clarify platform conventions.
+113|git|Distinguish working tree, index, local history, and remote refs. add, commit, fetch, pull, and push affect different locations.
+115|architecture|The Levels.fyi story illustrates fitting infrastructure to needs. Historical traffic anecdotes do not establish spreadsheet suitability for every consistency or security requirement.
+117|delivery|Coverage percentages can miss wrong assumptions and integration failures. Combine realistic data, boundary tests, and production evidence.
+119|observability|Metrics detect aggregate symptoms, traces connect requests, and logs describe events. Propagate context and control cardinality and sensitive-data exposure.
+121|network|DNS routing may be weighted, latency-based, geographic, failover, or multivalue. Cached answers and existing connections delay traffic movement.
+123|career|Keep the life-skills article as an appendix. Reflect on communication, critical thinking, and learning discipline without inventing technical system-design claims.
+124|network|A port follows the host with a colon, not a period. Query starts with ?, fragment with #; fragments are normally handled client-side.
+125|identity|Cookies transport browser values; sessions maintain server state. Design expiry, renewal, revocation, cookie flags, and CSRF defenses together.
+127|delivery|Managed services automate operations but do not remove security, cost, incident-response, or reliability ownership. NoOps is not no operational work.
+129|linux|Processes normally have separate address spaces; threads share process resources but retain execution state. Compare isolation and synchronization, not universal switch-time claims.
+131|scaling|Balance round-robin, weighted, sticky, hash, connection, and latency policies against actual work. Health checks, draining, skew, and request duration matter.
+133|security|Symmetric and asymmetric cryptography serve different roles. Neither is universally more secure; constructions, keys, parameters, and implementations matter.
+135|cache|RDB snapshots and AOF policies trade recovery loss, time, and overhead. Forking, copy-on-write, disk, and fsync can affect latency; persistence is not free.
+137|messaging|Compare routed queues with retained logs using ordering scope, fan-out, retention, replay, consumer progress, and failure recovery.
+139|containers|ClusterIP, NodePort, LoadBalancer, and ExternalName expose different paths. A DNS alias is not a proxy or automatic external-database security solution.
+141|algorithms|Compare UUID, time-based IDs, database sequences, allocated ranges, and counters. Explain clock rollback, worker identity, coordination, uniqueness, and index locality.
+143|languages|Revisit native compilation, bytecode, virtual machines, interpretation, and JIT. Startup, warmup, allocation, and GC depend on the implementation and workload.
+145|architecture|A monolith or on-premises deployment is not automatically an interview failure. Justify simplicity with workload, reliability, cost, and organizational evidence.
+147|storage|Object stores support media, backups, archives, lakes, and static assets. Explain key lookup, metadata, lifecycle, access control, and transfer/retrieval costs.
+149|api|An API defines an interface; an SDK packages abstractions and tooling. Examine retries, credentials, compatibility, dependencies, and hidden defaults.
+151|architecture|Revisit the microservice checklist critically. Physical deployment choices differ from ownership and boundaries; distributed invariants still need explicit treatment.
+152|network|Forward proxies act for clients; reverse proxies accept traffic for servers. Explain TLS termination, trusted headers, identity, routing, caching, and balancing.
+153|git|Git is version control; GitHub is hosting and collaboration. History, remote refs, review, identity, and access rules are distinct capabilities.
+154|scaling|Use latency orders of magnitude to reason about caches, storage, serial calls, and regions. Historical values are examples; benchmark the target environment.
+156|patterns|Compare B-tree, LSM, SSTable, hash, inverted, and other indexes using query shape, page I/O, compaction, and write/read amplification.
+158|git|Map commands to working tree, index, local history, and remotes. fetch is not merge; tags reference objects rather than publishing an application.
+160|security|Use suitable salted password hashing, protected reset paths, and online rate limits. Fast general-purpose hashes and reversible storage are poor password-verifier choices.
+162|database|OLTP and OLAP describe workloads. Relational, document, key-value, graph, and time-series systems vary; NoSQL does not imply no schema or transactions.
+164|containers|Trace build, push, pull, image layers, isolation, and startup. Persistence and registry trust are separate from packaging a running process.
+166|containers|Docker and Kubernetes operate at different layers. Cluster orchestration adds scheduling and reconciliation rather than replacing the need to build images.
+168|languages|Distinguish source, runtime, ABI, operating-system, and instruction-set portability. Containers do not translate arbitrary binaries across kernels and CPUs.
+170|api|Differentiate status classes and 401, 403, 404, 409, 429, 502, 503, and 504. Tie retries to safe operation semantics.
+172|containers|Keep image contents, startup, signals, resource requests, and trust controlled. A reproducible image does not establish safe runtime permissions by itself.
+174|git|Merge connects histories, rebase recreates commits, and squash combines changes. Agree on shared-history policy and test conflict resolutions.
+176|network|Separate VPC, subnet, routes, gateways, endpoints, DNS, security controls, and balancing. Draw public/private access, egress, and failure domains explicitly.
+178|api|Compare SOAP, REST, GraphQL, and RPC using contracts, interoperability, clients, evolution, streaming, deadlines, and caching rather than syntax alone.
+179|patterns|Tie each structure to FIFO, priority, exact, ordered, prefix, graph, or geographic operations. Explain expected and worst-case costs.
+181|architecture|Trace client, gateway, services, stores, broker, discovery, configuration, and observability. Ask about authorization, deadlines, retries, and state ownership at every hop.
+183|career|Prioritize resources by gaps and practice outcomes. Redraw a design without notes, change a requirement, explain the result, and track errors.
+185|architecture|Separate ride matching, location ingestion, trip state, billing, and analytics before interpreting Uber's historical product choices.
+187|cache|Compare cache-aside, read-through, write-around, write-through, and write-back through source-of-truth, miss, write, staleness, and failure paths.
+189|messaging|Choose brokers through routing, retained history, replay, ordering, fan-out, guarantees, and operations rather than product-logo familiarity.
+190|messaging|Sequential I/O, batching, partitions, and efficient transfer paths help Kafka throughput. Replication, disk, skew, and slow consumers still impose limits.
+192|messaging|Separate notification policy from delivery. Preferences, channel membership, user presence, devices, retries, and duplicate suppression all influence the outcome.
+193|containers|Organize orchestration tools by packaging, rollout, networking, storage, observability, security, and developer workflows. A capability map is not an installation checklist.
+195|architecture|Cloud-native taxonomies separate provisioning, runtime, orchestration, application definition, and observability. Select capabilities for a concrete constraint.
+196|payments|Trace authorization through merchant, gateway, processor, network, and issuer. Authorization, capture, settlement, refunds, and disputes have separate transitions.
+198|cache|Design placement, keys, TTL, freshness, invalidation, eviction, stampede prevention, and fallback together. Measure origin load and correctness as well as hit rate.
+199|architecture|A microservice stack spans runtime, contracts, stores, messaging, security, delivery, and observability. A framework choice is not a complete architecture.
+201|containers|Cloud-native adoption involves provisioning, packaging, automated rollout, health signals, and operating discipline, not only moving an existing VM.
+203|identity|SSO is an experience, OAuth delegates authority, and JWT is a format. Token format alone does not eliminate server state, revocation, or authorization.
+204|linux|Use commands to answer a process, filesystem, network, or permission question. Understand flags and targets rather than executing a diagram blindly.
+205|messaging|Event sourcing makes events the authoritative history. Design projection rebuilds, replay, schema evolution, and side-effect safety; publishing events alone is not event sourcing.
+207|containers|The control plane reconciles desired state; workers host Pods. Services abstract changing endpoints. Stateful applications still require recovery and consistency design.
+209|git|Commits form a graph of snapshots and parents. Branch labels move; local commits need no network; fetch and push exchange objects and refs.
+211|security|TOTP combines a shared secret with a time counter. Protect enrollment and recovery, limit guesses, and account for clock drift and phishing.
+214|cost|IaaS, PaaS, containers, and serverless shift provider responsibility, control, and billing. An adoption timeline is not a mandatory migration path.
+215|ai|The archive is a historical simplification, not verified current product internals. Separate pretraining, alignment, inference, application policy, and evaluation.
+217|cost|Model requests, egress, NAT, snapshots, logs, idle resources, and managed-service overhead. Historical free-tier and IP-price claims are not present quotations.
+219|algorithms|Connect hashing, limiting, membership, prefix, spatial, and consensus algorithms to specific operations, complexity, skew, and fault models.
+221|database|Use the taxonomy as a starting point. Evaluate queries, consistency, transaction scope, partitioning, recovery, and operations for each actual workload.
+222|api|gRPC uses service definitions and stubs, commonly Protobuf over HTTP/2. Calls need deadlines and compatibility; no fixed speedup applies to every workload.
+224|security|Password managers encrypt recoverable secrets; login databases verify password hashes. Separate vault keys, derivation, local secrets, sharing, recovery, and vendor assumptions.
+226|career|Prepare concrete end-to-end examples across UI, contracts, server logic, data, deployment, and diagnosis. Choose depth according to the target role.
+228|api|REST concerns stateless interaction, a uniform interface, representations, cacheability, and layering. URL naming alone does not make an effective contract.
+229|identity|Bearer tokens need not be encrypted. JWTs are often signed, OAuth is not automatically SSO, and revocation remains a separate design choice.
+232|linux|Use process, scheduling, lookup, connection, and text tools to test hypotheses. Prefer secure protocols and understand what each output can establish.
+233|payments|Distinguish issuer, acquirer, processor, gateway, and network. Providers may span roles, but authorization messages and settlement remain distinct flows.
+235|algorithms|Match key placement, nearest-neighbor search, rate control, prefix lookup, negative membership tests, and replicated agreement to the corresponding invariant.
+236|network|Follow buffers, stack layers, queue disciplines, NIC rings, and receiver processing. Explain finite buffering, drops, backpressure, and retransmission.
+238|scaling|Connection count is an imperfect estimate of work. Compare static and dynamic selection with health, skew, connection duration, and hash affinity.
+240|architecture|Avoid uncontrolled coupling, cost, data access, and release risk. A well-designed monolith or a necessary stateful component is not automatically an anti-pattern.
+242|delivery|Treat Uber's listed tools as historical examples. Understand dependency builds, traffic replay, test isolation, canaries, capacity planning, and on-call operation.
+244|database|Discord's migration illustrates hot partitions, compaction, GC, tail latency, and operational burden. Explain the workload and validation instead of universalizing engine rankings.
+246|observability|Correlate system and process evidence with symptoms. Separate CPU saturation, I/O wait, memory pressure, locks, and dependencies before choosing a fix.
+247|ui|Trace browser coordination, rendering, networking, GPU work, and extensions. Allocation varies; one tab is not universally one operating-system process.
+249|messaging|CQRS and event sourcing are independent choices. Plan replay, versioning, projection lag, privacy deletion, and external side-effect deduplication.
+251|security|Filters, stateful inspection, proxies, and application firewalls inspect different context. Allowed encrypted traffic can still carry unauthorized application actions.
+253|delivery|Developer-to-tester ratios reflect context, automation, and ownership, not a universal staffing law. Measure feedback time, escaped defects, and outcomes.
+255|database|Extensions expand PostgreSQL's capabilities but do not prove every workload belongs in one engine. Compare maturity, isolation, operations, and measured behavior.
+257|patterns|Connect classes, objects, encapsulation, abstraction, inheritance, polymorphism, association, and composition to invariants. Use composition for has-a relationships.
+259|network|Server types describe responsibilities, not mandatory physical machines. Identify protocol, trust boundary, concurrency, persistence, and availability requirements.
+261|delivery|DevOps, SRE, and platform engineering overlap but focus on collaboration, reliability engineering, and reusable internal capabilities. Product ownership remains essential.
+263|linux|Connect kernel interfaces, scheduling, processes, memory, and storage to a request. Identify which constrained resource prevents useful progress.
+265|scaling|Evolve a website by removing measured bottlenecks: balancing, replicas, caching, asynchronous work, and partitioning each solve a different problem.
+267|payments|FedNow is a specific instant-payment rail. Treat participation and settlement details as historical; distinguish validation, fraud checks, funds movement, and reconciliation.
+270|linux|Pipes, queues, signals, shared memory, and sockets trade copying, structure, isolation, and synchronization. Shared memory still needs an ownership protocol.
+272|api|Polling asks repeatedly; webhooks push events. Authenticate callbacks, persist stable IDs, and handle delayed, duplicated, and out-of-order delivery.
+274|delivery|Scale tooling with team needs and release risk. Small teams still need recovery; large teams need ownership rather than a maximal toolchain.
+276|architecture|Stack Overflow's historical monolith demonstrates the value of schema, hardware, caching, and operations. Explain which new constraint would force its next evolution.
+277|patterns|List, Set, Map, and Queue vary in ordering, uniqueness, null handling, complexity, and concurrency semantics. Collection implementations are not interchangeable.
+279|architecture|Interpret Twitter's historic stack by responsibilities. For a timeline design, reason about fan-out, hot authors, storage, and latency rather than copying names.
+281|linux|Directory and file read/write/execute have different meanings. Explain traversal, entry deletion, least privilege, and ownership before changing permissions.
+282|storage|Warehouse, lake, and lakehouse approaches differ in curation, formats, and querying. Schema-on-read still needs governance, quality, catalogs, and access control.
+284|payments|Stable scope and atomic result storage create idempotency; choosing ULID rather than UUID does not. Add reconciliation, bounded retries, and explicit state transitions.
+286|containers|Use the periodic table as a capability map. Trace rollout, discovery, storage, observation, and policy for one workload rather than memorizing logos.
+287|api|Netflix's API stages reflect client and ownership changes. Discuss direct access, aggregation, and federation costs without claiming federation fits everyone.
+289|cache|Browser, CDN, proxy, app, distributed, and database caches have distinct visibility and invalidation rules. Layering can compound stale results.
+291|reliability|Ambassador, circuit breaker, CQRS, event sourcing, leader election, pub/sub, and sharding solve distinct problems. Explain their costs and failure semantics.
+292|cost|Storage tiers trade latency, throughput, durability assumptions, and cost. Historical hardware prices are examples; split hot, warm, and cold workloads.
+293|api|RPC emphasizes operations; REST emphasizes resource-oriented interaction. Compare ecosystem, caching, streaming, schema evolution, and failure handling.
+294|database|Polyglot persistence fits separate workloads but adds integration, recovery, governance, and operations. Justify each additional store independently.
+296|algorithms|Sorting, hashing, compression, ranking, and encryption solve different classes of problems. Hashes are not encryption; mathematical assumptions need precision.
+298|payments|Push payments are payer-initiated; pull payments are payee-initiated under authority. Rail-specific initiation, settlement, and dispute rules must be distinguished.
+300|ai|Read the timeline historically. Separate progress in algorithms, data, compute, and interfaces without presenting it as a full specification of modern models.
+302|cost|Compare media-processing boundaries with measured orchestration and transfer costs. Co-location can help one workload without establishing a universal deployment rule.
+303|messaging|Separate connection handling, channel routing, persistence, fan-out, and live delivery. WebSocket transport is not durable history; reconnect needs catch-up logic.
+305|api|Persisted queries can control production GraphQL shapes. Budget resolvers, batch fetches, authorize objects, evolve schemas, and observe expensive queries.
+307|api|Headers carry caching, negotiation, identity, and tracing. Normalize forwarded headers at a trusted boundary and avoid logging credentials or private context.
+308|messaging|An event registry documents contracts but does not guarantee compatibility. Combine schema evolution, authenticated ingress, broker operation, and idempotent consumers.
+310|ai|Treat the video's outline as historical concepts. For a generic AI system, reason about tokens, context, inference, evaluation, and tool authorization.
+311|database|Start selection with access patterns, invariants, latency, growth, and recovery. Define migration triggers rather than adding stores speculatively.
+312|career|Trace a user workflow across UI, authorization, transport, logic, storage, deployment, and diagnosis. Prepare real examples instead of a technology checklist.
+314|ai|GPT-4-era capability claims are historical. Distinguish reported evaluation, observed behavior, inference, and unknown implementation details.
+315|architecture|Use the burger as a mnemonic, then reconstruct actual responsibilities, state, authentication, caching, and operations. Layers are not a universal request order.
+316|api|A cart API needs ownership, quantities, authoritative pricing, conflict detection, idempotent mutations, and checkout transitions. Safe paths cannot replace business invariants.
+317|database|Separate schema definition, manipulation, querying, transactions, permissions, and indexes. SELECT reads data; CREATE and ALTER change schema.
+318|storage|Batch has bounded input; streams continue. Compare event time, windows, late data, state, replay, freshness, and continuous-operation cost.
+320|architecture|Make quality goals measurable: latency percentile, success rate, throughput, durability, recovery, security, cost, maintainability, and deployment constraints.
+321|cost|Serverless databases shift provisioning and scaling but still have resume latency, bounds, transactions, connection limits, recovery, and workload-dependent costs.
+323|messaging|Brokers decouple and buffer finite work. They do not eliminate duplicates, ordering decisions, schema evolution, lag, or ownership.
+325|experiments|Candidate generation, filtering, scoring, ranking, and product rules share a latency budget. Historic counts do not establish general capacity; plan freshness and fallback.
+327|network|SSH resolves the host, negotiates transport and keys, authenticates the server and user, then opens an encrypted session. Host and user keys answer different trust questions.
+329|delivery|Build systems coordinate versions, dependencies, artifacts, and reproducibility. Cache correctness requires complete input identity regardless of repository layout.
+331|experiments|Assignment, configuration, exposure, event collection, metrics, analysis, and guardrails form an experiment platform. Stable randomization and valid measurement are essential.
+333|storage|Video platforms need uploads, durable blobs, metadata, transcoding, manifests, segments, and CDN delivery. Plan duplicate jobs, resumability, readiness, and lifecycle.
+335|network|A CDN reduces some latency and origin load. Design cache keys, private content, expiry, invalidation, origin protection, misses, and regional failure behavior.
+337|api|Choose architecture styles by clients, interaction shape, contracts, streaming, and failure recovery. Support evolution and meaningful errors explicitly.
+339|architecture|Cloud computing describes delivered services; cloud-native describes operating principles and suitable abstractions. A cloud VM does not guarantee resilience or automation.
+341|languages|Language history illustrates abstractions, typing, execution, and ecosystem evolution. Generational labels do not determine performance or suitability.
+343|linux|Trace filesystem, caches, block layer, drivers, controller, and storage. Distinguish buffered writes from durable completion and logical access from physical I/O.
+344|reliability|The SVB article is a historical financial-risk appendix. Use correlated risk only as an analogy, not as a software architecture specification or financial guidance.

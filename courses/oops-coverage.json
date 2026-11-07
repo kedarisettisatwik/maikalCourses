@@ -1,0 +1,979 @@
+{
+  "units": [
+    {
+      "id": 1,
+      "start": 8,
+      "end": 24,
+      "sections": 14,
+      "contents": [
+        {
+          "number": "1.1",
+          "title": "Basic Concept of Object-oriented Programming"
+        },
+        {
+          "number": "1.2",
+          "title": "Introduction to OOP Languages"
+        },
+        {
+          "number": "1.3",
+          "title": "Comparison between Procedural Programming and Object-oriented Programming Paradigm"
+        },
+        {
+          "number": "1.3.1",
+          "title": "Procedure-oriented Programming Paradigm"
+        },
+        {
+          "number": "1.3.2",
+          "title": "Object-oriented Programming Paradigm"
+        },
+        {
+          "number": "1.4",
+          "title": "Benefits of OOP"
+        },
+        {
+          "number": "1.5",
+          "title": "Applications of OOP"
+        },
+        {
+          "number": "1.6",
+          "title": "Software Crisis"
+        },
+        {
+          "number": "1.7",
+          "title": "Software Evolution"
+        },
+        {
+          "number": "1.8",
+          "title": "Summary"
+        },
+        {
+          "number": "1.9",
+          "title": "Keywords"
+        },
+        {
+          "number": "1.10",
+          "title": "Review Questions"
+        },
+        {
+          "number": "1.11",
+          "title": "Further Readings"
+        }
+      ],
+      "definitions": [
+        "Classes",
+        "Data Abstraction",
+        "Data Encapsulation",
+        "Design",
+        "Dynamic Binding",
+        "Inheritance",
+        "Message Passing",
+        "Object-oriented Programming Paradigm",
+        "Objects",
+        "Polymorphism"
+      ]
+    },
+    {
+      "id": 2,
+      "start": 25,
+      "end": 62,
+      "sections": 27,
+      "contents": [
+        {
+          "number": "2.1",
+          "title": "Review of Tokens"
+        },
+        {
+          "number": "2.1.1",
+          "title": "Keywords"
+        },
+        {
+          "number": "2.1.2",
+          "title": "Identifiers"
+        },
+        {
+          "number": "2.2",
+          "title": "Assignment Expression"
+        },
+        {
+          "number": "2.3",
+          "title": "Operators"
+        },
+        {
+          "number": "2.3.1",
+          "title": "Arithmetic Operators"
+        },
+        {
+          "number": "2.3.2",
+          "title": "Assignment Operators"
+        },
+        {
+          "number": "2.3.3",
+          "title": "Unary Operators"
+        },
+        {
+          "number": "2.3.4",
+          "title": "Comparison Operators"
+        },
+        {
+          "number": "2.3.5",
+          "title": "Shift Operators"
+        },
+        {
+          "number": "2.3.6",
+          "title": "Bit-wise Operators"
+        },
+        {
+          "number": "2.3.7",
+          "title": "Logical Operators"
+        },
+        {
+          "number": "2.3.8",
+          "title": "Conditional Operators"
+        },
+        {
+          "number": "2.4",
+          "title": "Control Structures"
+        },
+        {
+          "number": "2.4.1",
+          "title": "The if-else Construct"
+        },
+        {
+          "number": "2.4.2",
+          "title": "Looping"
+        },
+        {
+          "number": "2.5",
+          "title": "Scope Resolution Operator"
+        },
+        {
+          "number": "2.6",
+          "title": "Member Dereferencing Operators"
+        },
+        {
+          "number": "2.6.1",
+          "title": "Memory Management Operators"
+        },
+        {
+          "number": "2.6.2",
+          "title": "Declaration of Variables"
+        },
+        {
+          "number": "2.6.3",
+          "title": "Dynamic Initialization of Variables"
+        },
+        {
+          "number": "2.6.4",
+          "title": "Reference Variables"
+        },
+        {
+          "number": "2.7",
+          "title": "Summary"
+        },
+        {
+          "number": "2.8",
+          "title": "Keywords"
+        },
+        {
+          "number": "2.9",
+          "title": "Review Questions"
+        },
+        {
+          "number": "2.10",
+          "title": "Further Readings"
+        }
+      ],
+      "definitions": [
+        "Character Constant",
+        "Expression",
+        "Identifies",
+        "Keywords",
+        "Operands",
+        "Scope Resolution Operator",
+        "String Constant",
+        "Tokens"
+      ]
+    },
+    {
+      "id": 3,
+      "start": 63,
+      "end": 74,
+      "sections": 10,
+      "contents": [
+        {
+          "number": "3.1",
+          "title": "The MAIN Function"
+        },
+        {
+          "number": "3.2",
+          "title": "Function Overloading"
+        },
+        {
+          "number": "3.3",
+          "title": "Inline Functions"
+        },
+        {
+          "number": "3.4",
+          "title": "Default Arguments"
+        },
+        {
+          "number": "3.5",
+          "title": "Function Prototyping"
+        },
+        {
+          "number": "3.6",
+          "title": "Summary"
+        },
+        {
+          "number": "3.7",
+          "title": "Keywords"
+        },
+        {
+          "number": "3.8",
+          "title": "Review Questions"
+        },
+        {
+          "number": "3.9",
+          "title": "Further Readings"
+        }
+      ],
+      "definitions": [
+        "Function",
+        "Function Declaration",
+        "Function Overloading",
+        "Function Prototype",
+        "Inline Function",
+        "Reference",
+        "Return",
+        "Scope"
+      ]
+    },
+    {
+      "id": 4,
+      "start": 75,
+      "end": 98,
+      "sections": 15,
+      "contents": [
+        {
+          "number": "4.1",
+          "title": "Specifying a Class"
+        },
+        {
+          "number": "4.2",
+          "title": "Defining Member Functions"
+        },
+        {
+          "number": "4.3",
+          "title": "Creating Class Objects"
+        },
+        {
+          "number": "4.3.1",
+          "title": "Objects as Function Arguments"
+        },
+        {
+          "number": "4.3.2",
+          "title": "Returning Objects"
+        },
+        {
+          "number": "4.4",
+          "title": "Accessing a Member of Class"
+        },
+        {
+          "number": "4.5",
+          "title": "Access Specifiers"
+        },
+        {
+          "number": "4.5.1",
+          "title": "The Public Access Specifier"
+        },
+        {
+          "number": "4.5.2",
+          "title": "The Private Access Specifier"
+        },
+        {
+          "number": "4.5.3",
+          "title": "The Protected Access Specifier"
+        },
+        {
+          "number": "4.6",
+          "title": "Summary"
+        },
+        {
+          "number": "4.7",
+          "title": "Keywords"
+        },
+        {
+          "number": "4.8",
+          "title": "Review Questions"
+        },
+        {
+          "number": "4.9",
+          "title": "Further Readings"
+        }
+      ],
+      "definitions": [
+        "Class",
+        "Global Class",
+        "Local Class",
+        "Private Members",
+        "Public Members",
+        "Temporary Object"
+      ]
+    },
+    {
+      "id": 5,
+      "start": 99,
+      "end": 121,
+      "sections": 14,
+      "contents": [
+        {
+          "number": "5.1",
+          "title": "Static Member"
+        },
+        {
+          "number": "5.1.1",
+          "title": "Static Member Functions"
+        },
+        {
+          "number": "5.2",
+          "title": "The Const Keyword"
+        },
+        {
+          "number": "5.2.1",
+          "title": "The Class Keyword"
+        },
+        {
+          "number": "5.3",
+          "title": "Static Objects"
+        },
+        {
+          "number": "5.4",
+          "title": "Friend Functions"
+        },
+        {
+          "number": "5.4.1",
+          "title": "Friend Function in Empty Classes"
+        },
+        {
+          "number": "5.4.2",
+          "title": "Friend Function in Nested Classes"
+        },
+        {
+          "number": "5.4.3",
+          "title": "Friend Function in Local Classes"
+        },
+        {
+          "number": "5.5",
+          "title": "Summary"
+        },
+        {
+          "number": "5.6",
+          "title": "Keywords"
+        },
+        {
+          "number": "5.7",
+          "title": "Review Questions"
+        },
+        {
+          "number": "5.8",
+          "title": "Further Readings"
+        }
+      ],
+      "definitions": [
+        "Friend Function",
+        "Static Data Members",
+        "Static Member Functions"
+      ]
+    },
+    {
+      "id": 6,
+      "start": 122,
+      "end": 141,
+      "sections": 14,
+      "contents": [
+        {
+          "number": "6.1",
+          "title": "Need for Constructor and Destructor"
+        },
+        {
+          "number": "6.1.1",
+          "title": "Constructor"
+        },
+        {
+          "number": "6.1.2",
+          "title": "Destructor"
+        },
+        {
+          "number": "6.2",
+          "title": "Copy Constructor"
+        },
+        {
+          "number": "6.3",
+          "title": "Dynamic Constructors"
+        },
+        {
+          "number": "6.4",
+          "title": "Parameterized Constructors"
+        },
+        {
+          "number": "6.5",
+          "title": "Constructors with Default Arguments"
+        },
+        {
+          "number": "6.6",
+          "title": "Destructors"
+        },
+        {
+          "number": "6.7",
+          "title": "Constructor/Destructor with Static Members"
+        },
+        {
+          "number": "6.8",
+          "title": "Summary"
+        },
+        {
+          "number": "6.9",
+          "title": "Keywords"
+        },
+        {
+          "number": "6.10",
+          "title": "Review Questions"
+        },
+        {
+          "number": "6.11",
+          "title": "Further Readings"
+        }
+      ],
+      "definitions": [
+        "Constructor",
+        "Copy Constructor",
+        "Default Constructor",
+        "Destructor",
+        "Friend Function",
+        "Static Member Functions",
+        "Temporary Object"
+      ]
+    },
+    {
+      "id": 7,
+      "start": 142,
+      "end": 162,
+      "sections": 12,
+      "contents": [
+        {
+          "number": "7.1",
+          "title": "Defining Operator Overloading"
+        },
+        {
+          "number": "7.2",
+          "title": "Rules for Overloading Operators"
+        },
+        {
+          "number": "7.3",
+          "title": "Overloading Unary Operators"
+        },
+        {
+          "number": "7.4",
+          "title": "Overloading Binary Operators"
+        },
+        {
+          "number": "7.4.1",
+          "title": "Using Friend Function"
+        },
+        {
+          "number": "7.4.2",
+          "title": "Using Member Function"
+        },
+        {
+          "number": "7.5",
+          "title": "Manipulation of Strings using Operator Overloading"
+        },
+        {
+          "number": "7.6",
+          "title": "Summary"
+        },
+        {
+          "number": "7.7",
+          "title": "Keywords"
+        },
+        {
+          "number": "7.8",
+          "title": "Review Questions"
+        },
+        {
+          "number": "7.9",
+          "title": "Further Readings"
+        }
+      ],
+      "definitions": [
+        "Operator Overloading",
+        "Strings",
+        "Unary Operators"
+      ]
+    },
+    {
+      "id": 8,
+      "start": 163,
+      "end": 174,
+      "sections": 9,
+      "contents": [
+        {
+          "number": "8.1",
+          "title": "Type Conversions"
+        },
+        {
+          "number": "8.2",
+          "title": "Basic Type to Class Type"
+        },
+        {
+          "number": "8.3",
+          "title": "Class Type to Basic Type"
+        },
+        {
+          "number": "8.4",
+          "title": "Class Type to another Class Type"
+        },
+        {
+          "number": "8.5",
+          "title": "Summary"
+        },
+        {
+          "number": "8.6",
+          "title": "Keywords"
+        },
+        {
+          "number": "8.7",
+          "title": "Review Questions"
+        },
+        {
+          "number": "8.8",
+          "title": "Further Readings"
+        }
+      ],
+      "definitions": [
+        "Implicit Conversion",
+        "Operator Typename()"
+      ]
+    },
+    {
+      "id": 9,
+      "start": 175,
+      "end": 216,
+      "sections": 20,
+      "contents": [
+        {
+          "number": "9.1",
+          "title": "Defining Derived Class"
+        },
+        {
+          "number": "9.2",
+          "title": "Forms of Inheritance"
+        },
+        {
+          "number": "9.2.1",
+          "title": "Single Inheritance"
+        },
+        {
+          "number": "9.2.2",
+          "title": "Multilevel Inheritance"
+        },
+        {
+          "number": "9.2.3",
+          "title": "Multiple Inheritance"
+        },
+        {
+          "number": "9.2.4",
+          "title": "Hierarchical Inheritance"
+        },
+        {
+          "number": "9.2.5",
+          "title": "Hybrid Inheritance"
+        },
+        {
+          "number": "9.3",
+          "title": "Ambiguity in Multiple and Multipath Inheritance"
+        },
+        {
+          "number": "9.3.1",
+          "title": "Ambiguity in Multiple Inheritance"
+        },
+        {
+          "number": "9.3.2",
+          "title": "Ambiguity in Multipath Inheritance"
+        },
+        {
+          "number": "9.4",
+          "title": "Virtual Base Classes"
+        },
+        {
+          "number": "9.5",
+          "title": "Overriding Member Function"
+        },
+        {
+          "number": "9.6",
+          "title": "Constructors under Inheritance"
+        },
+        {
+          "number": "9.7",
+          "title": "Destructors under Inheritance"
+        },
+        {
+          "number": "9.8",
+          "title": "Making a Private Member Inheritable"
+        },
+        {
+          "number": "9.9",
+          "title": "Summary"
+        },
+        {
+          "number": "9.10",
+          "title": "Keywords"
+        },
+        {
+          "number": "9.11",
+          "title": "Review Questions"
+        },
+        {
+          "number": "9.12",
+          "title": "Further Readings"
+        }
+      ],
+      "definitions": [
+        "Abstract Class",
+        "Base class",
+        "Containership",
+        "Derived class",
+        "Inheritance",
+        "Inheritance Graph",
+        "Visibility Mode"
+      ]
+    },
+    {
+      "id": 10,
+      "start": 217,
+      "end": 237,
+      "sections": 10,
+      "contents": [
+        {
+          "number": "10.1",
+          "title": "Virtual Functions"
+        },
+        {
+          "number": "10.1.1",
+          "title": "Late Binding"
+        },
+        {
+          "number": "10.2",
+          "title": "Pure Virtual Functions"
+        },
+        {
+          "number": "10.3",
+          "title": "Abstract Classes"
+        },
+        {
+          "number": "10.4",
+          "title": "Polymorphism"
+        },
+        {
+          "number": "10.5",
+          "title": "Summary"
+        },
+        {
+          "number": "10.6",
+          "title": "Keywords"
+        },
+        {
+          "number": "10.7",
+          "title": "Review Questions"
+        },
+        {
+          "number": "10.8",
+          "title": "Further Readings"
+        }
+      ],
+      "definitions": [
+        "Abstract Base Class",
+        "Late Binding",
+        "Polymorphism",
+        "Virtual Function"
+      ]
+    },
+    {
+      "id": 11,
+      "start": 238,
+      "end": 258,
+      "sections": 18,
+      "contents": [
+        {
+          "number": "11.1",
+          "title": "Understanding Pointers"
+        },
+        {
+          "number": "11.1.1",
+          "title": "Pointer Variables"
+        },
+        {
+          "number": "11.2",
+          "title": "Declaring Pointers"
+        },
+        {
+          "number": "11.2.1",
+          "title": "Accessing Address of Variable"
+        },
+        {
+          "number": "11.2.2",
+          "title": "Pointer Expressions"
+        },
+        {
+          "number": "11.2.3",
+          "title": "Pointer Initialization"
+        },
+        {
+          "number": "11.3",
+          "title": "Pointer to Pointers"
+        },
+        {
+          "number": "11.4",
+          "title": "Pointer and Functions"
+        },
+        {
+          "number": "11.4.1",
+          "title": "Pointers to Functions"
+        },
+        {
+          "number": "11.4.2",
+          "title": "Function Returning Pointers"
+        },
+        {
+          "number": "11.5",
+          "title": "Dynamic Memory Management"
+        },
+        {
+          "number": "11.5.1",
+          "title": "New and Delete Operator"
+        },
+        {
+          "number": "11.5.2",
+          "title": "The this Pointer"
+        },
+        {
+          "number": "11.6",
+          "title": "Summary"
+        },
+        {
+          "number": "11.7",
+          "title": "Keywords"
+        },
+        {
+          "number": "11.8",
+          "title": "Review Questions"
+        },
+        {
+          "number": "11.9",
+          "title": "Further Readings"
+        }
+      ],
+      "definitions": [
+        "Alias",
+        "Base Address",
+        "Function Pointer",
+        "Memory location",
+        "Pointer",
+        "Reference"
+      ]
+    },
+    {
+      "id": 12,
+      "start": 259,
+      "end": 277,
+      "sections": 11,
+      "contents": [
+        {
+          "number": "12.1",
+          "title": "Concept of Streams"
+        },
+        {
+          "number": "12.2",
+          "title": "Hierarchy of Console Stream Classes"
+        },
+        {
+          "number": "12.3",
+          "title": "Unformatted I/O Operations"
+        },
+        {
+          "number": "12.4",
+          "title": "Managing Output with Manipulators"
+        },
+        {
+          "number": "12.4.1",
+          "title": "Manipulate Function"
+        },
+        {
+          "number": "12.4.2",
+          "title": "Predefined Manipulators"
+        },
+        {
+          "number": "12.5",
+          "title": "Summary"
+        },
+        {
+          "number": "12.6",
+          "title": "Keywords"
+        },
+        {
+          "number": "12.7",
+          "title": "Review Questions"
+        },
+        {
+          "number": "12.8",
+          "title": "Further Readings"
+        }
+      ],
+      "definitions": [
+        "C++ iostream Library",
+        "Stream",
+        "Unformatted Input/Output"
+      ]
+    },
+    {
+      "id": 13,
+      "start": 278,
+      "end": 308,
+      "sections": 15,
+      "contents": [
+        {
+          "number": "13.1",
+          "title": "Data Streams"
+        },
+        {
+          "number": "13.2",
+          "title": "Opening a File"
+        },
+        {
+          "number": "13.3",
+          "title": "Reading/Writing a Character from/into a File"
+        },
+        {
+          "number": "13.4",
+          "title": "Appending"
+        },
+        {
+          "number": "13.5",
+          "title": "Processing and Closing a File"
+        },
+        {
+          "number": "13.6",
+          "title": "Different Types of Files"
+        },
+        {
+          "number": "13.6.1",
+          "title": "Types of File Systems"
+        },
+        {
+          "number": "13.6.2",
+          "title": "File Systems and Operating Systems"
+        },
+        {
+          "number": "13.6.3",
+          "title": "Binary Files"
+        },
+        {
+          "number": "13.7",
+          "title": "Command Line Arguments"
+        },
+        {
+          "number": "13.8",
+          "title": "Summary"
+        },
+        {
+          "number": "13.9",
+          "title": "Keywords"
+        },
+        {
+          "number": "13.10",
+          "title": "Review Questions"
+        },
+        {
+          "number": "13.11",
+          "title": "Further Readings"
+        }
+      ],
+      "definitions": [
+        "Command Line Parameters",
+        "EOF",
+        "EOL",
+        "File",
+        "Input Stream",
+        "Output Stream",
+        "Stream"
+      ]
+    },
+    {
+      "id": 14,
+      "start": 309,
+      "end": 328,
+      "sections": 13,
+      "contents": [
+        {
+          "number": "14.1",
+          "title": "Function of Templates"
+        },
+        {
+          "number": "14.2",
+          "title": "Classes of Template"
+        },
+        {
+          "number": "14.3",
+          "title": "The Typename Keyword"
+        },
+        {
+          "number": "14.4",
+          "title": "Template Specialization"
+        },
+        {
+          "number": "14.5",
+          "title": "Point of Instantiation"
+        },
+        {
+          "number": "14.6",
+          "title": "Error Handling"
+        },
+        {
+          "number": "14.7",
+          "title": "Error Isolation"
+        },
+        {
+          "number": "14.8",
+          "title": "Concurrent Object-oriented Systems"
+        },
+        {
+          "number": "14.9",
+          "title": "Summary"
+        },
+        {
+          "number": "14.10",
+          "title": "Keywords"
+        },
+        {
+          "number": "14.11",
+          "title": "Review Questions"
+        },
+        {
+          "number": "14.12",
+          "title": "Further Readings"
+        }
+      ],
+      "definitions": [
+        "Break Point",
+        "Logical Errors",
+        "Stepping",
+        "Syntactic Errors",
+        "Template",
+        "Template Classes",
+        "Watch Value"
+      ]
+    }
+  ],
+  "sourcePages": 321,
+  "keywordDefinitions": 81
+}

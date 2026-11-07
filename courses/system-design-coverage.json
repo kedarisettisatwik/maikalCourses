@@ -1,0 +1,1144 @@
+{
+  "pdfPages": 344,
+  "frontMatter": [
+    1,
+    7
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "title": "Explaining 9 types of API testing",
+      "page": 8,
+      "end": 9
+    },
+    {
+      "id": 2,
+      "title": "Top 5 Kafka use cases",
+      "page": 10,
+      "end": 10
+    },
+    {
+      "id": 3,
+      "title": "How is data sent over the internet? What does that have to do withthe OSI model? How does TCP/IP fit into this?",
+      "page": 11,
+      "end": 11
+    },
+    {
+      "id": 4,
+      "title": "Top 5 common ways to improve API performance",
+      "page": 12,
+      "end": 13
+    },
+    {
+      "id": 5,
+      "title": "CI/CD Simplified Visual Guide",
+      "page": 14,
+      "end": 15
+    },
+    {
+      "id": 6,
+      "title": "There are over 1,000 engineering blogs. Here are my top 9 favorites:",
+      "page": 16,
+      "end": 16
+    },
+    {
+      "id": 7,
+      "title": "REST API Authentication Methods",
+      "page": 17,
+      "end": 18
+    },
+    {
+      "id": 8,
+      "title": "Linux Boot Process Illustrated",
+      "page": 19,
+      "end": 20
+    },
+    {
+      "id": 9,
+      "title": "How do SQL Joins Work?",
+      "page": 21,
+      "end": 22
+    },
+    {
+      "id": 10,
+      "title": "Netflix's Tech Stack",
+      "page": 23,
+      "end": 24
+    },
+    {
+      "id": 11,
+      "title": "Top Architectural Styles",
+      "page": 25,
+      "end": 26
+    },
+    {
+      "id": 12,
+      "title": "What does ACID mean?",
+      "page": 27,
+      "end": 28
+    },
+    {
+      "id": 13,
+      "title": "Oauth 2.0 Explained With Simple Terms",
+      "page": 29,
+      "end": 30
+    },
+    {
+      "id": 14,
+      "title": "The Evolving Landscape of API Protocols in 2023",
+      "page": 31,
+      "end": 31
+    },
+    {
+      "id": 15,
+      "title": "Linux boot Process Explained",
+      "page": 32,
+      "end": 33
+    },
+    {
+      "id": 16,
+      "title": "Explaining 8 Popular Network Protocols in 1 Diagram.",
+      "page": 34,
+      "end": 35
+    },
+    {
+      "id": 17,
+      "title": "Data Pipelines Overview",
+      "page": 36,
+      "end": 37
+    },
+    {
+      "id": 18,
+      "title": "CAP, BASE, SOLID, KISS, What do these acronyms mean?",
+      "page": 38,
+      "end": 39
+    },
+    {
+      "id": 19,
+      "title": "GET, POST, PUT... Common HTTP “verbs” in one figure",
+      "page": 40,
+      "end": 41
+    },
+    {
+      "id": 20,
+      "title": "How Do C++, Java, Python Work?",
+      "page": 42,
+      "end": 43
+    },
+    {
+      "id": 21,
+      "title": "Top 12 Tips for API Security",
+      "page": 44,
+      "end": 44
+    },
+    {
+      "id": 22,
+      "title": "Our recommended materials to crack your next tech interview",
+      "page": 45,
+      "end": 46
+    },
+    {
+      "id": 23,
+      "title": "How To Release A Mobile App",
+      "page": 47,
+      "end": 48
+    },
+    {
+      "id": 24,
+      "title": "A handy cheat sheet for the most popular cloud services (2023edition)",
+      "page": 49,
+      "end": 50
+    },
+    {
+      "id": 25,
+      "title": "Best ways to test system functionality",
+      "page": 51,
+      "end": 52
+    },
+    {
+      "id": 26,
+      "title": "Explaining JSON Web Token (JWT) to a 10 year old Kid",
+      "page": 53,
+      "end": 54
+    },
+    {
+      "id": 27,
+      "title": "How do companies ship code to production?",
+      "page": 55,
+      "end": 56
+    },
+    {
+      "id": 28,
+      "title": "How does Docker Work? Is Docker still relevant?",
+      "page": 57,
+      "end": 58
+    },
+    {
+      "id": 29,
+      "title": "Explaining 8 Popular Network Protocols in 1 Diagram",
+      "page": 59,
+      "end": 60
+    },
+    {
+      "id": 30,
+      "title": "System Design Blueprint: The Ultimate Guide",
+      "page": 61,
+      "end": 62
+    },
+    {
+      "id": 31,
+      "title": "Key Concepts to Understand Database Sharding",
+      "page": 63,
+      "end": 64
+    },
+    {
+      "id": 32,
+      "title": "A nice cheat sheet of different monitoring infrastructure in cloudservices",
+      "page": 65,
+      "end": 66
+    },
+    {
+      "id": 33,
+      "title": "Top 5 Software Architectural Patterns",
+      "page": 67,
+      "end": 68
+    },
+    {
+      "id": 34,
+      "title": "OAuth 2.0 Flows",
+      "page": 69,
+      "end": 70
+    },
+    {
+      "id": 35,
+      "title": "How did AWS grow from just a few services in 2006 to over 200fully-featured services?",
+      "page": 71,
+      "end": 72
+    },
+    {
+      "id": 36,
+      "title": "What is GraphQL? Is it a replacement for the REST API?",
+      "page": 73,
+      "end": 74
+    },
+    {
+      "id": 37,
+      "title": "HTTPS, SSL Handshake, and Data Encryption Explained to Kids",
+      "page": 75,
+      "end": 76
+    },
+    {
+      "id": 38,
+      "title": "A nice cheat sheet of different databases in cloud services",
+      "page": 77,
+      "end": 77
+    },
+    {
+      "id": 39,
+      "title": "CI/CD Pipeline Explained in Simple Terms",
+      "page": 78,
+      "end": 79
+    },
+    {
+      "id": 40,
+      "title": "What does API gateway do?",
+      "page": 80,
+      "end": 81
+    },
+    {
+      "id": 41,
+      "title": "The Code Review Pyramid",
+      "page": 82,
+      "end": 82
+    },
+    {
+      "id": 42,
+      "title": "A picture is worth a thousand words: 9 best practices for developingmicroservices",
+      "page": 83,
+      "end": 84
+    },
+    {
+      "id": 43,
+      "title": "What are the greenest programming languages?",
+      "page": 85,
+      "end": 86
+    },
+    {
+      "id": 44,
+      "title": "An amazing illustration of how to build a resilient three-tierarchitecture on AWS",
+      "page": 87,
+      "end": 87
+    },
+    {
+      "id": 45,
+      "title": "URL, URI, URN - Do you know the differences?",
+      "page": 88,
+      "end": 89
+    },
+    {
+      "id": 46,
+      "title": "What branching strategies does your team use?",
+      "page": 90,
+      "end": 90
+    },
+    {
+      "id": 47,
+      "title": "Linux file system explained",
+      "page": 91,
+      "end": 92
+    },
+    {
+      "id": 48,
+      "title": "Do you believe that Google, Meta, Uber, and Airbnb put almost all oftheir code in one repository?",
+      "page": 93,
+      "end": 94
+    },
+    {
+      "id": 49,
+      "title": "What are the data structures used in daily life?",
+      "page": 95,
+      "end": 96
+    },
+    {
+      "id": 50,
+      "title": "Why did Amazon Prime Video monitoring move from serverless tomonolithic? How can it save 90% cost?",
+      "page": 97,
+      "end": 98
+    },
+    {
+      "id": 51,
+      "title": "18 Most-used Linux Commands You Should Know",
+      "page": 99,
+      "end": 100
+    },
+    {
+      "id": 52,
+      "title": "Would it be nice if the code we wrote automatically turned intoarchitecture diagrams?",
+      "page": 101,
+      "end": 102
+    },
+    {
+      "id": 53,
+      "title": "Netflix Tech Stack - Part 1 (CI/CD Pipeline)",
+      "page": 103,
+      "end": 104
+    },
+    {
+      "id": 54,
+      "title": "18 Key Design Patterns Every Developer Should Know",
+      "page": 105,
+      "end": 106
+    },
+    {
+      "id": 55,
+      "title": "How many API architecture styles do you know?",
+      "page": 107,
+      "end": 108
+    },
+    {
+      "id": 56,
+      "title": "Visualizing a SQL query",
+      "page": 109,
+      "end": 110
+    },
+    {
+      "id": 57,
+      "title": "What distinguishes MVC, MVP, MVVM, MVVM-C, and VIPERarchitecture patterns from each other?",
+      "page": 111,
+      "end": 112
+    },
+    {
+      "id": 58,
+      "title": "Almost every software engineer has used Git before, but only ahandful know how it works :)",
+      "page": 113,
+      "end": 114
+    },
+    {
+      "id": 59,
+      "title": "I read something unbelievable today: Levels. fyi scaled to millions ofusers using Google Sheets as a backend!",
+      "page": 115,
+      "end": 116
+    },
+    {
+      "id": 60,
+      "title": "Best ways to test system functionality",
+      "page": 117,
+      "end": 118
+    },
+    {
+      "id": 61,
+      "title": "Logging, tracing and metrics are 3 pillars of system observability",
+      "page": 119,
+      "end": 120
+    },
+    {
+      "id": 62,
+      "title": "Internet Traffic Routing Policies",
+      "page": 121,
+      "end": 122
+    },
+    {
+      "id": 63,
+      "title": "Subjects that should be mandatory in schools",
+      "page": 123,
+      "end": 123
+    },
+    {
+      "id": 64,
+      "title": "Do you know all the components of a URL?",
+      "page": 124,
+      "end": 124
+    },
+    {
+      "id": 65,
+      "title": "What are the differences between cookies and sessions?",
+      "page": 125,
+      "end": 126
+    },
+    {
+      "id": 66,
+      "title": "How do DevOps, NoOps change the software development lifecycle(SDLC)?",
+      "page": 127,
+      "end": 128
+    },
+    {
+      "id": 67,
+      "title": "Popular interview question: What is the difference between Processand Thread?",
+      "page": 129,
+      "end": 130
+    },
+    {
+      "id": 68,
+      "title": "Top 6 Load Balancing Algorithms",
+      "page": 131,
+      "end": 132
+    },
+    {
+      "id": 69,
+      "title": "Symmetric encryption vs asymmetric encryption",
+      "page": 133,
+      "end": 134
+    },
+    {
+      "id": 70,
+      "title": "How does Redis persist data?",
+      "page": 135,
+      "end": 136
+    },
+    {
+      "id": 71,
+      "title": "IBM MQ -> RabbitMQ -> Kafka ->Pulsar, How do message queuearchitectures evolve?",
+      "page": 137,
+      "end": 138
+    },
+    {
+      "id": 72,
+      "title": "Top 4 Kubernetes Service Types in one diagram",
+      "page": 139,
+      "end": 140
+    },
+    {
+      "id": 73,
+      "title": "Explaining 5 unique ID generators in distributed systems",
+      "page": 141,
+      "end": 142
+    },
+    {
+      "id": 74,
+      "title": "How Do C++, Java, and Python Function?",
+      "page": 143,
+      "end": 144
+    },
+    {
+      "id": 75,
+      "title": "How will you design the Stack Overflow website?",
+      "page": 145,
+      "end": 146
+    },
+    {
+      "id": 76,
+      "title": "Explain the Top 6 Use Cases of Object Stores",
+      "page": 147,
+      "end": 148
+    },
+    {
+      "id": 77,
+      "title": "API Vs SDK!",
+      "page": 149,
+      "end": 150
+    },
+    {
+      "id": 78,
+      "title": "A picture is worth a thousand words: 9 best practices for developingmicroservices",
+      "page": 151,
+      "end": 151
+    },
+    {
+      "id": 79,
+      "title": "Proxy Vs reverse proxy",
+      "page": 152,
+      "end": 152
+    },
+    {
+      "id": 80,
+      "title": "Git Vs Github",
+      "page": 153,
+      "end": 153
+    },
+    {
+      "id": 81,
+      "title": "Which latency numbers should you know",
+      "page": 154,
+      "end": 155
+    },
+    {
+      "id": 82,
+      "title": "Eight Data Structures That Power Your Databases. Which one shouldwe pick?",
+      "page": 156,
+      "end": 157
+    },
+    {
+      "id": 83,
+      "title": "How Git Commands Work",
+      "page": 158,
+      "end": 159
+    },
+    {
+      "id": 84,
+      "title": "How to store passwords safely in the database and how to validate apassword?",
+      "page": 160,
+      "end": 161
+    },
+    {
+      "id": 85,
+      "title": "What is a database? What are some common types of databases?",
+      "page": 162,
+      "end": 163
+    },
+    {
+      "id": 86,
+      "title": "How does Docker Work? Is Docker still relevant?",
+      "page": 164,
+      "end": 165
+    },
+    {
+      "id": 87,
+      "title": "Docker vs. Kubernetes. Which one should we use?",
+      "page": 166,
+      "end": 167
+    },
+    {
+      "id": 88,
+      "title": "Writing Code that Runs on All Platforms",
+      "page": 168,
+      "end": 169
+    },
+    {
+      "id": 89,
+      "title": "HTTP Status Code You Should Know",
+      "page": 170,
+      "end": 171
+    },
+    {
+      "id": 90,
+      "title": "Docker 101: Streamlining App Deployment",
+      "page": 172,
+      "end": 173
+    },
+    {
+      "id": 91,
+      "title": "Git Merge vs. Rebase vs. Squash Commit",
+      "page": 174,
+      "end": 175
+    },
+    {
+      "id": 92,
+      "title": "Cloud Network Components Cheat Sheet",
+      "page": 176,
+      "end": 177
+    },
+    {
+      "id": 93,
+      "title": "SOAP vs REST vs GraphQL vs RPC",
+      "page": 178,
+      "end": 178
+    },
+    {
+      "id": 94,
+      "title": "10 Key Data Structures We Use Every Day",
+      "page": 179,
+      "end": 180
+    },
+    {
+      "id": 95,
+      "title": "What does a typical microservice architecture look like? 👇",
+      "page": 181,
+      "end": 182
+    },
+    {
+      "id": 96,
+      "title": "My recommended materials for cracking your next technical interview",
+      "page": 183,
+      "end": 184
+    },
+    {
+      "id": 97,
+      "title": "Uber Tech Stack",
+      "page": 185,
+      "end": 186
+    },
+    {
+      "id": 98,
+      "title": "Top 5 Caching Strategies",
+      "page": 187,
+      "end": 188
+    },
+    {
+      "id": 99,
+      "title": "How many message queues do you know?",
+      "page": 189,
+      "end": 189
+    },
+    {
+      "id": 100,
+      "title": "Why is Kafka fast?",
+      "page": 190,
+      "end": 191
+    },
+    {
+      "id": 101,
+      "title": "How slack decides to send a notification",
+      "page": 192,
+      "end": 192
+    },
+    {
+      "id": 102,
+      "title": "Kubernetes Tools Ecosystem",
+      "page": 193,
+      "end": 194
+    },
+    {
+      "id": 103,
+      "title": "Cloud Native Landscape",
+      "page": 195,
+      "end": 195
+    },
+    {
+      "id": 104,
+      "title": "How does VISA work when we swipe a credit card at a merchant’sshop?",
+      "page": 196,
+      "end": 197
+    },
+    {
+      "id": 105,
+      "title": "A simple visual guide to help people understand the keyconsiderations when designing or using caching systems",
+      "page": 198,
+      "end": 198
+    },
+    {
+      "id": 106,
+      "title": "What tech stack is commonly used for microservices?",
+      "page": 199,
+      "end": 200
+    },
+    {
+      "id": 107,
+      "title": "How do we transform a system to be Cloud Native?",
+      "page": 201,
+      "end": 202
+    },
+    {
+      "id": 108,
+      "title": "Explaining Sessions, Tokens, JWT, SSO, and OAuth in One Diagram",
+      "page": 203,
+      "end": 203
+    },
+    {
+      "id": 109,
+      "title": "Most Used Linux Commands Map",
+      "page": 204,
+      "end": 204
+    },
+    {
+      "id": 110,
+      "title": "What is Event Sourcing? How is it different from normal CRUD design?",
+      "page": 205,
+      "end": 206
+    },
+    {
+      "id": 111,
+      "title": "What is k8s (Kubernetes)?",
+      "page": 207,
+      "end": 208
+    },
+    {
+      "id": 112,
+      "title": "How does Git Work?",
+      "page": 209,
+      "end": 210
+    },
+    {
+      "id": 113,
+      "title": "How does Google Authenticator (or other types of 2-factorauthenticators) work?",
+      "page": 211,
+      "end": 213
+    },
+    {
+      "id": 114,
+      "title": "IaaS, PaaS, Cloud Native … How do we get here?",
+      "page": 214,
+      "end": 214
+    },
+    {
+      "id": 115,
+      "title": "How does ChatGPT work?",
+      "page": 215,
+      "end": 216
+    },
+    {
+      "id": 116,
+      "title": "Top Hidden Costs of Cloud Providers",
+      "page": 217,
+      "end": 218
+    },
+    {
+      "id": 117,
+      "title": "Algorithms You Should Know Before You Take System DesignInterviews",
+      "page": 219,
+      "end": 220
+    },
+    {
+      "id": 118,
+      "title": "Understanding Database Types",
+      "page": 221,
+      "end": 221
+    },
+    {
+      "id": 119,
+      "title": "How does gRPC work?",
+      "page": 222,
+      "end": 223
+    },
+    {
+      "id": 120,
+      "title": "How does a Password Manager such as 1Password or Lastpass work?How does it keep our passwords safe?",
+      "page": 224,
+      "end": 225
+    },
+    {
+      "id": 121,
+      "title": "Types of Software Engineers and Their Typically Required Skills",
+      "page": 226,
+      "end": 227
+    },
+    {
+      "id": 122,
+      "title": "How does REST API work?",
+      "page": 228,
+      "end": 228
+    },
+    {
+      "id": 123,
+      "title": "Session, cookie, JWT, token, SSO, and OAuth 2.0 - what are they?",
+      "page": 229,
+      "end": 231
+    },
+    {
+      "id": 124,
+      "title": "Linux commands illustrated on one page!",
+      "page": 232,
+      "end": 232
+    },
+    {
+      "id": 125,
+      "title": "The Payments Ecosystem",
+      "page": 233,
+      "end": 234
+    },
+    {
+      "id": 126,
+      "title": "Algorithms You Should Know Before You Take System DesignInterviews (updated list)",
+      "page": 235,
+      "end": 235
+    },
+    {
+      "id": 127,
+      "title": "How is data transmitted between applications?",
+      "page": 236,
+      "end": 237
+    },
+    {
+      "id": 128,
+      "title": "What are the common load-balancing algorithms?",
+      "page": 238,
+      "end": 239
+    },
+    {
+      "id": 129,
+      "title": "Cloud Native Anti Patterns",
+      "page": 240,
+      "end": 241
+    },
+    {
+      "id": 130,
+      "title": "Uber Tech Stack - CI/CD",
+      "page": 242,
+      "end": 243
+    },
+    {
+      "id": 131,
+      "title": "How Discord Stores Trillions Of Messages",
+      "page": 244,
+      "end": 245
+    },
+    {
+      "id": 132,
+      "title": "How to diagnose a mysterious process that’s taking too much CPU,memory, IO, etc?",
+      "page": 246,
+      "end": 246
+    },
+    {
+      "id": 133,
+      "title": "How does Chrome work?",
+      "page": 247,
+      "end": 248
+    },
+    {
+      "id": 134,
+      "title": "Differences in Event SOurcing System Design",
+      "page": 249,
+      "end": 250
+    },
+    {
+      "id": 135,
+      "title": "Firewall explained to Kids … and Adults",
+      "page": 251,
+      "end": 252
+    },
+    {
+      "id": 136,
+      "title": "Paradigm Shift: How Developer to Tester Ratio Changed From 1:1 to100:1",
+      "page": 253,
+      "end": 254
+    },
+    {
+      "id": 137,
+      "title": "Why is PostgreSQL voted as the most loved database by developers?",
+      "page": 255,
+      "end": 256
+    },
+    {
+      "id": 138,
+      "title": "8 Key OOP Concepts Every Developer Should Know",
+      "page": 257,
+      "end": 258
+    },
+    {
+      "id": 139,
+      "title": "Top 6 most commonly used Server Types",
+      "page": 259,
+      "end": 260
+    },
+    {
+      "id": 140,
+      "title": "DevOps vs. SRE vs. Platform Engineering. Do you know thedifferences?",
+      "page": 261,
+      "end": 262
+    },
+    {
+      "id": 141,
+      "title": "5 important components of Linux",
+      "page": 263,
+      "end": 264
+    },
+    {
+      "id": 142,
+      "title": "How to scale a website to support millions of users?",
+      "page": 265,
+      "end": 266
+    },
+    {
+      "id": 143,
+      "title": "What is FedNow (instant payment)",
+      "page": 267,
+      "end": 269
+    },
+    {
+      "id": 144,
+      "title": "5 ways of Inter-Process Communication",
+      "page": 270,
+      "end": 271
+    },
+    {
+      "id": 145,
+      "title": "What is a webhook?",
+      "page": 272,
+      "end": 273
+    },
+    {
+      "id": 146,
+      "title": "What tools does your team use to ship code to production and ensurecode quality?",
+      "page": 274,
+      "end": 275
+    },
+    {
+      "id": 147,
+      "title": "Stack Overflow's Architecture: A Very Interesting Case Study",
+      "page": 276,
+      "end": 276
+    },
+    {
+      "id": 148,
+      "title": "Are you familiar with the Java Collection Framework?",
+      "page": 277,
+      "end": 278
+    },
+    {
+      "id": 149,
+      "title": "Twitter 1.0 Tech Stack",
+      "page": 279,
+      "end": 280
+    },
+    {
+      "id": 150,
+      "title": "Linux file permission illustrated",
+      "page": 281,
+      "end": 281
+    },
+    {
+      "id": 151,
+      "title": "What are the differences between a data warehouse and a data lake?",
+      "page": 282,
+      "end": 283
+    },
+    {
+      "id": 152,
+      "title": "10 principles for building resilient payment systems (by Shopify).",
+      "page": 284,
+      "end": 285
+    },
+    {
+      "id": 153,
+      "title": "Kubernetes Periodic Table",
+      "page": 286,
+      "end": 286
+    },
+    {
+      "id": 154,
+      "title": "Evolution of the Netflix API Architecture",
+      "page": 287,
+      "end": 288
+    },
+    {
+      "id": 155,
+      "title": "Where do we cache data?",
+      "page": 289,
+      "end": 290
+    },
+    {
+      "id": 156,
+      "title": "Top 7 Most-Used Distributed System Patterns ↓",
+      "page": 291,
+      "end": 291
+    },
+    {
+      "id": 157,
+      "title": "How much storage could one purchase with the price of a Tesla ModelS? ↓",
+      "page": 292,
+      "end": 292
+    },
+    {
+      "id": 158,
+      "title": "How to choose between RPC and RESTful?",
+      "page": 293,
+      "end": 293
+    },
+    {
+      "id": 159,
+      "title": "Netflix Tech Stack - Databases",
+      "page": 294,
+      "end": 295
+    },
+    {
+      "id": 160,
+      "title": "The 10 Algorithms That Dominate Our World",
+      "page": 296,
+      "end": 297
+    },
+    {
+      "id": 161,
+      "title": "What is the difference between “pull” and “push” payments?",
+      "page": 298,
+      "end": 299
+    },
+    {
+      "id": 162,
+      "title": "ChatGPT - timeline",
+      "page": 300,
+      "end": 301
+    },
+    {
+      "id": 163,
+      "title": "Why did Amazon Prime Video monitoring move from serverless tomonolithic? How can it save 90% cost?",
+      "page": 302,
+      "end": 302
+    },
+    {
+      "id": 164,
+      "title": "What is the journey of a Slack message?",
+      "page": 303,
+      "end": 304
+    },
+    {
+      "id": 165,
+      "title": "How does GraphQL work in the real world?",
+      "page": 305,
+      "end": 306
+    },
+    {
+      "id": 166,
+      "title": "Important Things About HTTP Headers You May Not Know!",
+      "page": 307,
+      "end": 307
+    },
+    {
+      "id": 167,
+      "title": "Think you know everything about McDonald's? What about itsevent-driven architecture 😬 ?",
+      "page": 308,
+      "end": 309
+    },
+    {
+      "id": 168,
+      "title": "How ChatGPT works technically",
+      "page": 310,
+      "end": 310
+    },
+    {
+      "id": 169,
+      "title": "Choosing the right database is probably the most important technicaldecision a company will make.",
+      "page": 311,
+      "end": 311
+    },
+    {
+      "id": 170,
+      "title": "How do you become a full-stack developer?",
+      "page": 312,
+      "end": 313
+    },
+    {
+      "id": 171,
+      "title": "What’s New in GPT-4",
+      "page": 314,
+      "end": 314
+    },
+    {
+      "id": 172,
+      "title": "Backend Burger",
+      "page": 315,
+      "end": 315
+    },
+    {
+      "id": 173,
+      "title": "How do we design effective and safe APIs?",
+      "page": 316,
+      "end": 316
+    },
+    {
+      "id": 174,
+      "title": "Which SQL statements are most commonly used?",
+      "page": 317,
+      "end": 317
+    },
+    {
+      "id": 175,
+      "title": "Two common data processing models: Batch v.s. Stream Processing.What are the differences?",
+      "page": 318,
+      "end": 319
+    },
+    {
+      "id": 176,
+      "title": "Top 10 Architecture Characteristics / Non-Functional Requirementswith Cheatsheet",
+      "page": 320,
+      "end": 320
+    },
+    {
+      "id": 177,
+      "title": "Are serverless databases the future? How do serverless databasesdiffer from traditional cloud databases?",
+      "page": 321,
+      "end": 322
+    },
+    {
+      "id": 178,
+      "title": "Why do we need message brokers 👇 ?",
+      "page": 323,
+      "end": 324
+    },
+    {
+      "id": 179,
+      "title": "How does Twitter recommend “For You” Timeline in 1.5 seconds?",
+      "page": 325,
+      "end": 326
+    },
+    {
+      "id": 180,
+      "title": "Popular interview question: what happens when you type “sshhostname”?",
+      "page": 327,
+      "end": 328
+    },
+    {
+      "id": 181,
+      "title": "Discover Amazon's innovative build system - Brazil.",
+      "page": 329,
+      "end": 330
+    },
+    {
+      "id": 182,
+      "title": "Possible Experiment Platform Architecture",
+      "page": 331,
+      "end": 332
+    },
+    {
+      "id": 183,
+      "title": "YouTube handles 500+ hours of video content uploads every minuteon average. How does it manage this?",
+      "page": 333,
+      "end": 334
+    },
+    {
+      "id": 184,
+      "title": "A beginner’s guide to CDN (Content Delivery Network)",
+      "page": 335,
+      "end": 336
+    },
+    {
+      "id": 185,
+      "title": "What are the API architectural styles?",
+      "page": 337,
+      "end": 338
+    },
+    {
+      "id": 186,
+      "title": "Cloud-native vs. Cloud computing",
+      "page": 339,
+      "end": 340
+    },
+    {
+      "id": 187,
+      "title": "C, C++, Java, Javascript, Typescript, Golang, Rust …",
+      "page": 341,
+      "end": 342
+    },
+    {
+      "id": 188,
+      "title": "The Linux Storage Stack Diagram shows the layout of the the Linuxstorage stack",
+      "page": 343,
+      "end": 343
+    },
+    {
+      "id": 189,
+      "title": "Breaking down what's going on with the Silicon Valley Bank (SVB)collapse",
+      "page": 344,
+      "end": 344
+    }
+  ],
+  "sourcePages": 337
+}
