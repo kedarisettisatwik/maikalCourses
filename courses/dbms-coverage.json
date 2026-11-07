@@ -1,0 +1,214 @@
+{
+  "id": "dbms",
+  "pdfPages": 1376,
+  "sourceStart": 28,
+  "sourceEnd": 1376,
+  "sourceEntries": 33,
+  "numberedChapters": 30,
+  "chapters": [
+    {
+      "id": 1,
+      "title": "Introduction",
+      "page": 28,
+      "end": 65
+    },
+    {
+      "id": 2,
+      "title": "Introduction to the Relational Model",
+      "page": 66,
+      "end": 83
+    },
+    {
+      "id": 3,
+      "title": "Introduction to SQL",
+      "page": 84,
+      "end": 139
+    },
+    {
+      "id": 4,
+      "title": "Intermediate SQL",
+      "page": 140,
+      "end": 183
+    },
+    {
+      "id": 5,
+      "title": "Advanced SQL",
+      "page": 184,
+      "end": 243
+    },
+    {
+      "id": 6,
+      "title": "Formal Relational Query Languages",
+      "page": 244,
+      "end": 285
+    },
+    {
+      "id": 7,
+      "title": "Database Design and the E-R Model",
+      "page": 286,
+      "end": 349
+    },
+    {
+      "id": 8,
+      "title": "Relational Database Design",
+      "page": 350,
+      "end": 401
+    },
+    {
+      "id": 9,
+      "title": "Application Design and Development",
+      "page": 402,
+      "end": 455
+    },
+    {
+      "id": 10,
+      "title": "Storage and File Structure",
+      "page": 456,
+      "end": 501
+    },
+    {
+      "id": 11,
+      "title": "Indexing and Hashing",
+      "page": 502,
+      "end": 563
+    },
+    {
+      "id": 12,
+      "title": "Query Processing",
+      "page": 564,
+      "end": 605
+    },
+    {
+      "id": 13,
+      "title": "Query Optimization",
+      "page": 606,
+      "end": 653
+    },
+    {
+      "id": 14,
+      "title": "Transactions",
+      "page": 654,
+      "end": 687
+    },
+    {
+      "id": 15,
+      "title": "Concurrency Control",
+      "page": 688,
+      "end": 747
+    },
+    {
+      "id": 16,
+      "title": "Recovery System",
+      "page": 748,
+      "end": 795
+    },
+    {
+      "id": 17,
+      "title": "Database-System Architectures",
+      "page": 796,
+      "end": 823
+    },
+    {
+      "id": 18,
+      "title": "Parallel Databases",
+      "page": 824,
+      "end": 851
+    },
+    {
+      "id": 19,
+      "title": "Distributed Databases",
+      "page": 852,
+      "end": 913
+    },
+    {
+      "id": 20,
+      "title": "Data Warehousing and Mining",
+      "page": 914,
+      "end": 941
+    },
+    {
+      "id": 21,
+      "title": "Information Retrieval",
+      "page": 942,
+      "end": 971
+    },
+    {
+      "id": 22,
+      "title": "Object-Based Databases",
+      "page": 972,
+      "end": 1007
+    },
+    {
+      "id": 23,
+      "title": "XML",
+      "page": 1008,
+      "end": 1055
+    },
+    {
+      "id": 24,
+      "title": "Advanced Application Development",
+      "page": 1056,
+      "end": 1087
+    },
+    {
+      "id": 25,
+      "title": "Spatial and Temporal Data and Mobility",
+      "page": 1088,
+      "end": 1117
+    },
+    {
+      "id": 26,
+      "title": "Advanced Transaction Processing",
+      "page": 1118,
+      "end": 1149
+    },
+    {
+      "id": 27,
+      "title": "PostgreSQL",
+      "page": 1150,
+      "end": 1183
+    },
+    {
+      "id": 28,
+      "title": "Oracle",
+      "page": 1184,
+      "end": 1219
+    },
+    {
+      "id": 29,
+      "title": "IBM DB2 Universal Database",
+      "page": 1220,
+      "end": 1249
+    },
+    {
+      "id": 30,
+      "title": "Microsoft SQL Server",
+      "page": 1250,
+      "end": 1297
+    },
+    {
+      "id": 31,
+      "title": "Appendix A: Detailed University Schema",
+      "page": 1298,
+      "end": 1309
+    },
+    {
+      "id": 32,
+      "title": "Bibliography",
+      "page": 1310,
+      "end": 1341
+    },
+    {
+      "id": 33,
+      "title": "Index",
+      "page": 1342,
+      "end": 1376
+    }
+  ],
+  "unavailableAppendices": [
+    "Appendix B: Advanced Relational Design (online-only; absent from supplied PDF)",
+    "Appendix C: Other Relational Query Languages (online-only; absent from supplied PDF)",
+    "Appendix D: Network Model (online-only; absent from supplied PDF)",
+    "Appendix E: Hierarchical Model (online-only; absent from supplied PDF)"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "computer-networks",
+  "pdfPages": 962,
+  "sourceStart": 25,
+  "sourceEnd": 962,
+  "sourceEntries": 10,
+  "numberedChapters": 9,
+  "chapters": [
+    {
+      "id": 1,
+      "title": "Introduction",
+      "page": 25,
+      "end": 112
+    },
+    {
+      "id": 2,
+      "title": "The Physical Layer",
+      "page": 113,
+      "end": 216
+    },
+    {
+      "id": 3,
+      "title": "The Data Link Layer",
+      "page": 217,
+      "end": 280
+    },
+    {
+      "id": 4,
+      "title": "The Medium Access Control Sublayer",
+      "page": 281,
+      "end": 378
+    },
+    {
+      "id": 5,
+      "title": "The Network Layer",
+      "page": 379,
+      "end": 518
+    },
+    {
+      "id": 6,
+      "title": "The Transport Layer",
+      "page": 519,
+      "end": 634
+    },
+    {
+      "id": 7,
+      "title": "The Application Layer",
+      "page": 635,
+      "end": 786
+    },
+    {
+      "id": 8,
+      "title": "Network Security",
+      "page": 787,
+      "end": 900
+    },
+    {
+      "id": 9,
+      "title": "Reading List And Bibliography",
+      "page": 901,
+      "end": 928
+    },
+    {
+      "id": 10,
+      "title": "Index",
+      "page": 929,
+      "end": 962
+    }
+  ],
+  "unavailableAppendices": []
+}

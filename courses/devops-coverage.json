@@ -1,0 +1,299 @@
+{
+  "id": "devops",
+  "pdfPages": 435,
+  "sourceStart": 32,
+  "sourceEnd": 435,
+  "sourceEntries": 48,
+  "numberedChapters": 28,
+  "chapters": [
+    {
+      "id": 1,
+      "title": "Introduction",
+      "page": 32,
+      "end": 39
+    },
+    {
+      "id": 2,
+      "title": "What is Engineering DevOps?",
+      "page": 40,
+      "end": 53
+    },
+    {
+      "id": 3,
+      "title": "Nine Pillars of Engineering DevOps",
+      "page": 54,
+      "end": 67
+    },
+    {
+      "id": 4,
+      "title": "Why is Engineering DevOps Important?",
+      "page": 68,
+      "end": 84
+    },
+    {
+      "id": 5,
+      "title": "How Should People, Process and Technology be Engineered for DevOps?",
+      "page": 85,
+      "end": 113
+    },
+    {
+      "id": 6,
+      "title": "Value Stream Management (VSM)",
+      "page": 114,
+      "end": 119
+    },
+    {
+      "id": 7,
+      "title": "Application Release Automation (ARA)",
+      "page": 120,
+      "end": 125
+    },
+    {
+      "id": 8,
+      "title": "Version Management",
+      "page": 126,
+      "end": 131
+    },
+    {
+      "id": 9,
+      "title": "Continuous Security (a.k.a. DevSecOps)",
+      "page": 132,
+      "end": 141
+    },
+    {
+      "id": 10,
+      "title": "Service Catalogs Facilitate DevOps Engineering",
+      "page": 142,
+      "end": 150
+    },
+    {
+      "id": 11,
+      "title": "DevOps Governance Engineering",
+      "page": 151,
+      "end": 158
+    },
+    {
+      "id": 12,
+      "title": "Site Reliability Engineering (SRE)",
+      "page": 159,
+      "end": 164
+    },
+    {
+      "id": 13,
+      "title": "DevOps Disaster Mitigation and Recovery",
+      "page": 165,
+      "end": 169
+    },
+    {
+      "id": 14,
+      "title": "DevOps Application Engineering",
+      "page": 170,
+      "end": 189
+    },
+    {
+      "id": 15,
+      "title": "CI/CD Pipeline Engineering",
+      "page": 190,
+      "end": 209
+    },
+    {
+      "id": 16,
+      "title": "DevOps Elastic Infrastructures",
+      "page": 210,
+      "end": 248
+    },
+    {
+      "id": 17,
+      "title": "Continuous Test Engineering",
+      "page": 249,
+      "end": 256
+    },
+    {
+      "id": 18,
+      "title": "Continuous Monitoring Engineering",
+      "page": 257,
+      "end": 264
+    },
+    {
+      "id": 19,
+      "title": "Continuous Delivery and Deployment Engineering",
+      "page": 265,
+      "end": 282
+    },
+    {
+      "id": 20,
+      "title": "DevOps Seven-Step Transformation Engineering Blueprint",
+      "page": 283,
+      "end": 286
+    },
+    {
+      "id": 21,
+      "title": "Step One: Visioning",
+      "page": 287,
+      "end": 290
+    },
+    {
+      "id": 22,
+      "title": "Step Two: Alignment",
+      "page": 291,
+      "end": 297
+    },
+    {
+      "id": 23,
+      "title": "Step Three: Assessment",
+      "page": 298,
+      "end": 303
+    },
+    {
+      "id": 24,
+      "title": "Step Four: Solution",
+      "page": 304,
+      "end": 315
+    },
+    {
+      "id": 25,
+      "title": "Step Five: Realize",
+      "page": 316,
+      "end": 329
+    },
+    {
+      "id": 26,
+      "title": "Step Six: Operationalize",
+      "page": 330,
+      "end": 334
+    },
+    {
+      "id": 27,
+      "title": "Step Seven: Expansion",
+      "page": 335,
+      "end": 343
+    },
+    {
+      "id": 28,
+      "title": "Future of Engineering DevOps - Beyond Continuous Improvement",
+      "page": 344,
+      "end": 350
+    },
+    {
+      "id": 29,
+      "title": "Continuous Learning",
+      "page": 351,
+      "end": 362
+    },
+    {
+      "id": 30,
+      "title": "Appendix A - Definition of DevOps Engineering Terms",
+      "page": 363,
+      "end": 372
+    },
+    {
+      "id": 31,
+      "title": "Appendix B - DevOps Transformation Application Scorecard",
+      "page": 373,
+      "end": 374
+    },
+    {
+      "id": 32,
+      "title": "Appendix C - DevOps Transformation Vision Meeting",
+      "page": 375,
+      "end": 378
+    },
+    {
+      "id": 33,
+      "title": "Appendix D - DevOps Transformation Goals Scorecard",
+      "page": 379,
+      "end": 380
+    },
+    {
+      "id": 34,
+      "title": "Appendix E - DevOps Transformation Alignment Meeting",
+      "page": 381,
+      "end": 386
+    },
+    {
+      "id": 35,
+      "title": "Appendix F - DevOps Transformation Practices Topics Scorecard",
+      "page": 387,
+      "end": 388
+    },
+    {
+      "id": 36,
+      "title": "Appendix G - DevOps Assessment Discovery Survey",
+      "page": 389,
+      "end": 395
+    },
+    {
+      "id": 37,
+      "title": "Appendix H - DevOps Transformation Practices Maturity Assessment Workshop",
+      "page": 396,
+      "end": 400
+    },
+    {
+      "id": 38,
+      "title": "Appendix I - DevOps Current State Value-Stream Mapping Workshop",
+      "page": 401,
+      "end": 405
+    },
+    {
+      "id": 39,
+      "title": "Appendix J - DevOps Solution Requirements Alignment Matrix",
+      "page": 406,
+      "end": 407
+    },
+    {
+      "id": 40,
+      "title": "Appendix K - Value-Stream Map Template",
+      "page": 408,
+      "end": 408
+    },
+    {
+      "id": 41,
+      "title": "Appendix L - DevOps Tools and Comparison Charts",
+      "page": 409,
+      "end": 410
+    },
+    {
+      "id": 42,
+      "title": "Appendix M - Engineering DevOps Transformation RoadMap Template",
+      "page": 411,
+      "end": 412
+    },
+    {
+      "id": 43,
+      "title": "Appendix N - Engineering DevOps Transformation Backlog Template",
+      "page": 413,
+      "end": 414
+    },
+    {
+      "id": 44,
+      "title": "Appendix O - Engineering DevOps Transformation ROI Calculator",
+      "page": 415,
+      "end": 416
+    },
+    {
+      "id": 45,
+      "title": "Appendix P - DevOps Transformation Solution Recommendation Meeting",
+      "page": 417,
+      "end": 424
+    },
+    {
+      "id": 46,
+      "title": "Appendix Q - NetDevOps Blueprint",
+      "page": 425,
+      "end": 425
+    },
+    {
+      "id": 47,
+      "title": "References",
+      "page": 426,
+      "end": 432
+    },
+    {
+      "id": 48,
+      "title": "About the Author",
+      "page": 433,
+      "end": 435
+    }
+  ],
+  "unavailableAppendices": []
+}

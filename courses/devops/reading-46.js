@@ -1,0 +1,2 @@
+/* Complete source range 425-425. */
+(()=>{const course=window.COURSES.find(c=>c.id==="devops");const chapter=course.chapters.find(c=>c.id===46);chapter.reading={"start": 425, "end": 425, "sections": [{"title": "Source PDF page 425", "body": "Appendix Q\nNetDevOps Blueprint\nThe blueprint can be found on the following page."}], "contents": [], "pages": ["assets/devops/pages/page-0425.webp"], "originalKeywords": false, "glossary": ""};chapter.reading.terms=chapter.terms;chapter.reading.glossary=chapter.terms.map(t=>t[0]+": "+t[1]).join("\n\n");})();

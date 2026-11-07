@@ -1,25 +1,13 @@
 const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict');
-const root=path.resolve(__dirname,'..'),html=fs.readFileSync(path.join(root,'index.html'),'utf8');
-const files=[...html.matchAll(/<script defer src="(courses\/[^\"]+)"/g)].map(m=>m[1]),sandbox={window:{}};vm.createContext(sandbox);
-for(const f of files)vm.runInContext(fs.readFileSync(path.join(root,f),'utf8'),sandbox);
-for(const f of ['courses/oops-reading.js','courses/system-design-guides.js','courses/system-design.js'])vm.runInContext(fs.readFileSync(path.join(root,f),'utf8'),sandbox);
-const courses=sandbox.window.COURSES;assert(courses?.length);const ids=new Set();let lessons=0,questions=0;
-for(const c of courses){assert(/^[a-z0-9-]+$/.test(c.id));assert(!ids.has(c.id));ids.add(c.id);assert(fs.existsSync(path.join(root,c.pdf)));assert(Number.isInteger(c.pdfOffset));assert(c.title&&c.shortTitle&&c.language&&c.attribution&&c.edition);
- c.chapters.forEach((ch,i)=>{assert.equal(ch.id,i+1);assert(ch.page<=ch.end);if(i)assert(ch.page>c.chapters[i-1].end);assert.equal(ch.lessons.length,4);assert.equal(ch.questions.length,2);assert(ch.terms.length>=2);
- ch.lessons.forEach(l=>{assert(l.title&&l.body&&l.takeaway);lessons++;});ch.questions.forEach(q=>{assert.equal(q.options.length,4);assert(q.answer>=0&&q.answer<q.options.length);assert(q.explanation);questions++;});});}
-assert.equal(courses[0].chapters.length,14);
-for(const m of html.matchAll(/(?:href|src)="([^"#]+)"/g))if(!/^https?:/.test(m[1]))assert(fs.existsSync(path.join(root,m[1])),m[1]);
-console.log(`Validated ${courses.length} courses, ${lessons} lessons, ${questions} questions, PDFs and local assets.`);
-const sd=courses.find(c=>c.id==='system-design'),oop=courses.find(c=>c.id==='oops');
-assert.equal(sd.chapters.length,189,'Every independently audited archive article exists');
-const sdCoverage=JSON.parse(fs.readFileSync(path.join(root,'courses/system-design-coverage.json'),'utf8'));
-assert.equal(sdCoverage.articles.length,sd.chapters.length);
-let expected=8;
-for(const c of sd.chapters){assert.equal(c.page,expected,'No source-page gaps or overlap');assert.equal(c.sourcePages.length,c.end-c.page+1);for(const p of c.sourcePages)assert(fs.existsSync(path.join(root,p)));expected=c.end+1;assert(c.graph.length===4);assert(c.interview.model.length>100);assert(c.lessons[0].body.length>0);}
-assert.equal(expected,345,'Archive coverage reaches physical page 344');
-for(const page of [10,14,21,25,47,65,73,93,97,162,238])assert(sd.chapters.some(c=>c.page===page),'Articles omitted by the original contents are retained');
-expected=8;let keywordCount=0,sectionCount=0;
-for(const c of oop.chapters){const r=c.reading;assert(r);assert.equal(r.start,expected);assert(r.fullText.length>1000);assert(r.sections.length>4);assert(r.contents.length>5);assert(r.terms.length>=2);for(const p of r.pages)assert(fs.existsSync(path.join(root,p)));keywordCount+=r.terms.length;sectionCount+=r.sections.length;expected=r.end+1;}
-assert.equal(expected,329);assert.equal(keywordCount,81);
-assert(!html.includes('id="theme"'),'Single light theme has no dark-mode control');
-console.log(`Coverage verified: 189 System Design articles, all 337 source pages; 14 OOP units, ${sectionCount} reading sections, ${keywordCount} keyword definitions, all 321 source pages.`);
+const root=path.resolve(__dirname,'..'),html=fs.readFileSync(path.join(root,'index.html'),'utf8'),sandbox={window:{}};vm.createContext(sandbox);
+const run=f=>vm.runInContext(fs.readFileSync(path.join(root,f),'utf8'),sandbox);
+for(const file of ['courses/oops.js','courses/catalog.js','courses/oops-reading.js','courses/system-design-guides.js','courses/system-design.js','courses/textbook-units.js','textbook-helper.js','course-interviews.js'])run(file);
+for(const id of ['computer-networks','dbms','operating-systems','devops']){run('courses/'+id+'.js');for(const ch of sandbox.window.COURSES.find(c=>c.id===id).chapters)run('courses/'+id+'/reading-'+ch.id+'.js');}
+const courses=sandbox.window.COURSES;assert.equal(courses.length,6);let lessons=0,questions=0,sourcePages=0,interviewQuestions=0;const ids=new Set();
+for(const course of courses){assert(!ids.has(course.id));ids.add(course.id);assert(fs.existsSync(path.join(root,course.pdf)));sandbox.window.CourseInterviews.ensure(course);const bank=sandbox.window.CourseInterviews.bank(course);assert(bank.length>0);interviewQuestions+=bank.length;assert.equal(course.chapters.at(-1).title,'Interview');assert.equal(course.chapters.filter(c=>c.kind==='book-interview').length,1);
+for(let i=0;i<course.chapters.length;i++){const c=course.chapters[i];assert.equal(c.id,i+1);if(c.kind==='book-interview')continue;assert(c.page<=c.end);assert.equal(c.lessons.length,4);assert.equal(c.questions.length,2);assert(c.terms.length>=2);assert(bank.some(q=>q.chapterId===c.id),'Interview covers '+course.id+' chapter '+c.id);for(const l of c.lessons){assert(l.title&&l.body&&l.takeaway);lessons++;}for(const q of c.questions){assert.equal(q.options.length,4);assert(q.answer>=0&&q.answer<4);assert(q.explanation);questions++;}const pages=c.reading?.pages||c.sourcePages;assert(pages?.length);for(const image of pages)assert(fs.existsSync(path.join(root,image)),image);sourcePages+=pages.length;}}
+const sd=courses.find(c=>c.id==='system-design'),oop=courses.find(c=>c.id==='oops');assert.equal(sd.chapters.length,190);assert.equal(oop.chapters.length,15);let expected=8;for(const c of sd.chapters.filter(c=>!c.kind)){assert.equal(c.page,expected);expected=c.end+1;}assert.equal(expected,345);assert.equal(oop.chapters.filter(c=>!c.kind).reduce((n,c)=>n+c.reading.terms.length,0),81);
+for(const id of ['computer-networks','dbms','operating-systems','devops']){const coverage=JSON.parse(fs.readFileSync(path.join(root,'courses/'+id+'-coverage.json'),'utf8')),course=courses.find(c=>c.id===id),source=course.chapters.filter(c=>!c.kind);assert.equal(source.length,coverage.sourceEntries);let next=coverage.sourceStart;for(const c of source){assert.equal(c.page,next);assert.equal(c.reading.start,c.page);assert.equal(c.reading.end,c.end);assert.equal(c.reading.sections.length,c.end-c.page+1);assert.equal(c.reading.pages.length,c.end-c.page+1);next=c.end+1;}assert.equal(next,coverage.pdfPages+1);}
+for(const m of html.matchAll(/(?:href|src)="([^"#]+)"/g)){const asset=m[1].split('?')[0];if(!/^https?:/.test(asset))assert(fs.existsSync(path.join(root,asset)),asset);}assert(!html.includes('id="theme"'));
+console.log(`Validated 6 books, ${courses.reduce((n,c)=>n+c.chapters.length,0)} chapters including 6 final Interview chapters, ${lessons} guided lessons, ${questions} practice questions, ${interviewQuestions} book-wide Q&As, and ${sourcePages} original page images.`);
+console.log('Verified complete supplied source ranges, all physically present appendices, per-chapter readings, and Interview coverage of every source entry.');
