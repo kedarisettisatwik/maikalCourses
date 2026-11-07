@@ -1,0 +1,1 @@
+{"name":"maikal-courses","version":"1.0.0","private":true,"scripts":{"start":"node scripts/serve.cjs","test":"node scripts/validate.cjs"}}
