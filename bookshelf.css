@@ -79,3 +79,25 @@ body.library main{max-width:1350px;padding:48px 68px 35px;overflow:clip}body.lib
 .book-rest-spine strong{max-width:100%;overflow:hidden;overflow-wrap:anywhere;text-overflow:ellipsis}.bookshelf-scene:has(.book-link:nth-child(n+9)) .bookend{display:none}
 
 .book-link.is-returning .book-object{opacity:0;transition:transform .95s cubic-bezier(.4,0,.3,1),opacity .2s .75s}
+
+/* Hover changes only a fixed-position, rigid six-face book, never shelf layout. */
+.book-link,.book-link.is-spacing{width:calc(var(--book-depth) + 4px)!important;transition:none!important}
+.book-link .book-object{display:none!important}.book-link.is-lifted .book-rest-spine{opacity:0}
+.book-flight{position:fixed;z-index:80;display:block;perspective:1800px;perspective-origin:50% 50%;overflow:visible;outline-offset:8px;color:var(--book-ink,#fff);touch-action:manipulation}
+.flight-solid{width:100%;height:100%;position:relative;transform-style:preserve-3d;transform-origin:50% 50%}
+.flight-face{position:absolute;backface-visibility:hidden;box-sizing:border-box}
+.flight-solid>.flight-front{inset:0;width:100%;height:100%;transform:translateZ(calc(var(--flight-depth)/2))!important;opacity:1!important;color:var(--book-ink,#fff);box-shadow:inset 1px 0 0 #ffffff30;overflow:hidden}
+.flight-back{inset:0;background:var(--book-color);border:3px solid #0002;transform:translateZ(calc(var(--flight-depth)/-2)) rotateY(180deg)}
+.flight-spine{left:0;top:0;width:var(--flight-depth);height:100%;transform:translateX(-50%) rotateY(-90deg);background:linear-gradient(90deg,#0003,transparent 30%,#ffffff14),var(--book-color);border-radius:3px;display:flex;flex-direction:column;align-items:center;justify-content:space-between;padding:18px 0;color:var(--book-ink,#fff)}
+.flight-spine strong{writing-mode:vertical-rl;rotate:180deg;font-size:18px;line-height:1.2;font-weight:600;max-height:220px;max-width:100%;overflow:hidden;overflow-wrap:anywhere}.flight-spine>span{font:7px Consolas,monospace;letter-spacing:1px}.flight-spine small{font:10px Consolas,monospace;color:inherit}
+.flight-pages{left:100%;top:3px;bottom:3px;width:calc(var(--flight-depth) - 4px);transform:translateX(-50%) rotateY(90deg);background:repeating-linear-gradient(90deg,#e4dfd3 0 1px,#fffdf4 1px 3px)}
+.flight-top,.flight-bottom{left:3px;right:3px;height:calc(var(--flight-depth) - 4px);background:repeating-linear-gradient(0deg,#e4dfd3 0 1px,#fffdf4 1px 3px)}.flight-top{top:0;transform:translateY(-50%) rotateX(90deg)}.flight-bottom{top:100%;transform:translateY(-50%) rotateX(-90deg)}
+.bookshelf-scene .shelf-cursor{display:none!important}
+@media(max-width:680px){.flight-spine strong{font-size:14px;max-height:185px}}
+
+body.library,.book-flight{overflow-anchor:none}
+
+
+.book-flight[data-phase=lifting],.book-flight[data-phase=returning]{pointer-events:none}
+
+@media(max-width:680px){.flight-front{padding:14px 12px!important}.flight-front .cover-art{height:38px;margin-top:10px;transform:scale(.6);transform-origin:left top}.flight-front h2{font-size:20px;line-height:1.1;margin:10px 0 6px;flex-shrink:0}.flight-front .cover-subtitle{font-size:8px;line-height:1.4;-webkit-line-clamp:2}.flight-front .cover-footer{padding-top:8px}}

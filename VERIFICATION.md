@@ -84,3 +84,10 @@ The Network Security chapter map retains every source topic in nested expandable
 Additional browser checks: 21 books remain on one shared, horizontally scrolling shelf; an actual personal PDF opens in a new tab; mobile add/delete and two-tap course opening work; source-topic search includes S/MIME after the chapter map change.
 
 Final local homepage Lighthouse: performance 97, accessibility 100, best practices 100. The label/name audit was also checked after using accessible new-tab descriptions.
+
+
+## Solid 3D lift-and-turn revision
+
+The book now uses six attached faces (front, back, spine, page block, top, bottom) under one preserve-3d transform, in an overlay outside the shelf clipping context. Its 850 ms vertical lift completes before the 1,350 ms rotation starts; the final pose retains perspective and visible spine/top thickness. No width reservation occurs and every neighboring anchor position/width remains unchanged. Return motion reverses the turn before lowering the book into its original slot. Moving overlays do not intercept the shelf during lift or return.
+
+Browser checks measure full-row clearance before rotation, exactly six faces, preserve-3d, identical before/after neighbor rectangles, clean Escape return, rapid-hover serialization to one solid, keyboard/touch new-tab activation, mobile containment and reduced-motion instant placement. Existing source content and chapter-map audits continue to pass.
