@@ -1,10 +1,12 @@
 # Maikal Courses
 
-[Download the Android APK](https://kedarisettisatwik.github.io/maikalCourses/downloads/maikal-courses-1.1.0.apk) · [Course worlds web preview](https://kedarisettisatwik.github.io/maikalCourses/game/) · [Android features and build instructions](ANDROID.md)
+[Download the Android APK](https://kedarisettisatwik.github.io/maikalCourses/downloads/maikal-courses-1.2.0.apk) · [Course worlds web preview](https://kedarisettisatwik.github.io/maikalCourses/game/) · [Android features and build instructions](ANDROID.md)
 
 The Android edition adds eight illustrated worlds, small learning stages, five regenerating hearts, local streaks and notes, optional reminders, two playful Miko launcher widgets, and completion certificates with the Maikal Courses logo. All progress stays on the device; no sign-in is required.
 
 Version 1.1 adds curved paths connecting the lesson nodes, eight themed map environments, topic names and lesson previews, smaller-screen layout fixes, and an original-PDF book reader with Copy, quick notes, and persistent page highlights. Android downloads each book on first open and keeps it for offline reading. Existing completed stages remain compatible.
+
+Version 1.2 connects all chapters into one continuous road with section gates, adds animated world particles, horizontal snapping PDF pages and pinch zoom, and includes the first local rewrite batch: 25 OOPS foundation levels and paraphrased OOPS keyword definitions. The exhaustive textbook rewrite is still ongoing; [content status](CONTENT_REWRITE.md) distinguishes reviewed material from unchanged source learning.
 
 A responsive, light-theme learning library with a 3D bookshelf, varied book dimensions, staggered falling-book arrival and slow hover/focus cover turns, cursor-responsive background layers, and scroll parallax. Motion adapts to touch and reduced-motion preferences. Cobalt, coral, and saffron replace the former green theme.
 

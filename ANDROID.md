@@ -1,18 +1,20 @@
 # Maikal Courses for Android
 
-Android 8.0 or later. Install the signed APK from `downloads/maikal-courses-1.1.0.apk`. Android will ask you to allow installation from the browser or file manager you use. Install it over the previous release to keep your local progress and notes.
+Android 8.0 or later. Install the signed APK from `downloads/maikal-courses-1.2.0.apk`. Android will ask you to allow installation from the browser or file manager you use. Install it over the previous release to keep your local progress and notes.
 
 The original bookshelf website remains available. The new game interface is also available at `/game/`; Android adds the launcher widget, native notifications, vibration, file backups, and PDF certificate export.
 
 ## Learning
 
-Eight illustrated course worlds contain 10,681 small stages and 40,898 reading cards. Learning stages preserve all source text supplied to the existing course reader, in source order, including supplied appendices. Summary, definition, and interview trails are separate selectable stages. Full source readings retain definitions embedded in explanations; the dedicated definition trail contains the extracted keyword lists and companion glossary terms.
+Eight illustrated course worlds contain 10,685 stages and 40,890 reading cards. Every course now has one continuous path through its chapters, separated by section gates. The world no longer starts with a chapter picklist. Only nearby nodes and road segments are rendered, so long books do not require thousands of simultaneous buttons. Background particles match the world and respect reduced-motion preferences.
 
-Each reading card contains at most 60 words. Short question checkpoints give feedback and explanations. Five hearts regenerate sequentially every 30 minutes, including while the app is closed. Reading and notes remain available with no hearts. Reviewing a completed stage can maintain a daily streak without duplicating course completion.
+Original source text and supplied appendices remain intact. The first detailed local content batch replaces OOPS Unit 1 with 25 authored teaching levels, examples, concept diagrams, and scenario checks, and paraphrases the supplied OOPS keyword definitions. The exhaustive rewrite of every textbook point is **not complete**; see [the exact content status](CONTENT_REWRITE.md). Unreviewed material retains its complete source learning coverage rather than being replaced by short summaries.
+
+Short cards contain at most 90 words, with most source cards retaining the earlier 60-word limit. Checkpoints follow a few information cards. Five hearts regenerate sequentially every 30 minutes, including while the app is closed. Reading and notes remain available with no hearts. Reviewing a completed stage can maintain a daily streak without duplicating course completion.
 
 Source text and learning data are bundled offline. Worlds have original illustrated environments and a curved road whose coordinates match the lesson nodes. Stages use topic names, and each lesson starts with its learning goals. Page references are not used as learning-card headings. Completed stage IDs remain compatible with version 1.0; an unfinished lesson restarts at its new preview.
 
-The book reader uses Mozilla PDF.js to show the original PDF layout, fonts, tables, diagrams, and illustrations. Pages support text selection, Copy, Add to quick notes, and Highlight. Zoom is contained inside the reader; page navigation and chapter jumps retain the original book's page numbering. Highlights are saved as normalized page rectangles so they survive zooming and reopening, and notes link back to their original page.
+The book reader uses Mozilla PDF.js to show the original PDF layout, fonts, tables, diagrams, and illustrations. Swipe horizontally through snapping pages, and pinch with two fingers to zoom within a page. When enlarged, pan within the page; at its horizontal edge, a further swipe can turn the page. Page and zoom buttons remain available as alternatives. Pages support text selection, Copy, Add to quick notes, and Highlight. Zoom stays inside the reader, and highlights remain aligned because their rectangles use normalized page coordinates.
 
 On Android, the first open downloads the selected original PDF to private app storage; subsequent opens work offline. A failed download leaves no incomplete book in the cache. Downloaded files are removed when the app is uninstalled. In the web preview, original PDFs load from the existing website. Text inside an image follows normal PDF behavior and cannot be selected unless the source supplies a text layer. Historical source editions remain unchanged in these original books.
 
