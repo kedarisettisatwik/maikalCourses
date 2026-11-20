@@ -1,0 +1,10 @@
+const fs=require('node:fs'),path=require('node:path');
+const root=path.resolve(__dirname,'..'),src=path.join(root,'node_modules/pdfjs-dist'),out=path.join(root,'game/vendor/pdfjs');
+fs.mkdirSync(out,{recursive:true});
+for(const name of ['pdf.min.mjs','pdf.worker.min.mjs','pdf.renderer.min.mjs'])fs.copyFileSync(path.join(src,'legacy/build',name),path.join(out,name));
+for(const name of ['cmaps','standard_fonts','wasm'])fs.cpSync(path.join(src,name),path.join(out,name),{recursive:true});
+fs.copyFileSync(path.join(src,'LICENSE'),path.join(out,'LICENSE'));
+const css=fs.readFileSync(path.join(src,'web/pdf_viewer.css'),'utf8');
+const start=css.indexOf('.textLayer {'),end=css.indexOf('.annotationLayer {',start);
+fs.writeFileSync(path.join(out,'text-layer.css'),'/* Mozilla PDF.js text layer; Apache-2.0, see LICENSE. */\n'+css.slice(start,end));
+console.log('Prepared bundled Mozilla PDF.js reader.');

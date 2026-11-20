@@ -1,6 +1,6 @@
 # Maikal Courses for Android
 
-Android 8.0 or later. Install the signed APK from `downloads/maikal-courses-1.0.0.apk`. Android will ask you to allow installation from the browser or file manager you use.
+Android 8.0 or later. Install the signed APK from `downloads/maikal-courses-1.1.0.apk`. Android will ask you to allow installation from the browser or file manager you use. Install it over the previous release to keep your local progress and notes.
 
 The original bookshelf website remains available. The new game interface is also available at `/game/`; Android adds the launcher widget, native notifications, vibration, file backups, and PDF certificate export.
 
@@ -10,7 +10,11 @@ Eight illustrated course worlds contain 10,681 small stages and 40,898 reading c
 
 Each reading card contains at most 60 words. Short question checkpoints give feedback and explanations. Five hearts regenerate sequentially every 30 minutes, including while the app is closed. Reading and notes remain available with no hearts. Reviewing a completed stage can maintain a daily streak without duplicating course completion.
 
-Source text and learning data are bundled offline. Original scanned illustrations are fetched on demand and require Internet access. Historical source editions and companion explanations remain identified in the reader. Source text extraction can retain printed line breaks and imperfect table formatting; original page images remain available for comparison.
+Source text and learning data are bundled offline. Worlds have original illustrated environments and a curved road whose coordinates match the lesson nodes. Stages use topic names, and each lesson starts with its learning goals. Page references are not used as learning-card headings. Completed stage IDs remain compatible with version 1.0; an unfinished lesson restarts at its new preview.
+
+The book reader uses Mozilla PDF.js to show the original PDF layout, fonts, tables, diagrams, and illustrations. Pages support text selection, Copy, Add to quick notes, and Highlight. Zoom is contained inside the reader; page navigation and chapter jumps retain the original book's page numbering. Highlights are saved as normalized page rectangles so they survive zooming and reopening, and notes link back to their original page.
+
+On Android, the first open downloads the selected original PDF to private app storage; subsequent opens work offline. A failed download leaves no incomplete book in the cache. Downloaded files are removed when the app is uninstalled. In the web preview, original PDFs load from the existing website. Text inside an image follows normal PDF behavior and cannot be selected unless the source supplies a text layer. Historical source editions remain unchanged in these original books.
 
 ## Local progress and reminders
 
@@ -36,6 +40,9 @@ Requirements: Node.js, JDK 17, Android SDK platform 36 and build tools, Python 3
 
 ```sh
 node scripts/build-game-data.cjs
+npm ci
+node scripts/build-world-art.cjs
+node scripts/prepare-pdf-reader.cjs
 node scripts/prepare-android.cjs
 node scripts/export-source-audit.cjs
 node scripts/test-game.cjs
