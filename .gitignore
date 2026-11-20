@@ -3,3 +3,13 @@ tmp/
 qa/
 *.log
 .DS_Store
+
+android/.gradle/
+android/**/build/
+android/local.properties
+android/**/*.keystore
+android/app/src/main/assets/www/
+www-artifacts/
+
+
+android/signing/

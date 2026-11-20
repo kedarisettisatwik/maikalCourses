@@ -1,0 +1,10 @@
+package com.maikal.courses;
+import android.app.*;import android.appwidget.*;import android.content.*;import android.os.*;import android.widget.*;import org.json.*;import java.time.*;import java.util.*;
+public final class AppState {
+ static android.content.SharedPreferences prefs(Context c){return c.getSharedPreferences("maikal",Context.MODE_PRIVATE);}static JSONObject state(Context c){try{return new JSONObject(prefs(c).getString("state","{}"));}catch(Exception e){return new JSONObject();}}
+ static String day(){return LocalDate.now().toString();}static int goal(JSONObject s){return Math.max(1,s.optInt("goal",1));}static int today(JSONObject s){JSONObject d=s.optJSONObject("studyDays");return d==null?0:d.optInt(day());}
+ static int streak(JSONObject s){JSONObject d=s.optJSONObject("studyDays");if(d==null)return 0;LocalDate date=LocalDate.now();if(d.optInt(date.toString())<1)date=date.minusDays(1);int n=0;while(n<100000&&d.optInt(date.toString())>=1){n++;date=date.minusDays(1);}return n;}
+ static String pending(JSONObject s){JSONArray started=s.optJSONArray("started");JSONObject progress=s.optJSONObject("progress"),totals=s.optJSONObject("courseTotals");if(started==null||totals==null)return "";for(int i=0;i<started.length();i++){String id=started.optString(i);JSONArray completed=progress==null?null:progress.optJSONArray(id);if(totals.optInt(id)>0&&(completed==null?0:completed.length())<totals.optInt(id))return id;}return "";}
+ static String title(String id){switch(id){case"oops":return "OOPS";case"system-design":return "System Design";case"computer-networks":return "Computer Networks";case"dbms":return "DBMS";case"operating-systems":return "Operating Systems";case"devops":return "DevOps";case"react":return "React";case"jsp":return "JSP";default:return "Your course";}}
+ static PendingIntent open(Context c,String id,int request){Intent i=new Intent(c,MainActivity.class);i.putExtra("course",id);i.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP|Intent.FLAG_ACTIVITY_CLEAR_TOP);return PendingIntent.getActivity(c,request,i,PendingIntent.FLAG_IMMUTABLE|PendingIntent.FLAG_UPDATE_CURRENT);}
+}
